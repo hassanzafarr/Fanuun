@@ -8,9 +8,9 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const navigate = useNavigate();
 
-  const routeToTest = ()=>{
-    navigate("/test")
-  }
+  const routeToTest = () => {
+    navigate("/test");
+  };
 
   return (
     <div className="immi__navbar">
@@ -46,7 +46,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className="immi__navbar-sign">
-        <button type="button" onClick={routeToTest}>Take a test</button>
+        <button type="button" onClick={routeToTest}>
+          Take a test
+        </button>
       </div>
       <div className="immi__navbar-menu">
         {toggleMenu ? (
@@ -91,7 +93,9 @@ const Navbar = () => {
               </p>
             </div>
             <div className="immi__navbar-menu_container-links-sign">
-              <button type="button">Test</button>
+              <button type="button" onClick={routeToTest}>
+                Take a test
+              </button>
             </div>
           </div>
         )}
