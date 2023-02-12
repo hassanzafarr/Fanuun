@@ -1,0 +1,49 @@
+.formContainer {
+  width: 100%;
+}
+/* .surveyContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.quesContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+.quesContainer button {
+  background: #060056;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem 3rem;
+  border: none;
+  outline: none;
+  font-family: var(--font-family2);
+  cursor: pointer;
+  min-width: 250px;
+  margin-top: 1rem;
+}
+.quesContainer button:hover {
+  background: #3d35b1;
+}
+.ques {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: var(--font-family2);
+  color: rgb(0, 0, 0);
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+ul button {
+  display: flex;
+  flex-direction: column;
+} */

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+/* ORBITRON FONT */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+
+/* ARCHIVO FONT */
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap");
+body {
+  margin: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+:root {
+  --font-family: "Orbitron", sans-serif;
+  --font-family2: "Archivo", sans-serif;
+
+  /* --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%); */
+
+  /* --color-bg: #040c18; */
+  --color-footer: #242424;
+  --color-head: #060056;
+  --color-grey: #f9f9f9;
+  /* --color-blog: #042c54;
+  
+  --color-subtext: #ff8a71; */
+}

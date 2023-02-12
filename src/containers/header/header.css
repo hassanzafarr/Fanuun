@@ -1,0 +1,118 @@
+.immi__header {
+  display: flex;
+  flex-direction: row;
+  min-height: 800px;
+  background-color: #eff7ff;
+}
+
+.immi__header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.immi__header-content h1 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.future {
+  color: #ef0325;
+}
+
+.immi__header-content p {
+  font-family: var(--font-family2);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--color-text);
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.immi__header-content__input {
+  width: 100%;
+  margin: 2rem 0 1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.immi__header-content__input button {
+  flex: 0.6;
+  max-width: 250px;
+  min-height: 50px;
+  font-family: var(--font-family2);
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 28px;
+  background: #060056;
+  border: none;
+  padding: 0 1rem;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+  .immi__header {
+    flex-direction: column;
+  }
+
+  .immi__header-content {
+    margin: 0 0 3rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .immi__header-content h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .immi__header-content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .immi__header-content__input button {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .immi__header-content__people {
+    flex-direction: column;
+  }
+  .immi__header-content__input {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .immi__header-content h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .immi__header-content__input {
+    display: flex;
+    justify-content: center;
+  }
+  .immi__header-content p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .immi__header-content__input button {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

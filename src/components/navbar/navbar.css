@@ -1,0 +1,128 @@
+.immi__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem 2rem 2rem;
+  background-color: #ffffff;
+  /* t r b l */
+}
+.immi__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.immi__navbar-links_logo {
+  margin-right: 2rem;
+}
+.immi__navbar-links_logo img {
+  width: 150.45px;
+  height: 50.02px;
+}
+.immi__navbar-links_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+}
+.immi__navbar-sign {
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+}
+.immi__navbar-links_container p,
+.immi__navbar-sign p,
+.immi__navbar-menu_container p {
+  color: rgb(6, 4, 4);
+  font-family: var(--font-family2);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 2rem;
+  cursor: pointer;
+}
+.immi__navbar-sign button,
+.immi__navbar-menu_container button {
+  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+  color: #060056;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: var(--font-family2);
+  font-weight: 500;
+  border-radius: 20px;
+  width: 120px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.immi__navbar-menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+
+.immi__navbar-menu svg {
+  cursor: pointer;
+}
+
+.immi__navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  background: #e8e6e6;
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  z-index: 1;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.immi__navbar-menu_container p {
+  margin: 1rem 0;
+}
+.immi__navbar-menu_container-links-sign {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .immi__navbar-links_container {
+    display: none;
+  }
+  .immi__navbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .immi__navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .immi__navbar {
+    padding: 2rem;
+  }
+
+  .immi__navbar-sign {
+    display: none;
+  }
+
+  .immi__navbar-menu_container {
+    top: 20px;
+  }
+
+  .immi__navbar-menu_container-links-sign {
+    display: block;
+  }
+}

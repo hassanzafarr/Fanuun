@@ -1,0 +1,83 @@
+.career__possibilitytop {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5rem;
+  background-color: var(--color-head);
+  border-radius: 20px;
+}
+.career__left-text {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 5rem;
+  padding-left: 2rem;
+}
+.career__left-text h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 45px;
+  margin: 1rem 0;
+  color: white;
+}
+
+.career__right-text {
+  background-color: var(--color-grey);
+  border-top-left-radius: 80px 80px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 50rem;
+
+  padding: 4rem;
+}
+
+.career__right-text p {
+  color: rgb(0, 0, 0);
+  font-family: var(--font-family2);
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/* Career section two */
+.career__sectiontwo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.career__sectiontwo h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 45px;
+  margin: 1rem 0;
+  color: var(--color-head);
+}
+
+.career__sectiontwo p {
+  color: rgb(0, 0, 0);
+  font-family: var(--font-family2);
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .career__possibilitytop {
+    flex-direction: column;
+  }
+  .career__left-text {
+    margin: 2rem;
+  }
+  .career__sectiontwo h1 {
+    font-size: 24px;
+  }
+}
