@@ -7,7 +7,7 @@ export default function Test() {
   return (
     <div className="formContainer">
       <Widget
-        id="https://5k5qu8w5p14.typeform.com/to/mmok4qoe"
+        id="https://hebbccturah.typeform.com/to/MT61Gp4c"
         style={{ width: "100%", height: "100vh" }}
         className="my-form"
       />

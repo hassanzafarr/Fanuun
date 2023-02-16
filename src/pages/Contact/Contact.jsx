@@ -1,5 +1,5 @@
 import React from "react";
-
+import { send } from "emailjs-com";
 import "./contact.css";
 import shape5 from "../../assets/Group 46.png";
 import line from "../../assets/line.png";
@@ -34,19 +34,42 @@ const Contact = () => (
         </div>
       </div>
 
-      <div className="contact__section-ability">
-        <div className="contact__section-ability-content">
-          <Fade bottom>
-            <h1 style={{ color: "#060056" }}>
+      <div className="contact__possibilitytop" id="possibility">
+        <div className="contact__left-text">
+          <Fade left>
+            <h1>
               Want to schedule an appointment? Have any question or queries?
               We're always here to help!
             </h1>
-          </Fade>
-          <Fade bottom>
             <p>
               Please reach out to us by email
               <span class="future"> info@fanuun.com</span>
             </p>
+          </Fade>
+        </div>
+        <div className="contact__right-text">
+          <Fade right>
+            <div class="contact__section-form">
+              <input
+                type="text"
+                class="form__input-contact"
+                placeholder="Name"
+                id="name"
+              ></input>
+              <input
+                type="text"
+                class="form__input-contact"
+                placeholder="Email"
+                id="email"
+              ></input>
+              <textarea
+                type="text"
+                class="form__input-contact"
+                placeholder="Message"
+                id="message"
+              ></textarea>
+              <button type="button">Subscribe</button>
+            </div>
           </Fade>
         </div>
       </div>
