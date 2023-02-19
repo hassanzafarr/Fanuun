@@ -32,7 +32,7 @@ const Career = () => (
               FANUUN is always on the lookout for talented and dedicated
               individuals to join our team. We offer a variety of exciting
               career opportunities, competitive salary pakages, and
-              opportunities for professional grwoth and development
+              opportunities for professional growth and development
             </p>
           </Fade>
         </div>
@@ -41,19 +41,19 @@ const Career = () => (
       <div className="career__sectiontwo">
         <Fade top>
           <h1>
-            If you are passionate, driven and looking for rewarding career, we
-            would love to hear from you!
+            If you are passionate, driven, and looking for a rewarding career,
+            we would love to hear from you!
           </h1>
           <p>
             Please see below for current job openings(if any),and don't hesitate
-            to react out to us if you have any questions.
+            to react us if you have any questions.
           </p>
         </Fade>
       </div>
     </div>
 
     <Position />
-    <Brand />
+    {/* <Brand /> */}
     <Footer />
   </div>
 );

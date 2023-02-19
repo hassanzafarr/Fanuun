@@ -42,7 +42,7 @@ const Contact = () => (
               We're always here to help!
             </h1>
             <p>
-              Please reach out to us by email
+              Please reach us by email
               <span class="future"> info@fanuun.com</span>
             </p>
           </Fade>
@@ -74,7 +74,7 @@ const Contact = () => (
         </div>
       </div>
     </div>
-    <Brand />
+    {/* <Brand /> */}
 
     <Footer />
   </div>

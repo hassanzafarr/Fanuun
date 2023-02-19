@@ -3,7 +3,7 @@ import React from "react";
 import "./us.css";
 import shape5 from "../../assets/Group 48.png";
 import line from "../../assets/line.png";
-import { Brand, CTA, Navbar } from "../../components";
+import { Navbar } from "../../components";
 import { Footer } from "../../containers";
 import Fade from "react-reveal/Fade";
 
@@ -128,7 +128,7 @@ const US = () => (
       </div>
     </div>
 
-    <Brand />
+    {/* <Brand /> */}
     <Footer />
   </div>
 );

@@ -64,7 +64,7 @@ const UK = () => (
         </div>
       </div>
     </div>
-    <Brand />
+    {/* <Brand /> */}
 
     <Footer />
   </div>

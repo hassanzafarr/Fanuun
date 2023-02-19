@@ -86,13 +86,13 @@ const About = () => (
               possible.
             </p>
 
-            <h2>Accurate Guidance</h2>
+            <h1>Accurate Guidance</h1>
             <p>
               Our business consultants, attorneys, and other SME's come from a
               variety of industries in order to assist and support you.
             </p>
 
-            <h2>Asserting Out Presence</h2>
+            <h1>Asserting Out Presence</h1>
             <p>
               With our existing presence in Canada, the United States, the
               United Kingdom, the Middle East, and South Asia, as well as out
@@ -111,7 +111,7 @@ const About = () => (
     <Expect />
     <Stream />
     <CTA />
-    <Brand />
+    {/* <Brand /> */}
     <Footer />
   </div>
 );

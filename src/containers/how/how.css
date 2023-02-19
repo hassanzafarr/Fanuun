@@ -19,7 +19,7 @@
   font-weight: 600;
 }
 .immi__blog-heading p {
-  font-size: 20px;
+  font-size: 18px;
   font-family: var(--font-family2);
   font-weight: 400;
   margin-top: 2rem;
@@ -52,7 +52,7 @@
     font-size: 42px;
   }
   .immi__blog-heading p {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 1rem;
   }
   .immi__blog-container_groupB {

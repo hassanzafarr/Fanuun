@@ -13,13 +13,13 @@
 }
 
 .about__blog-heading h1 {
-  font-size: 48px;
+  font-size: 36px;
   line-height: 75px;
   font-family: var(--font-family);
   font-weight: 600;
 }
 .about__blog-heading p {
-  font-size: 20px;
+  font-size: 18px;
   font-family: var(--font-family2);
   font-weight: 400;
   margin-top: 2rem;
@@ -27,31 +27,18 @@
 }
 
 @media screen and (max-width: 700px) {
-  .about__blog {
-    font-size: 42px;
-  }
   .about__blog-heading p {
-    font-size: 20px;
+    font-size: 16px;
   }
   .about__blog-heading h1 {
-    font-size: 42px;
+    font-size: 30px;
     line-height: 75px;
     font-family: var(--font-family);
     font-weight: 600;
   }
-  .about__blog-container_groupB {
-    grid-template-columns: repeat(1, 1fr);
-  }
 
   .about__blog-heading h1 {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 52px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .about__blog-heading h1 {
-    font-size: 34px;
-    line-height: 42px;
   }
 }

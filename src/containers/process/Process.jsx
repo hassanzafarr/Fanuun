@@ -15,8 +15,8 @@ const Process = () => (
             Facilitating the adaptation, We assist you in shaping your future
             and simplify your experience. Out expensive clientele continues to
             expand, and we look forward to establishing a benchmark in the
-            immigration and Visa services market and pursuit of possibilities of
-            immigrants
+            immigration and Visa service market and pursuit of possibilities of
+            immigrants.
           </p>
         </Fade>
       </div>

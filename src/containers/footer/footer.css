@@ -77,7 +77,7 @@
 }
 
 .immi__footer-links_div p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 20px;
   font-family: var(--font-family2);
   color: rgb(0, 0, 0);
@@ -93,7 +93,7 @@
 }
 
 .immi__footer-copyright p {
-  font-size: 20px;
+  font-size: 18px;
   font-family: var(--font-family2);
   line-height: 20px;
   color: rgb(0, 0, 0);
@@ -151,20 +151,10 @@
   justify-content: flex-end;
   align-items: flex-end;
 }
-/* for mobile */
-@media screen and (max-width: 767px) {
-  /* .whatsapp_float {
-    width: 40px;
-    height: 40px;
-    bottom: 20px;
-    right: 10px;
-    font-size: 22px;
-  } */
-}
 
 @media screen and (max-width: 850px) {
   .immi__footer-links p {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -173,10 +163,10 @@
     margin: 1rem 0;
   }
   .immi__footer-links_logo button {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 28px;
   }
   .form__input {
-    font-size: 16px;
+    font-size: 18px;
   }
 }

@@ -13,7 +13,6 @@ import { Brand, CTA, Navbar } from "../../components";
 import { Footer } from "../../containers";
 import Reloc from "./Reloc";
 import Stream from "../About/Stream";
-import Itinerary from "./Itenari";
 
 const Services = () => (
   <div className="services__expect-main">
@@ -34,9 +33,8 @@ const Services = () => (
             </h1>
 
             <p>
-              With fully educated Immigration advisors on staff, we offer
-              specialized services and expert advising that sets us apart from
-              the competiton
+              With highly educated immigration advisors and staff, we offer
+              specialized services and expert advising that make us stand out.
             </p>
           </Fade>
         </div>
@@ -90,7 +88,7 @@ const Services = () => (
     <Stream />
     <CTA />
 
-    <Brand />
+    {/* <Brand /> */}
     <Footer />
   </div>
 );

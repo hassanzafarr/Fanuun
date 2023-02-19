@@ -91,7 +91,7 @@ const Canada = () => (
         </div>
       </div>
     </div>
-    <Brand />
+    {/* <Brand /> */}
 
     <Footer />
   </div>

@@ -13,15 +13,16 @@
 }
 
 .services__blog-heading h1 {
-  font-size: 62px;
+  font-size: 36px;
   line-height: 75px;
   font-family: var(--font-family);
   font-weight: 600;
 }
 .services__blog-heading p {
-  font-size: 24px;
+  font-size: 18px;
   font-family: var(--font-family2);
   font-weight: 400;
+  line-height: 30px;
   margin-top: 2rem;
 }
 
@@ -44,16 +45,7 @@
 .service__reloc-content h1 {
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 34px;
-  line-height: 45px;
-  margin: 1rem 0;
-  color: var(--color-head);
-}
-
-.service__reloc-content h2 {
-  font-family: var(--font-family);
-  font-weight: 800;
-  font-size: 28px;
+  font-size: 36px;
   line-height: 45px;
   margin: 1rem 0;
   color: var(--color-head);
@@ -63,16 +55,13 @@
   color: var(--color-text);
   font-family: var(--font-family2);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   margin-bottom: 2rem;
 }
 @media screen and (max-width: 700px) {
-  .services__blog-heading h1 {
-    font-size: 42px;
-  }
   .services__blog-heading p {
-    font-size: 20px;
+    font-size: 16px;
   }
   .services__blog-container_groupB {
     grid-template-columns: repeat(1, 1fr);
@@ -81,7 +70,7 @@
     font-size: 16px;
   }
   .services__blog-heading h1 {
-    font-size: 46px;
+    font-size: 30px;
     line-height: 52px;
   }
   .service__reloc-content-heading {
@@ -91,15 +80,10 @@
   .services__left-text {
     margin: 2rem;
   }
-
+  .service__reloc-content h1 {
+    font-size: 30px;
+  }
   .service__reloc-content {
     margin-top: 2rem;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .services__blog-heading h1 {
-    font-size: 34px;
-    line-height: 42px;
   }
 }

@@ -29,7 +29,7 @@
 .immi__header-content p {
   font-family: var(--font-family2);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
   color: var(--color-text);
   text-align: center;
@@ -51,7 +51,7 @@
   min-height: 50px;
   font-family: var(--font-family2);
   font-weight: 800;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   background: #060056;
   border: none;
@@ -79,7 +79,7 @@
   }
 
   .immi__header-content p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
   }
 
@@ -107,12 +107,12 @@
     justify-content: center;
   }
   .immi__header-content p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
   }
 
   .immi__header-content__input button {
     font-size: 12px;
-    line-height: 16px;
+    line-height: 18px;
   }
 }

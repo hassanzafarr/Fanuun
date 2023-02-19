@@ -22,7 +22,7 @@ const Stream = () => (
         <p>
           We assist you in shaping your future and simplify your experience. Our
           expensive clientele continues to expand, and we look forward to
-          establishing a bechmark in the Immigration and Visa services market.
+          establishing a bechmark in the Immigration and Visa service market.
         </p>
       </Fade>
     </div>

@@ -35,7 +35,7 @@
   color: var(--color-text);
   font-family: var(--font-family2);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
 
   margin-bottom: 2rem;
@@ -61,7 +61,7 @@
   color: var(--color-text);
   font-family: var(--font-family2);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
 
   margin-bottom: 2rem;
@@ -87,7 +87,7 @@
   color: var(--color-text);
   font-family: var(--font-family2);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
 
   margin-bottom: 2rem;
@@ -115,13 +115,16 @@
     font-size: 16px;
   }
   .canada__section-ability-content h1 {
-    font-size: 26px;
+    font-size: 30px;
   }
 
   .canada__section-intro-content p {
     font-size: 16px;
   }
   .canada__section-intro-content h1 {
-    font-size: 26px;
+    font-size: 30px;
+  }
+  .canada__possibility-content p {
+    font-size: 16px;
   }
 }
