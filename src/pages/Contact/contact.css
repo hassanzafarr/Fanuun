@@ -24,7 +24,17 @@
   margin: 1rem 0;
   color: var(--color-head);
 }
-
+.swal-css {
+  color: rgb(0, 0, 0);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 30px;
+  color: var(--color-head);
+}
+.swal2-popup {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .contact__left-text p {
   color: rgb(0, 0, 0);
   font-family: var(--font-family2);

@@ -66,7 +66,7 @@ const Provide = () => (
         <Fade left>
           <h1 className="gradient__text">Data- driven solutions</h1>
           <p>
-            Comprehensive case studies and technical expertise inform an unique
+            Comprehensive case studies and technical expertise inform a unique
             rating system, guides and tactics
           </p>
         </Fade>

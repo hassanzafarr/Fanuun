@@ -26,19 +26,35 @@ const Navbar = () => {
             <Link to="/about">About us</Link>
           </p>
           <p>
-            <Link to="/solutions">Services</Link>
+            <div class="dropdown">
+              Services
+              <div class="dropdown-content">
+                <Link to="/solutions">Immigration Services </Link>
+                <Link className="ser2">
+                  Value added Services
+                  <div className="dropdown-submenu">
+                    <Link to="/screening">Screening Services</Link>
+                    <Link to="/attest">Attestation Services</Link>
+                    <Link to="/document">Document Services</Link>
+                    <Link to="/sealed">Sealed Envelope Services</Link>
+                    <Link to="/translation">Translation Services </Link>
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </p>
+          <p>
+            <div class="dropdown">
+              Immigration
+              <div class="dropdown-content">
+                <Link to="/us">US</Link>
+                <Link to="/uk">UK</Link>
+                <Link to="/canada">Canada</Link>
+              </div>
+            </div>
           </p>
           <p>
             <Link to="/career">Career</Link>
-          </p>
-          <p>
-            <Link to="/uk">UK </Link>
-          </p>
-          <p>
-            <Link to="/us">US</Link>
-          </p>
-          <p>
-            <Link to="/canada">Canada</Link>
           </p>
           <p>
             <Link to="/contact">Contact</Link>
@@ -74,7 +90,21 @@ const Navbar = () => {
                 <Link to="/about">About us</Link>
               </p>
               <p>
-                <Link to="/solutions">Services</Link>
+                <div class="dropdown">
+                  Services
+                  <div class="dropdown-content">
+                    <Link to="/solutions">Service 1 </Link>
+                    <Link className="ser2">
+                      Service 2
+                      <div className="dropdown-submenu">
+                        <Link to="/career">Service 4</Link>
+                        <Link to="/career">Service 4</Link>
+                      </div>
+                    </Link>
+                    <Link to="/career">Service 3</Link>
+                  </div>
+                </div>
+                {/* <Link to="/solutions">Services</Link> */}
               </p>
               <p>
                 <Link to="/career">Career</Link>

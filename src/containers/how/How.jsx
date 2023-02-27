@@ -20,10 +20,10 @@ const Blog = () => (
       <Fade left>
         <h1 className="gradient__text">How Fanuun Works</h1>
         <p>
-          Our comprehensive vise consultation service can meet all of your
+          Our comprehensive visa consultation service can meet all of your
           immigration needs. We'll guide you through the entire moving process
           and help you decide which of the many excellent options is right for
-          you
+          you.
         </p>
       </Fade>
     </div>

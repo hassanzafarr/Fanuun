@@ -22,7 +22,7 @@ const Footer = () => (
     }}
   >
     <div className="immi__footer-links">
-      <div className="immi__footer-links_logo">
+      {/* <div className="immi__footer-links_logo">
         <p>Subscribe for our newsletter</p>
 
         <input
@@ -35,7 +35,7 @@ const Footer = () => (
         <button type="button">Subscribe</button>
         <br />
         <p>By filling out the form you agree with our Terms and Conditions</p>
-      </div>
+      </div> */}
 
       <div className="immi__footer-links_div">
         <h4>Home</h4>

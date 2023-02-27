@@ -11,7 +11,7 @@ export const WhyFanuun = () => {
     "Obtaining LOS (Letter of Support)",
   ];
   const data2 = [
-    "RA (Retainer Agreement) for PR ",
+    "(Retainer Agreement) RA for PR ",
     "Application Package and requirements ",
     "Documents and Assessments",
     "RA with DO",
@@ -27,7 +27,7 @@ export const WhyFanuun = () => {
           </h1>
         </Fade>
       </div>
-      <div className="gpt3__whatgpt3 " id="wgpt3">
+      <div className="gpt3__whatgpt3" id="wgpt3">
         <div className="gpt3__whatgpt3-feature">
           <Fade bottom>
             <Feature title="Duration : 1 Week" text="Profile assessment" />

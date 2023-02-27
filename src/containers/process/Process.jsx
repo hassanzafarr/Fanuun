@@ -2,6 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import "./process.css";
 import shape5 from "../../assets/shape5.png";
+import gif from "../../assets/fanuungif.gif";
 const Process = () => (
   <div className="immi__possiblity-main section__padding">
     <div className="immi__possibility " id="possibility">
@@ -13,7 +14,7 @@ const Process = () => (
 
           <p>
             Facilitating the adaptation, We assist you in shaping your future
-            and simplify your experience. Out expensive clientele continues to
+            and simplify your experience. Our expensive clientele continues to
             expand, and we look forward to establishing a benchmark in the
             immigration and Visa service market and pursuit of possibilities of
             immigrants.
@@ -23,7 +24,8 @@ const Process = () => (
 
       <div className="immi__possibility-image">
         <Fade right>
-          <img src={shape5} alt="possibility" />
+          {/* <img src={shape5} alt="possibility" /> */}
+          <img src={gif} alt="possibility" />
         </Fade>
       </div>
     </div>
