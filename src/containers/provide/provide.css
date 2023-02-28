@@ -1,14 +1,14 @@
-.fanuun__possibility {
+.fanuun__provide {
   display: flex;
   flex-direction: row;
   margin-bottom: 5rem;
 }
-.fanuun__possibilitytwo {
+.fanuun__providetwo {
   display: flex;
   flex-direction: row;
   margin-bottom: 5rem;
 }
-.fanuun__possibility-image {
+.fanuun__provide-image {
   flex: 1 1;
   display: flex;
   justify-content: flex-start;
@@ -16,11 +16,11 @@
   max-width: 35rem;
   margin-right: 2rem;
 }
-.fanuun__possibility-image img {
+.fanuun__provide-image img {
   width: 100%;
   height: 100%;
 }
-.fanuun__possibility-content {
+.fanuun__provide-content {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@
   margin-left: 2rem;
 }
 
-.fanuun__possibility-content-heading {
+.fanuun__provide-content-heading {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -39,7 +39,7 @@
   margin-bottom: 3rem;
 }
 
-.fanuun__possibility-content-heading h1 {
+.fanuun__provide-content-heading h1 {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 34px;
@@ -47,7 +47,7 @@
   margin: 1rem 0;
 }
 
-.fanuun__possibility-content h1 {
+.fanuun__provide-content h1 {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 34px;
@@ -56,7 +56,7 @@
   color: var(--color-head);
 }
 
-.fanuun__possibility-content p {
+.fanuun__provide-content p {
   color: var(--color-text);
   font-family: var(--font-family2);
   font-weight: 400;
@@ -66,27 +66,27 @@
   margin-bottom: 2rem;
 }
 @media screen and (max-width: 1050px) {
-  .fanuun__possibility {
+  .fanuun__provide {
     flex-direction: column;
     margin-bottom: 0rem;
   }
-  .fanuun__possibilitytwo {
+  .fanuun__providetwo {
     flex-direction: column-reverse;
     margin-bottom: 0rem;
   }
-  .fanuun__possibility-image {
+  .fanuun__provide-image {
     margin: 1rem 0;
   }
 
-  .fanuun__possibility-content {
+  .fanuun__provide-content {
     margin-top: 2rem;
   }
-  .fanuun__possibility-content p {
+  .fanuun__provide-content p {
     font-size: 18px;
   }
 }
 @media screen and (max-width: 700px) {
-  .fanuun__possibility-image img {
+  .fanuun__provide-image img {
     width: 100%;
     height: 100%;
   }

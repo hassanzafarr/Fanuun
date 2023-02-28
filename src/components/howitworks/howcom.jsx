@@ -1,8 +1,14 @@
 import React from "react";
 import "./howcom.css";
 
-const Article = ({ text, para, number }) => (
-  <div className="immi__blog-container_article">
+const Article = ({ text, para, number, bimage }) => (
+  <div
+    className="immi__blog-container_article"
+    style={{
+      backgroundImage: `url(${bimage})`,
+      backgroundRepeat: "no-repeat",
+    }}
+  >
     <div className="immi__blog-container_article-content">
       <div>
         <h3>{text}</h3>

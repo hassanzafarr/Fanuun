@@ -17,15 +17,15 @@ const Provide = () => (
     //   backgroundSize: "contain",
     // }}
   >
-    <div className="fanuun__possibility-content-heading ">
+    <div className="fanuun__provide-content-heading ">
       <Fade left>
         <h1 className="gradient__text">
           Why do people choose <br /> Fanuun for immigration
         </h1>
       </Fade>
     </div>
-    <div className="fanuun__possibility " id="possibility">
-      <div className="fanuun__possibility-content">
+    <div className="fanuun__provide " id="provide">
+      <div className="fanuun__provide-content">
         <Fade left>
           <h1 className="gradient__text">Highest success rate</h1>
           <p>
@@ -36,20 +36,20 @@ const Provide = () => (
           </p>
         </Fade>
       </div>
-      <div className="fanuun__possibility-image">
+      <div className="fanuun__provide-image">
         <Fade right>
-          <img src={shape1} alt="possibility" />
+          <img src={shape1} alt="provide" />
         </Fade>
       </div>
     </div>
 
-    <div className="fanuun__possibilitytwo " id="possibility">
-      <div className="fanuun__possibility-image">
+    <div className="fanuun__providetwo " id="provide">
+      <div className="fanuun__provide-image">
         <Fade left>
-          <img src={shape2} alt="possibility" />
+          <img src={shape2} alt="provide" />
         </Fade>
       </div>
-      <div className="fanuun__possibility-content">
+      <div className="fanuun__provide-content">
         <Fade right>
           <h1 className="gradient__text">Customized surveys and feedbacks</h1>
           <p>
@@ -61,8 +61,8 @@ const Provide = () => (
       </div>
     </div>
 
-    <div className="fanuun__possibility " id="possibility">
-      <div className="fanuun__possibility-content">
+    <div className="fanuun__provide " id="provide">
+      <div className="fanuun__provide-content">
         <Fade left>
           <h1 className="gradient__text">Data- driven solutions</h1>
           <p>
@@ -71,20 +71,20 @@ const Provide = () => (
           </p>
         </Fade>
       </div>
-      <div className="fanuun__possibility-image">
+      <div className="fanuun__provide-image">
         <Fade right>
-          <img src={shape3} alt="possibility" />
+          <img src={shape3} alt="provide" />
         </Fade>
       </div>
     </div>
 
-    <div className="fanuun__possibilitytwo " id="possibility">
-      <div className="fanuun__possibility-image">
+    <div className="fanuun__providetwo " id="provide">
+      <div className="fanuun__provide-image">
         <Fade left>
-          <img src={shape4} alt="possibility" />
+          <img src={shape4} alt="provide" />
         </Fade>
       </div>
-      <div className="fanuun__possibility-content">
+      <div className="fanuun__provide-content">
         <Fade right>
           <h1 className="gradient__text">Guided process</h1>
           <p>

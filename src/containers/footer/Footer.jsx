@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../../assets/Group28.png";
-
+import fanlogo from "../../assets/Group13.png";
 import "./footer.css";
 import { facebook, instagram, linkedin, twitter, whatsapp } from "./import";
 
@@ -22,37 +22,37 @@ const Footer = () => (
     }}
   >
     <div className="immi__footer-links">
-      {/* <div className="immi__footer-links_logo">
-        <p>Subscribe for our newsletter</p>
-
-        <input
-          type="text"
-          class="form__input"
-          id="name"
-          placeholder="Email"
-          required=""
-        />
-        <button type="button">Subscribe</button>
-        <br />
-        <p>By filling out the form you agree with our Terms and Conditions</p>
-      </div> */}
+      <div className="immi__footer-links_logo">
+        <img src={fanlogo} />
+        <p>
+          Facilitating the adaptation, integration, and pursuit of possibilities
+          of immigrants.
+        </p>
+      </div>
 
       <div className="immi__footer-links_div">
-        <h4>Home</h4>
+        <p>Home</p>
         <p>About us</p>
         <p>Services</p>
+        <p>Career</p>
       </div>
       <div className="immi__footer-links_div">
-        <h4>Email</h4>
-        <p>info@fanuun.com </p>
-        <p>Info</p>
-        <p>Privacy Policies</p>
+        <p>UK </p>
+        <p>US </p>
+        <p>Canada</p>
+        <p>Contact Us</p>
       </div>
       <div className="immi__footer-links_div">
-        <h4>Get in touch</h4>
+        <b>
+          <p>Get in touch</p>
+        </b>
         <p>Karachi</p>
         <p>Dubai</p>
         <p>Vancouver</p>
+        <b>
+          <p>Email</p>
+        </b>
+        <p>info@fanuun.com</p>
         {/* <p>Whatsapp us</p> */}
         {/* <p>+1(647)873-4235</p> */}
       </div>

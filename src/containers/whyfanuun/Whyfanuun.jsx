@@ -1,48 +1,63 @@
 import React from "react";
 import "./whyfanuun.css";
 import Fade from "react-reveal/Fade";
-import { Feature } from "../../components/feature/Feature";
+import { HInfo } from "../../components/homeinfo/homeinfo";
+
 export const WhyFanuun = () => {
-  const data = [
-    "Finding the right DO(Designated Organization)",
+  const data = ["Profile Assessment"];
+  const data2 = [
+    "Finding the right DO (Designated Organization)",
     "Finalizing Business Plan withDO",
-    "Presentation/ Meeting with DO",
+    "Presenation/ Meeting with DO",
     "RA with DO",
     "Obtaining LOS (Letter of Support)",
   ];
-  const data2 = [
-    "(Retainer Agreement) RA for PR ",
-    "Application Package and requirements ",
-    "Documents and Assessments",
+
+  const data3 = [
+    "RA (Retainer Agreement) for PR",
+    "Application Package and requirements",
+    "Documents and Assessment",
     "RA with DO",
     "Filing for PR application",
   ];
-  const data3 = ["PR Approval"];
+
+  const data4 = ["RA (Retainer Agreement) for PR"];
   return (
-    <div className="immi__main_section section__margin">
-      <div className="immi__possibility-content-heading ">
-        <Fade right>
-          <h1 className="gradient__text">
-            Why do people choose <br /> Fanuun for immigration?
-          </h1>
-        </Fade>
-      </div>
-      <div className="gpt3__whatgpt3" id="wgpt3">
-        <div className="gpt3__whatgpt3-feature">
-          <Fade bottom>
-            <Feature title="Duration : 1 Week" text="Profile assessment" />
-            <Feature title="Duration : 1-2 Months" text={data} isList={true} />
-            <Feature title="Durations: 1-2 Months" text={data2} isList={true} />
-            <Feature
-              title="Duration: 12-15 Months"
-              text={data3}
-              isList={true}
-            />
+    <div className="fanuun__possiblity-main section__padding">
+      <div className="fanuun__possibility " id="possibility">
+        <div className="fanuun__possibility-content">
+          <Fade left>
+            <h1 className="gradient__text">Itinerary of a Customer</h1>
           </Fade>
+        </div>
+        <div className="mainContainer-right">
+          <div className="fanuun__right-cont">
+            <Fade right>
+              <HInfo title="Duration: 1 Week " text={data} isList={true} />
+            </Fade>
+          </div>
+          <div className="fanuun__right-cont">
+            <Fade right>
+              <HInfo title="Duration: 1-2 Months " text={data2} isList={true} />
+            </Fade>
+          </div>
+          <div className="fanuun__right-cont">
+            <Fade right>
+              <HInfo title="Duration: 1 Week " text={data3} isList={true} />
+            </Fade>
+          </div>
+          <div className="fanuun__right-cont">
+            <Fade right>
+              <HInfo
+                title="Duration: 12-16 Months "
+                text={data4}
+                isList={true}
+              />
+            </Fade>
+          </div>
         </div>
       </div>
     </div>
   );
 };
-
 export default WhyFanuun;

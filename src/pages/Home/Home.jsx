@@ -16,13 +16,13 @@ const Home = () => (
     <Navbar />
 
     <Header />
-    {/* <Brand /> */}
+    <Brand />
     <Process />
     <Blog />
     <Provide />
     <WhyFanuun />
     <CTA />
-    {/* <Brand /> */}
+    <Brand />
     <Footer />
   </div>
 );

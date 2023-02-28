@@ -38,6 +38,9 @@
   display: flex;
   flex-direction: column;
 }
+.immi__footer-links_logo img {
+  margin-bottom: 2rem;
+}
 
 .immi__footer-links_logo p {
   font-family: var(--font-family2);
