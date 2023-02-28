@@ -3,7 +3,7 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/fanun.svg";
 import "./navbar.css";
 import { Link, useNavigate } from "react-router-dom";
-
+import { BiChevronDown } from "react-icons/bi";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const navigate = useNavigate();
@@ -27,11 +27,11 @@ const Navbar = () => {
           </p>
           <p>
             <div class="dropdown">
-              Services
+              Services <BiChevronDown />
               <div class="dropdown-content">
                 <Link to="/solutions">Immigration Services </Link>
                 <Link className="ser2">
-                  Value added Services
+                  Value added Services <BiChevronDown />
                   <div className="dropdown-submenu">
                     <Link to="/screening">Screening Services</Link>
                     <Link to="/attest">Attestation Services</Link>
@@ -91,17 +91,19 @@ const Navbar = () => {
               </p>
               <p>
                 <div class="dropdown">
-                  Services
+                  Services <BiChevronDown />
                   <div class="dropdown-content">
-                    <Link to="/solutions">Service 1 </Link>
+                    <Link to="/solutions">Immigration Services </Link>
                     <Link className="ser2">
-                      Service 2
+                      Value added Services <BiChevronDown />
                       <div className="dropdown-submenu">
-                        <Link to="/career">Service 4</Link>
-                        <Link to="/career">Service 4</Link>
+                        <Link to="/screening">Screening Services</Link>
+                        <Link to="/attest">Attestation Services</Link>
+                        <Link to="/document">Document Services</Link>
+                        <Link to="/sealed">Sealed Envelope Services</Link>
+                        <Link to="/translation">Translation Services </Link>
                       </div>
                     </Link>
-                    <Link to="/career">Service 3</Link>
                   </div>
                 </div>
                 {/* <Link to="/solutions">Services</Link> */}

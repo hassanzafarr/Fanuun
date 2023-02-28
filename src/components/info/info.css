@@ -6,9 +6,9 @@
 
 .info__features-container__feature-title h1 {
   font-family: var(--font-family);
-  font-weight: 800;
+  font-weight: 600;
   line-height: 35px;
-  font-size: 20px;
+  font-size: 25px;
   /* identical to box height, or 312% */
   letter-spacing: -0.04em;
   color: #060056;
@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 550px) {
   .info__features-container__feature-title h1 {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
   }
   .info__features-container_feature-text p {
