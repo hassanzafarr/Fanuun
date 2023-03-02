@@ -45,7 +45,7 @@ const Navbar = () => {
           </p>
           <p>
             <div class="dropdown">
-              Immigration
+              Immigration <BiChevronDown />
               <div class="dropdown-content">
                 <Link to="/us">US</Link>
                 <Link to="/uk">UK</Link>

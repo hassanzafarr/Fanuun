@@ -1,3 +1,15 @@
+/* LOGO CONTAINER */
+.hinfo__main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hinfo__logo-container {
+  display: flex;
+  justify-content: flex-end;
+}
+/* LOGO CONTAINER */
+
 .hinfo__features-container__feature-title {
   flex: 1;
   /* max-width: 250px; */
@@ -10,7 +22,7 @@
   line-height: 35px;
   font-size: 30px;
   /* identical to box height, or 312% */
-  letter-spacing: -0.04em;
+
   color: #ffffff;
 }
 .hinfo__features-container_feature-text {

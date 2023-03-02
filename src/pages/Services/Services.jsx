@@ -17,14 +17,7 @@ import Stream from "../About/Stream";
 const Services = () => (
   <div className="services__expect-main">
     <Navbar />
-    <div
-      className="services__possiblity-main section__padding"
-      //   style={{
-      //     backgroundImage: `url(${image})`,
-      //     backgroundRepeat: "no-repeat",
-      //     backgroundSize: "contain",
-      //   }}
-    >
+    <div className="services__possiblity-main section__padding">
       <div className="services__possibility " id="possibility">
         <div className="services__possibility-content">
           <Fade left>

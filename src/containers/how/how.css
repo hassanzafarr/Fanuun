@@ -38,7 +38,7 @@
   grid-gap: 2rem;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   .immi__blog-container_groupB {
     grid-template-columns: repeat(2, 1fr);
   }

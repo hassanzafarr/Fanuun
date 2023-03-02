@@ -28,7 +28,7 @@
 
 .immi__blog-container_article-content h3 {
   font-family: var(--font-family);
-  font-size: 25.11px;
+  font-size: 16.11px;
   font-weight: 800;
   line-height: 30.3px;
   color: #060056;
@@ -77,8 +77,8 @@
 
 .immi__blog-container_article-content h3 {
   font-family: var(--font-family);
-  font-size: 25.11px;
-  font-weight: 800;
+  font-size: 20px;
+  font-weight: 600;
   line-height: 30.3px;
   color: #060056;
 

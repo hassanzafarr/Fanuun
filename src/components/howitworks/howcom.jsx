@@ -7,6 +7,7 @@ const Article = ({ text, para, number, bimage }) => (
     style={{
       backgroundImage: `url(${bimage})`,
       backgroundRepeat: "no-repeat",
+      backgroundPosition: "bottom",
     }}
   >
     <div className="immi__blog-container_article-content">

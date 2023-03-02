@@ -2,6 +2,7 @@ import React from "react";
 import image from "../../assets/Group28.png";
 import fanlogo from "../../assets/Group13.png";
 import "./footer.css";
+import { Link } from "react-router-dom";
 import { facebook, instagram, linkedin, twitter, whatsapp } from "./import";
 
 <link
@@ -31,16 +32,32 @@ const Footer = () => (
       </div>
 
       <div className="immi__footer-links_div">
-        <p>Home</p>
-        <p>About us</p>
-        <p>Services</p>
-        <p>Career</p>
+        <Link to="/">
+          <p>Home</p>
+        </Link>
+        <Link to="/about">
+          <p>About us</p>
+        </Link>
+        <Link to="/solutions">
+          <p>Services</p>
+        </Link>
+        <Link to="/career">
+          <p>Career</p>
+        </Link>
       </div>
       <div className="immi__footer-links_div">
-        <p>UK </p>
-        <p>US </p>
-        <p>Canada</p>
-        <p>Contact Us</p>
+        <Link to="/uk">
+          <p>UK</p>
+        </Link>
+        <Link to="/us">
+          <p>US</p>
+        </Link>
+        <Link to="/canada">
+          <p>Canada</p>
+        </Link>
+        <Link to="/contact">
+          <p>Contact Us</p>
+        </Link>
       </div>
       <div className="immi__footer-links_div">
         <b>
@@ -73,13 +90,11 @@ const Footer = () => (
         </div>
         <div>
           <a href="https://www.linkedin.com/company/fanuun/">
-            {" "}
-            <img src={linkedin} alt="linkedin" />{" "}
+            <img src={linkedin} alt="linkedin" />
           </a>
         </div>
         <div>
           <a href="https://twitter.com/FANUUNcon">
-            {" "}
             <img src={twitter} alt="twitter" />
           </a>
         </div>

@@ -2,6 +2,7 @@ import React from "react";
 import "./whyfanuun.css";
 import Fade from "react-reveal/Fade";
 import { HInfo } from "../../components/homeinfo/homeinfo";
+import wavy from "../../assets/wavyy.svg";
 
 export const WhyFanuun = () => {
   const data = ["Profile Assessment"];
@@ -27,26 +28,60 @@ export const WhyFanuun = () => {
       <div className="fanuun__possibility " id="possibility">
         <div className="fanuun__possibility-content">
           <Fade left>
-            <h1 className="gradient__text">Itinerary of a Customer</h1>
+            <h1 className="gradient__text">
+              Itinerary of a <span className="future"> Customer </span>
+            </h1>
           </Fade>
         </div>
         <div className="mainContainer-right">
-          <div className="fanuun__right-cont">
+          <div
+            className="fanuun__right-cont"
+            style={{
+              backgroundImage: `url(${wavy})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              backgroundPosition: "top",
+            }}
+          >
             <Fade right>
               <HInfo title="Duration: 1 Week " text={data} isList={true} />
             </Fade>
           </div>
-          <div className="fanuun__right-cont">
+          <div
+            className="fanuun__right-cont"
+            style={{
+              backgroundImage: `url(${wavy})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              backgroundPosition: "top",
+            }}
+          >
             <Fade right>
               <HInfo title="Duration: 1-2 Months " text={data2} isList={true} />
             </Fade>
           </div>
-          <div className="fanuun__right-cont">
+          <div
+            className="fanuun__right-cont"
+            style={{
+              backgroundImage: `url(${wavy}) `,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              backgroundPosition: "top",
+            }}
+          >
             <Fade right>
               <HInfo title="Duration: 1 Week " text={data3} isList={true} />
             </Fade>
           </div>
-          <div className="fanuun__right-cont">
+          <div
+            className="fanuun__right-cont"
+            style={{
+              backgroundImage: `url(${wavy})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              backgroundPosition: "top",
+            }}
+          >
             <Fade right>
               <HInfo
                 title="Duration: 12-16 Months "

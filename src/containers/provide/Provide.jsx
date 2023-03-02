@@ -2,7 +2,7 @@ import React from "react";
 
 import Fade from "react-reveal/Fade";
 import "./provide.css";
-
+import image from "../../assets/lowlogo.svg";
 import shape1 from "../../assets/shape1.png";
 import shape2 from "../../assets/shape2.png";
 import shape3 from "../../assets/shape3.png";
@@ -11,11 +11,11 @@ import shape4 from "../../assets/shape4.png";
 const Provide = () => (
   <div
     className="fanuun__possiblity-main section__padding"
-    // style={{
-    //   backgroundImage: `url(${image})`,
-    //   backgroundRepeat: "no-repeat",
-    //   backgroundSize: "contain",
-    // }}
+    style={{
+      backgroundImage: `url(${image})`,
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "contain",
+    }}
   >
     <div className="fanuun__provide-content-heading ">
       <Fade left>
