@@ -2,7 +2,7 @@ import React from "react";
 
 import "./UK.css";
 import shape5 from "../../assets/Group 47.png";
-import line from "../../assets/line.png";
+
 import { Brand, Navbar } from "../../components";
 import { Footer } from "../../containers";
 import Fade from "react-reveal/Fade";
@@ -10,8 +10,8 @@ import Fade from "react-reveal/Fade";
 const UK = () => (
   <div className="uk__main-container">
     <Navbar />
-    <div className="uk__possiblity-main section__padding">
-      <div className="uk__possibility " id="possibility">
+    <div className="uk__possiblity-main ">
+      <div className="uk__possibility section__padding " id="possibility">
         <div className="uk__possibility-content">
           <Fade top>
             <h1 className="gradient__text">
@@ -27,42 +27,86 @@ const UK = () => (
         </div>
       </div>
 
-      <div
-        className="uk__section-ability"
-        style={{
-          backgroundImage: `url(${line})`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
-      >
-        <div className="uk__section-ability-content">
+      {/* <div className="uk__section-ability ">
+        <div className="uk__section-ability-content section__padding">
           <Fade top>
             <h1 style={{ color: "#060056" }}>
-              Fanuun offers the best consultancy for UK visa, specifically, the
-              UK's two new investor programs;
+              Eligibility for Canada Start-Up Visa
             </h1>
-            <p>
-              • The Innovator Visa <br /> • The Start-up Visa <br />
-              These visas are intended for experienced business people who have
-              a genuine and credible business idea and wish to establish a new
-              business in the UK. This visa program requires the applicant to
-              have an endorsement from an approved endorsing body, such as a
-              business organization or higher education institution that
-              assesses their business idea and confirms that it is innovative,
-              viable and scalable.
-              <br /> Both of these visa programs allow successful applicants to
-              stay in the UK for up to two years, after which they can apply to
-              extend their stay for an additional three years or apply for
-              settled status if they meet certain requirements. Fanuun's team
-              shall guide you along the entire process - from eligibility
-              assessment to application preparation and finally to post-visa
-              services - and help you realize your dream of being a business
-              owner in the UK! Contact us today to schedule a consultation and
-              avail the best consultancy for UK visa.
-            </p>
+            <p>Applying entrepreneurs must,</p>
           </Fade>
         </div>
-      </div>
+
+        <div
+          className="uk__section-help section__padding "
+          style={{
+            backgroundImage: `url(${back})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+          }}
+        >
+          <div className="uk__section-logo-container">
+            <div className="uk-container-a">
+              <div className="img-cont">
+                <img src={biz} alt="prof" />
+              </div>
+              <p>
+                Have a business that qualifies specified criteria by the
+                Canadian government.
+              </p>
+            </div>
+            <div className="uk-container-a">
+              <div className="img-cont">
+                <img src={min} alt="prof" />
+              </div>
+              <p>
+                Secure a minimum level of investment from a designated venture
+                capital fund, angel investor group, or business incubator.
+              </p>
+            </div>
+            <div className="uk-container-a">
+              <div className="img-cont">
+                <img src={lang} alt="prof" />
+              </div>
+              <p>Meet the language requirements.</p>
+            </div>
+            <div className="uk-container-a">
+              <div className="img-cont">
+                <img src={money} alt="prof" />
+              </div>
+              <p>
+                Bring along enough money to settle yourself and your dependents.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="uk-container section__padding ">
+          <div
+            className="uk__section-helpp section__padding"
+            style={{
+              backgroundImage: `url(${right}) `,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "contain",
+              backgroundPosition: "right bottom",
+            }}
+          >
+            <div className="uk__section-introo-content">
+              <Fade bottom>
+                <h1 className="gradient__text">How Can Fanuun Help?</h1>
+                <p>
+                  Wondering whether you're eligible for the Canada Start-Up
+                  Visa? <br /> We offer the best consultancy services to our
+                  clients for Canada immigration.
+                </p>
+                <button>Reach out to Fannun Today</button>
+              </Fade>
+            </div>
+          </div>
+        </div>
+
+        <WhyFanuun />
+      </div> */}
     </div>
     {/* <Brand /> */}
 

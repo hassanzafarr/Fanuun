@@ -31,13 +31,6 @@
   flex-direction: row;
 }
 
-.services__blog-container_groupB {
-  flex: 1;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 2rem;
-}
-
 .service__reloc-content {
   margin-top: 5rem;
 }
@@ -63,9 +56,7 @@
   .services__blog-heading p {
     font-size: 16px;
   }
-  .services__blog-container_groupB {
-    grid-template-columns: repeat(1, 1fr);
-  }
+
   .service__reloc-content p {
     font-size: 16px;
   }

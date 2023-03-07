@@ -4,7 +4,7 @@ import { Navbar } from "../../../components";
 import { Footer } from "../../../containers";
 import Banner from "./../../../components/banner/Banner";
 import image from "../../../assets/screening.png";
-import Fade from "react-reveal/Fade";
+
 import Contfan from "../../../components/contact-fannuun/contfan";
 import { Info } from "./../../../components/info/Info";
 

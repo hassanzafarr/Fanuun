@@ -23,7 +23,9 @@ const Position = () => {
         console.log(JSON.stringify(response.data));
 
         return MySwal.fire({
-          title: <h2 className="swal-css">Thanks</h2>,
+          title: <h2 className="swal-css">Thankyou</h2>,
+          text: "Our team will connect with you, if you seem a good fit for FANUUN",
+
           icon: "success",
         });
       })

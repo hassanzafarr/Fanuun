@@ -45,8 +45,8 @@
 .us__section-intro {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
 .us__section-intro-content h1 {
@@ -63,7 +63,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-
   margin-bottom: 2rem;
 }
 
@@ -73,6 +72,11 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  margin-top: 5rem;
+  border: 1px solid;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 5rem;
 }
 
 .us__section-ability-content h1 {
@@ -92,6 +96,144 @@
 
   margin-bottom: 2rem;
 }
+
+/* New work */
+.us__section-help {
+  background: rgb(60, 54, 141);
+  /* background: linear-gradient(
+    299deg,
+    rgba(209, 208, 224, 1) 0%,
+    rgba(6, 0, 86, 1) 100%
+  ); */
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 80px 80px;
+  border-bottom-right-radius: 15px;
+  flex: 1;
+  display: flex;
+  padding: 2rem 5rem;
+  margin-top: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.container-a {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-a p {
+  color: var(--color-text);
+  font-family: var(--font-family2);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 1rem;
+}
+.container-b {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding: 3rem 1rem;
+}
+.container-b p {
+  color: var(--color-text);
+  font-family: var(--font-family2);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.us__section-logo-container {
+  flex: 1;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 2rem;
+}
+
+.us__section-advance-container {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(6, 220px);
+  grid-gap: 2rem;
+  margin-left: 14rem;
+}
+
+/* Last Section */
+.us__possibilitytop {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5rem;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  margin-top: 5rem;
+}
+.us__left-text {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  flex-direction: column;
+}
+.us__left-text h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 45px;
+  margin: 1rem 0;
+  color: var(--color-head);
+}
+.us__left-text p {
+  color: var(--color-text);
+  font-family: var(--font-family2);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  margin-top: 1rem;
+}
+
+.us__right-image {
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 2rem;
+  padding: 1rem;
+}
+.us__right-image img {
+  height: 100%;
+  max-width: 70%;
+}
+
+@media screen and (max-width: 1350px) {
+  .us__section-advance-container {
+    flex-direction: column;
+    margin: 0;
+  }
+  .us__section-advance-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .us__possibilitytop {
+    flex-direction: column;
+  }
+  .us__left-text {
+    margin: 2rem;
+  }
+}
 @media screen and (max-width: 1050px) {
   .us__possibility {
     flex-direction: column;
@@ -105,6 +247,18 @@
   .us__possibility-content {
     margin-top: 2rem;
   }
+  .us__section-logo-container {
+    flex-direction: column;
+  }
+  .us__section-logo-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .us__section-advance-container {
+    flex-direction: column;
+  }
+  .us__section-advance-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media screen and (max-width: 700px) {
   .us__possibility-image img {
@@ -117,11 +271,24 @@
   .us__section-ability-content h1 {
     font-size: 30px;
   }
+  .us__section-logo-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .us__section-advance-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   .us__section-intro-content p {
     font-size: 16px;
   }
   .us__section-intro-content h1 {
+    font-size: 30px;
+  }
+  .us__right-image p {
+    font-size: 16px;
+  }
+
+  .us__left-text h1 {
     font-size: 30px;
   }
 }

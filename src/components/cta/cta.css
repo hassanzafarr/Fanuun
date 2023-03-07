@@ -14,6 +14,13 @@
   line-height: 45px;
   font-family: var(--font-family);
 }
+.gpt3__cta-content p {
+  color: var(--color-text);
+  font-family: var(--font-family2);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
 .gpt3__cta-btn {
   display: flex;
   align-items: center;

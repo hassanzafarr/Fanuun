@@ -1,14 +1,32 @@
 import React from "react";
-
 import "./us.css";
 import shape5 from "../../assets/Group 48.png";
+import wavy from "../../assets/wavyy.svg";
 import line from "../../assets/line.png";
 import { Navbar } from "../../components";
 import { Footer } from "../../containers";
+import prof from "../../assets/prof.svg";
+import person from "../../assets/person.svg";
+import home from "../../assets/home.svg";
+import visa from "../../assets/visa.svg";
 import Fade from "react-reveal/Fade";
+import economy from "../../assets/economy.svg";
+import environment from "../../assets/environment.svg";
+import wages from "../../assets/wages.svg";
+import improve from "../../assets/improve.svg";
+import request from "../../assets/request.svg";
+import right from "../../assets/rightwavy.svg";
+import bulb from "../../assets/Image 13.png";
 
 const US = () => (
-  <div className="us__main-container">
+  <div
+    className="us__main-container "
+    style={{
+      backgroundImage: `url(${line})`,
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "contain",
+    }}
+  >
     <Navbar />
     <div className="us__possiblity-main section__padding">
       <div className="us__possibility " id="possibility">
@@ -50,11 +68,50 @@ const US = () => (
       </div>
 
       <div
+        className="us__section-help"
+        style={{
+          backgroundImage: `url(${wavy}) `,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "contain",
+          // backgroundPositionY: "150px",
+        }}
+      >
+        <div className="us__section-intro-content">
+          <Fade bottom>
+            <h1 className="gradient__text">How can we help</h1>
+            <p>
+              FANUUN's experienced immigration attorneys will prepare and file
+              all the required documents for foreign
+            </p>
+          </Fade>
+        </div>
+        <div className="us__section-logo-container">
+          <div className="container-a">
+            <img src={prof} />
+            <p>Professional</p>
+          </div>
+          <div className="container-a">
+            <img src={person} />
+            <p>Persons of exceptional ability</p>
+          </div>
+          <div className="container-a">
+            <img src={home} />
+            <p>Permanent Residence</p>
+          </div>
+          <div className="container-a">
+            <img src={visa} />
+            <p>On-demand Visa Option</p>
+          </div>
+        </div>
+      </div>
+      <div
         className="us__section-ability"
         style={{
-          backgroundImage: `url(${line})`,
+          backgroundImage: `url(${right})`,
           backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
+          backgroundSize: "contain",
+          backgroundPosition: "bottom",
+          backgroundPositionX: "280px",
         }}
       >
         <div className="us__section-ability-content">
@@ -90,39 +147,116 @@ const US = () => (
           <Fade bottom>
             <p>
               If the above standards do not apply, the USCIS may also accept
-              other comparable evidence of eligibility. 2.Persons Holding
-              Advanced Degrees To be classified as a person holding an advanced
-              degree, you must possess a master's degree or a bachelor's degree
-              with at least five years progressive post-bachelor degree
-              experience. B. Your Occupation Serves the National Interest The
-              term "national interest" is not defined in law. However, the USCIS
-              Office of Administrative Appeals has developed a list of factors
-              to consider when applying the National Interest Test. Factors that
-              may be considered in determining national interest include, but
-              are not limited to:
+              other comparable evidence of eligibility.
             </p>
           </Fade>
         </div>
-
-        <div className="us__section-ability-content">
+      </div>
+      <div className="us__section-intro">
+        <div className="us__section-intro-content">
           <Fade bottom>
+            <h1 className="gradient__text">Persons Holding Advanced Degrees</h1>
             <p>
-              • US economy improvement
-              <br />• Improving Wages and Working Conditions for U.S. Workers
-              <br />• Improving Education and Training Programs for U.S.
-              Children and Unskilled Workers Improving healthcare Providing
-              Affordable Housing in the United States
-              <br />• Environmental improvement
-              <br />• Requests from Interested U.S. Government Agencies
-              <br />
-              <br />
-              C. Unique Knowledge and skills
-              <br />
+              To be classified as a person holding an advanced degree, you must
+              possess a master's degree or a bachelor's degree with at least
+              five years progressive post-bachelor degree experience. B. Your
+              Occupation Serves the National Interest The term "national
+              interest" is not defined in law. However, the USCIS Office of
+              Administrative Appeals has developed a list of factors to consider
+              when applying the National Interest Test. Factors that may be
+              considered in determining national interest include, but are not
+              limited to:
+            </p>
+          </Fade>
+        </div>
+        {/* card  */}
+        <div className="us__section-advance-container">
+          <div
+            className="container-b"
+            style={{
+              backgroundImage: `url(${right}) `,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "contain",
+              backgroundPosition: "bottom",
+            }}
+          >
+            <img src={economy} alt="wages" />
+            <p>US economy improvement</p>
+          </div>
+          <div
+            className="container-b"
+            style={{
+              backgroundImage: `url(${right}) `,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "contain",
+              backgroundPosition: "bottom",
+            }}
+          >
+            <img src={wages} alt="wages" />
+            <p>Improving Wages and Working Conditions for U.S. Workers</p>
+          </div>
+          <div
+            className="container-b"
+            style={{
+              backgroundImage: `url(${right}) `,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "contain",
+              backgroundPosition: "bottom",
+            }}
+          >
+            <img src={improve} alt="improve" />
+            <p>Improving Education and Training Programs for U.S.</p>
+          </div>
+          <div
+            className="container-b"
+            style={{
+              backgroundImage: `url(${right}) `,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "contain",
+              backgroundPosition: "bottom",
+            }}
+          >
+            <img src={environment} alt="environment" />
+            <p>Environmental improvement</p>
+          </div>
+          <div
+            className="container-b"
+            style={{
+              backgroundImage: `url(${right}) `,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "contain",
+              backgroundPosition: "bottom",
+            }}
+          >
+            <img src={request} alt="request" />
+            <p>Requests from Interested U.S. Government Agencies</p>
+          </div>
+        </div>
+        {/* card  */}
+      </div>
+
+      <div
+        className="us__possibilitytop"
+        id="possibility"
+        // style={{
+        //   backgroundImage: `url(${s1}) `,
+        //   backgroundRepeat: "no-repeat",
+        //   backgroundSize: "contain",
+        // }}
+      >
+        <div className="us__left-text">
+          <Fade left>
+            <h1>Unique Knowledge and skills</h1>
+            <p>
               They need unique knowledge and skills that set them apart from
               other professionals, and apply those qualities to activities that
-              bring benefit to the nation D. Influence the country. <br />
-              We also provide on demand visa options such as investors etc.
+              bring benefit to the nation and Influence the country.
             </p>
+          </Fade>
+        </div>
+        <div className="us__right-image">
+          <Fade right>
+            <img src={bulb} alt="bulb" />
           </Fade>
         </div>
       </div>

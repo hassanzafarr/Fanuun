@@ -5,8 +5,9 @@ import {
   Header,
   Provide,
   Footer,
-  WhyFanuun,
+  // WhyFanuun,
   Process,
+  Opp,
 } from "../../containers";
 
 import { Navbar, Brand, CTA } from "../../components";
@@ -20,8 +21,9 @@ const Home = () => (
     <Process />
     <Blog />
     <Provide />
-    <WhyFanuun />
-    <CTA />
+    {/* <WhyFanuun /> */}
+    <Opp />
+    <CTA htag="Are You Interested in " red="Immigration?" />
     <Brand />
     <Footer />
   </div>

@@ -1,4 +1,4 @@
-.immi__blog-container_article {
+.fanuun__blog-container_article {
   width: 100%;
   height: 100%;
   display: flex;
@@ -8,7 +8,7 @@
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.immi__blog-container_article-content {
+.fanuun__blog-container_article-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,7 +17,7 @@
   margin: 1rem;
 }
 
-.immi__blog-container_article-content h5 {
+.fanuun__blog-container_article-content h5 {
   font-family: var(--font-family2);
   font-size: 16px;
   line-height: 25px;
@@ -26,7 +26,7 @@
   color: rgb(0, 0, 0);
 }
 
-.immi__blog-container_article-content h3 {
+.fanuun__blog-container_article-content h3 {
   font-family: var(--font-family);
   font-size: 16.11px;
   font-weight: 800;
@@ -36,7 +36,7 @@
   margin-bottom: 1rem;
 }
 
-.immi__blog-container_article-content p:last-child {
+.fanuun__blog-container_article-content p:last-child {
   cursor: pointer;
   font-size: 40px;
   display: flex;
@@ -45,12 +45,12 @@
 }
 
 @media screen and (max-width: 550px) {
-  .immi__blog-container_article-content h3 {
+  .fanuun__blog-container_article-content h3 {
     font-size: 18px;
     line-height: 25p;
   }
 }
-.immi__blog-container_article {
+.fanuun__blog-container_article {
   width: 100%;
   height: 100%;
 
@@ -58,7 +58,7 @@
   flex-direction: column;
 }
 
-.immi__blog-container_article-content {
+.fanuun__blog-container_article-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -67,7 +67,7 @@
   height: 100%;
 }
 
-.immi__blog-container_article-content p {
+.fanuun__blog-container_article-content p {
   font-family: var(--font-family);
   font-size: 11.65px;
   font-weight: 700;
@@ -75,7 +75,7 @@
   color: rgb(0, 0, 0);
 }
 
-.immi__blog-container_article-content h3 {
+.fanuun__blog-container_article-content h3 {
   font-family: var(--font-family);
   font-size: 20px;
   font-weight: 600;
@@ -85,12 +85,12 @@
   cursor: pointer;
 }
 
-.immi__blog-container_article-content p:last-child {
+.fanuun__blog-container_article-content p:last-child {
   cursor: pointer;
 }
 
 @media screen and (max-width: 550px) {
-  .immi__blog-container_article-content h3 {
+  .fanuun__blog-container_article-content h3 {
     font-size: 18px;
     line-height: 25p;
   }

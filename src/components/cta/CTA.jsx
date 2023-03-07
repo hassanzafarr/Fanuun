@@ -2,7 +2,7 @@ import React from "react";
 import "./cta.css";
 import image from "../../assets/group29.png";
 import Fade from "react-reveal/Fade";
-const CTA = () => (
+const CTA = ({ htag, red, ptext }) => (
   <div
     className="gpt3__cta"
     style={{
@@ -13,8 +13,11 @@ const CTA = () => (
   >
     <div className="gpt3__cta-content">
       <h3>
-        Are You Interested in <br /> <span class="future">Immigration?</span>
+        {htag}
+        {/* <br /> */}
+        <span class="future">{red}</span>
       </h3>
+      <p>{ptext}</p>
     </div>
     <div className="gpt3__cta-btn">
       <button type="button">Contact Us</button>
