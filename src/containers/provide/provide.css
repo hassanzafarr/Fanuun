@@ -69,6 +69,8 @@
   .fanuun__provide {
     flex-direction: column;
     margin-bottom: 0rem;
+    display: flex;
+    align-items: center;
   }
   .fanuun__providetwo {
     flex-direction: column-reverse;

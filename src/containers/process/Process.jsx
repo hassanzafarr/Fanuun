@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import "./process.css";
-import gif from "../../assets/fanuungif.gif";
+import gif from "../../assets/Animation.gif";
 const Process = () => (
   <div className="immi__possiblity-main section__padding">
     <div className="immi__possibility " id="possibility">

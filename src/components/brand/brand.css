@@ -8,30 +8,21 @@
   flex: 1;
   /* max-width: 100px;
   min-width: 100px; */
-  margin: 4rem;
+  margin: 2rem;
   display: flex;
-  max-width: 150px;
+  max-width: 190px;
   justify-content: center;
   align-items: center;
 }
 .immi__brand div img {
-  max-width: 180px;
+  max-width: 120px;
 }
-/* .immi__brand-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 28px;
-  color: grey;
-} */
+
 @media screen and (max-width: 850px) {
   .immi__brand div {
     margin: 2rem;
   }
   .immi__brand div img {
-    max-width: 150px;
+    max-width: 100px;
   }
 }

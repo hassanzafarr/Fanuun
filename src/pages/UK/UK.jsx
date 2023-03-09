@@ -60,49 +60,37 @@ const UK = () => (
             <div className="uk-img-cont">
               <img src={freedom} alt="prof" />
             </div>
-            <p>
-              Have a business that qualifies specified criteria by the Canadian
-              government.
-            </p>
+            <p>Freedom to switch jobs and grow your career</p>
           </div>
           <div className="uk-container-a">
             <div className="uk-img-cont">
               <img src={global} alt="prof" />
             </div>
-            <p>
-              Secure a minimum level of investment from a designated venture
-              capital fund, angel investor group, or business incubator.
-            </p>
+            <p>Global travel for research purpose allowed</p>
           </div>
           <div className="uk-container-a">
             <div className="uk-img-cont">
               <img src={home} alt="prof" />
             </div>
-            <p>Meet the language requirements.</p>
+            <p>Make a home in the UK</p>
           </div>
           <div className="uk-container-a">
             <div className="uk-img-cont">
               <img src={fast} alt="prof" />
             </div>
-            <p>
-              Bring along enough money to settle yourself and your dependents.
-            </p>
+            <p>Fast endorsement process</p>
           </div>
           <div className="uk-container-a">
             <div className="uk-img-cont">
               <img src={lower} alt="prof" />
             </div>
-            <p>
-              Bring along enough money to settle yourself and your dependents.
-            </p>
+            <p>Lower visa fees</p>
           </div>
           <div className="uk-container-a">
             <div className="uk-img-cont">
               <img src={flexible} alt="prof" />
             </div>
-            <p>
-              Bring along enough money to settle yourself and your dependents.
-            </p>
+            <p>Flexibility to choose visa length</p>
           </div>
         </div>
       </div>
@@ -120,19 +108,13 @@ const UK = () => (
               <div className="uk-img-cont">
                 <img src={startup} alt="prof" />
               </div>
-              <p>
-                Have a business that qualifies specified criteria by the
-                Canadian government.
-              </p>
+              <p>The Start-up Visa</p>
             </div>
             <div className="uk-container-a">
               <div className="uk-img-cont">
                 <img src={innovate} alt="prof" />
               </div>
-              <p>
-                Secure a minimum level of investment from a designated venture
-                capital fund, angel investor group, or business incubator.
-              </p>
+              <p>The Innovator Visa</p>
             </div>
           </div>
         </div>

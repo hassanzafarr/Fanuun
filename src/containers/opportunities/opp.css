@@ -1,3 +1,7 @@
+.fanuun__main-container {
+  display: flex;
+  flex-direction: column;
+}
 .opp__container {
   display: flex;
   flex-direction: row;
@@ -60,7 +64,19 @@
   position: absolute;
   top: -80px;
 }
+.fanuun__blog-heading {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+}
 
+.fanuun__blog-heading h1 {
+  font-size: 48px;
+  line-height: 75px;
+  font-family: var(--font-family);
+  font-weight: 600;
+}
 @media screen and (max-width: 1200px) {
   .opp__container {
     flex-direction: row;
@@ -81,5 +97,10 @@
   .card__container {
     margin-top: 5rem;
     max-width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .fanuun__blog-heading h1 {
+    font-size: 42px;
   }
 }

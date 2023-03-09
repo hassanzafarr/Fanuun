@@ -52,22 +52,17 @@
     font-size: 42px;
   }
   .immi__blog-heading p {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 1rem;
   }
   .immi__blog-container_groupB {
     grid-template-columns: repeat(1, 1fr);
   }
-
-  .immi__blog-heading h1 {
-    font-size: 46px;
-    line-height: 52px;
-  }
 }
 
 @media screen and (max-width: 550px) {
   .immi__blog-heading h1 {
-    font-size: 34px;
+    font-size: 36px;
     line-height: 42px;
   }
 }
