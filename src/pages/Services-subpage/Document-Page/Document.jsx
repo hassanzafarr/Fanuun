@@ -5,6 +5,7 @@ import { Footer } from "../../../containers";
 import Contfan from "../../../components/contact-fannuun/contfan";
 import Banner from "./../../../components/banner/Banner";
 import document from "../../../assets/document.png";
+import docimg from "../../../assets/docimg.svg";
 import { Info } from "./../../../components/info/Info";
 const Document = () => {
   const data = [
@@ -28,21 +29,36 @@ const Document = () => {
   return (
     <div className="screening__main-container">
       <Navbar />
-      <div className="section__container section__padding">
-        <Banner text="Document Services" img={document} />
-        <div className="doc__container">
-          <div className="doc__container-feature">
+      <div className="section__container">
+        <div className="banner-container section__padding">
+          <Banner text="Document Services" img={document} />
+        </div>
+        <div className="screen__section-ability-content section__padding">
+          <h1 style={{ color: "#060056" }}>
+            FANUUN provides fast and reliable attestation services to its
+            clients from numeroattest agencies/institutions as per the
+            requirements of the Canadian, attest, and British Embassies.
+          </h1>
+          <p>
+            The following documents are covered in the attestation services:
+          </p>
+        </div>
+        <div className="doc__container-feature section__padding">
+          <div className="info__cont">
             <Info
-              title="Fanuun facilitates its clients in the swift, easy, and reliable issuance of numerous legal
-and personal documents from various agencies/institutes. These include:"
+              title="FANUUN facilitates its cattesttomers with document
+attestation services from varioattest ministries and state
+institutions, such as:"
+              text={data}
+              isList={true}
             />
-            <Info title="Personal" text={data} isList={true} />
-
-            <Info title="Educational" text={data2} isList={true} />
+          </div>
+          <div className="img-cont2">
+            <img src={docimg} alt="document" />
           </div>
         </div>
-        <Contfan />
       </div>
+
       <Footer />
     </div>
   );

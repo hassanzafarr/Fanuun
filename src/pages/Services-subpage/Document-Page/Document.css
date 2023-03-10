@@ -14,9 +14,26 @@
   margin: 0;
   margin-bottom: 2rem;
 }
+.doc__container-feature {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+}
+.doc__container-feature {
+  margin: 0;
+  margin-bottom: 2rem;
+}
+.img-cont2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media screen and (max-width: 1100px) {
   /* Customizing feature component as per needs */
+  .doc__container-feature {
+    flex-direction: column;
+  }
   .doc__container-feature {
     flex-direction: column;
   }

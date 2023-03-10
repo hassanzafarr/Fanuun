@@ -17,6 +17,7 @@ import marriage from "../../../assets/s-marriage.svg";
 import divorce from "../../../assets/s-divorce.svg";
 import driver from "../../../assets/s-driver.svg";
 import civil from "../../../assets/s-civl.svg";
+import CTA from "./../../../components/cta/CTA";
 
 const Screening = () => {
   return (
@@ -42,7 +43,7 @@ const Screening = () => {
       >
         <div className="screen__section-logo-container">
           <div className="screen-container-a">
-            <div className="img-cont">
+            <div className="screen-img-cont">
               <img src={vehicle} alt="prof" />
             </div>
             <p>
@@ -51,7 +52,7 @@ const Screening = () => {
             </p>
           </div>
           <div className="screen-container-a">
-            <div className="img-cont">
+            <div className="screen-img-cont">
               <img src={address} alt="prof" />
             </div>
             <p>
@@ -60,13 +61,13 @@ const Screening = () => {
             </p>
           </div>
           <div className="screen-container-a">
-            <div className="img-cont">
+            <div className="screen-img-cont">
               <img src={ref} alt="prof" />
             </div>
             <p>Meet the language requirements.</p>
           </div>
           <div className="screen-container-a">
-            <div className="img-cont">
+            <div className="screen-img-cont">
               <img src={vendor} alt="prof" />
             </div>
             <p>
@@ -74,7 +75,7 @@ const Screening = () => {
             </p>
           </div>
           <div className="screen-container-a">
-            <div className="img-cont">
+            <div className="screen-img-cont">
               <img src={verfica} alt="prof" />
             </div>
             <p>
@@ -82,7 +83,7 @@ const Screening = () => {
             </p>
           </div>
           <div className="screen-container-a">
-            <div className="img-cont">
+            <div className="screen-img-cont">
               <img src={police} alt="prof" />
             </div>
             <p>
@@ -90,7 +91,7 @@ const Screening = () => {
             </p>
           </div>
           <div className="screen-container-a">
-            <div className="img-cont">
+            <div className="screen-img-cont">
               <img src={news} alt="prof" />
             </div>
             <p>
@@ -98,7 +99,7 @@ const Screening = () => {
             </p>
           </div>
           <div className="screen-container-a">
-            <div className="img-cont">
+            <div className="screen-img-cont">
               <img src={sid} alt="prof" />
             </div>
             <p>
@@ -106,7 +107,7 @@ const Screening = () => {
             </p>
           </div>
           <div className="screen-container-a">
-            <div className="img-cont">
+            <div className="screen-img-cont">
               <img src={marriage} alt="prof" />
             </div>
             <p>
@@ -114,23 +115,23 @@ const Screening = () => {
             </p>
           </div>
           <div className="screen-container-a">
-            <div className="img-cont">
+            <div className="screen-img-cont">
               <img src={divorce} alt="prof" />
             </div>
             <p>
               Bring along enough money to settle yourself and your dependents.
             </p>
           </div>
-          <div className="screen-container-a">
-            <div className="img-cont">
+          <div className="screen-container-a item11">
+            <div className="screen-img-cont">
               <img src={driver} alt="prof" />
             </div>
             <p>
               Bring along enough money to settle yourself and your dependents.
             </p>
           </div>
-          <div className="screen-container-a">
-            <div className="img-cont">
+          <div className="screen-container-a item12">
+            <div className="screen-img-cont">
               <img src={civil} alt="prof" />
             </div>
             <p>
@@ -139,6 +140,7 @@ const Screening = () => {
           </div>
         </div>
       </div>
+      <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />
       <Footer />
     </div>
   );

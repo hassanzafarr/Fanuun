@@ -79,7 +79,7 @@ const Services = () => (
     <Reloc />
     {/* <Itinerary /> */}
     <Stream />
-    <CTA />
+    <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />
 
     {/* <Brand /> */}
     <Footer />
