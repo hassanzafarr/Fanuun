@@ -6,7 +6,9 @@ import Contfan from "../../../components/contact-fannuun/contfan";
 import Banner from "./../../../components/banner/Banner";
 import document from "../../../assets/document.png";
 import docimg from "../../../assets/docimg.svg";
+import edugirl from "../../../assets/edugirl.svg";
 import { Info } from "./../../../components/info/Info";
+import CTA from "./../../../components/cta/CTA";
 const Document = () => {
   const data = [
     "Birth Certificate (NADRA)",
@@ -57,8 +59,23 @@ institutions, such as:"
             <img src={docimg} alt="document" />
           </div>
         </div>
-      </div>
 
+        <div className="doc__container-feature section__padding">
+          <div className="info__cont">
+            <Info
+              title="FANUUN facilitates its cattesttomers with document
+attestation services from varioattest ministries and state
+institutions, such as:"
+              text={data2}
+              isList={true}
+            />
+          </div>
+          <div className="img-cont2">
+            <img src={edugirl} alt="document" />
+          </div>
+        </div>
+      </div>
+      <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />
       <Footer />
     </div>
   );

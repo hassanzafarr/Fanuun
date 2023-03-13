@@ -40,7 +40,7 @@
   margin-top: 1rem;
 }
 .screen-img-cont {
-  padding: 4rem;
+  padding: 2rem;
   justify-content: baseline;
   background: rgb(209, 208, 224);
   background: linear-gradient(
@@ -52,8 +52,8 @@
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .screen-img-cont img {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
 }
 .screen__section-help {
   text-align: center;
