@@ -5,7 +5,8 @@ import "./services.css";
 import shape1 from "../../assets/man.png";
 import meet from "../../assets/Group 44.png";
 import meet2 from "../../assets/Group 45.png";
-
+import inter from "../../assets/inadivisor.svg";
+import inreg from "../../assets/inreg.svg";
 // import Expect from "./Expect.jsx";
 // import Stream from "./Stream";
 import Fade from "react-reveal/Fade";
@@ -38,45 +39,114 @@ const Services = () => (
         </div>
       </div>
 
-      <div className="services__secondContainer" id="possibility">
-        <div className="services__second-left-text">
-          <Fade bottom>
-            <h1>Providing Assistance along the process</h1>
+      <div className="ser__section-help   ">
+        <Fade bottom>
+          <div className="ser__section-logo-container">
+            <div className="ser-container-a">
+              <div className="ser-sub-cont">
+                <h1>Advisory Services</h1>
+
+                <div className="ser-img-cont">
+                  <img src={inter} alt="prof" />
+                </div>
+                <p>
+                  We provide in-depth guidance on matters such as local
+                  regulations, incorporation procedures, regulatory approvals,
+                  etc. Our team shall provide you with holistic guidance, and
+                  offer solutions that are based according to the regulations
+                  and requirements of the country.
+                </p>
+              </div>
+            </div>
+            <div className="ser-container-a">
+              <div className="ser-sub-cont">
+                <h1>Advisory Services</h1>
+
+                <div className="ser-img-cont">
+                  <img src={inreg} alt="prof" />
+                </div>
+                <p>
+                  FANNUN will help you in registering with all relevant
+                  government bodies (Tax Authority, Capital Market Authority,
+                  etc.) during your incorporation process. Our swift services
+                  will ensure your registration and license procurement
+                  procedure is carried out timely.
+                </p>
+              </div>
+            </div>
+          </div>
+        </Fade>
+      </div>
+
+      <Reloc />
+      <div className="services__possibility " id="possibility">
+        <div className="services__possibility-content">
+          <Fade left>
+            <h1 className="gradient__text">
+              UK Serving Immigrants with Pride and Efficiency
+            </h1>
             <p>
-              To improve your chances of obtaining an immigrant visa and
-              alleviate any anxiety you may have about the migration process,
-              FANUUN is here to lend a helping hand.
+              With highly educated immigration advisors and staff, we offer
+              specialized services and expert advising that make us stand out.
             </p>
-          </Fade>
-        </div>
-        <div className="services__second-right-image">
-          <Fade bottom>
-            <img src={meet} alt="man" />
+            <p>
+              With highly educated immigration advisors and staff, we offer
+              specialized services and expert advising that make us stand out.
+            </p>
+            <p>
+              With highly educated immigration advisors and staff, we offer
+              specialized services and expert advising that make us stand out.
+            </p>
+            <button type="button">View More</button>
           </Fade>
         </div>
       </div>
 
-      <div className="services__thirdContainer" id="possibility">
-        <div className="services__third-left-image">
-          <Fade bottom>
-            <img src={meet2} alt="man" />
+      <div className="services__possibility " id="possibility">
+        <div className="services__possibility-content">
+          <Fade left>
+            <h1 className="gradient__text">
+              UK Serving Immigrants with Pride and Efficiency
+            </h1>
+            <p>
+              With highly educated immigration advisors and staff, we offer
+              specialized services and expert advising that make us stand out.
+            </p>
+            <p>
+              With highly educated immigration advisors and staff, we offer
+              specialized services and expert advising that make us stand out.
+            </p>
+            <p>
+              With highly educated immigration advisors and staff, we offer
+              specialized services and expert advising that make us stand out.
+            </p>
           </Fade>
         </div>
-        <div className="services__third-right-text">
-          <Fade right>
-            <h1>Visa Acquisition Process</h1>
+      </div>
+
+      <div className="services__possibility " id="possibility">
+        <div className="services__possibility-content">
+          <Fade left>
+            <h1 className="gradient__text">
+              UK Serving Immigrants with Pride and Efficiency
+            </h1>
+
             <p>
-              The FANUUN team offers immigration options that may lead to one of
-              the best countries to live permanently, along with through
-              assistance and expert advice for all facets of the move, from
-              developing a customized Case Map and gathering all supporting
-              evidence to submitting an application.
+              With highly educated immigration advisors and staff, we offer
+              specialized services and expert advising that make us stand out.
+            </p>
+            <p>
+              With highly educated immigration advisors and staff, we offer
+              specialized services and expert advising that make us stand out.
+            </p>
+            <p>
+              With highly educated immigration advisors and staff, we offer
+              specialized services and expert advising that make us stand out.
             </p>
           </Fade>
         </div>
       </div>
     </div>
-    <Reloc />
     {/* <Itinerary /> */}
     <Stream />
     <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />

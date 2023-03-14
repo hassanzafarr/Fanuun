@@ -20,7 +20,7 @@
   line-height: 75px;
   letter-spacing: -0.04em;
   text-align: center;
-  z-index: 2;
+  /* z-index: 1; */
 }
 
 .future {
@@ -35,7 +35,7 @@
   color: var(--color-text);
   text-align: center;
   margin-top: 1.5rem;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .immi__header-content__input {
@@ -45,7 +45,7 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .immi__header-content__input button {
@@ -63,7 +63,7 @@
   cursor: pointer;
   outline: none;
   border-radius: 20px;
-  z-index: 2;
+  /* z-index: 2; */
 }
 #video {
   position: absolute;

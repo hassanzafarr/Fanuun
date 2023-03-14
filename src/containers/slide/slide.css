@@ -1,12 +1,18 @@
-.slider-container {
-  background-color: rgb(69, 132, 132);
+.immi__possibility {
   display: flex;
-  margin: 2rem 4rem;
+  flex-direction: row;
+  margin-bottom: 5rem;
 }
-.caro-container {
+.immi__possibility-content {
+  flex: 1;
   display: flex;
-  width: 100%;
-  margin: 2rem 4rem;
-  padding: 2rem 4rem;
-  border: 1px solid red;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+.box {
+  color: blueviolet;
+  height: 100px;
+  background-color: aquamarine;
 }

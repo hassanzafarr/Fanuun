@@ -37,6 +37,7 @@ const Navbar = () => {
                     <Link to="/us">US</Link>
                     <Link to="/uk">UK</Link>
                     <Link to="/canada">Canada</Link>
+                    <Link to="/solutions">Immigration se</Link>
                   </div>
                 </Link>
                 <Link className="ser2">
