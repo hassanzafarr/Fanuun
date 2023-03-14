@@ -137,24 +137,3 @@ const Translation = () => {
   );
 };
 export default Translation;
-
-//         <div className="info__container">
-//           <div className="info__container-feature">
-//             {/* Section One */}
-//             <Info
-//               title="Our translation services are carried out by internationally certified/accredited translators.
-// All translated documents are scrutinized and undergo quality checks, and any document that
-// hasn’t been translated by an accredited translator is not accepted."
-//               text="The documents we translate for immigration to Canada, the US, or the UK include:"
-//               isList={false}
-//             />
-//             {/* Section Two */}
-//             <Info title="Personal" text={data2} isList={true} />
-//             {/* Section Three */}
-//             <Info title="Educational" text={data3} isList={true} />
-//             {/* Section Four */}
-//             <Info title="Professional" text={data4} isList={true} />
-//             {/* Section Five */}
-//             <Info title="Misc" text={data5} isList={true} />
-//           </div>
-//         </div>

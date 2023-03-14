@@ -1,0 +1,12 @@
+.slider-container {
+  background-color: rgb(69, 132, 132);
+  display: flex;
+  margin: 2rem 4rem;
+}
+.caro-container {
+  display: flex;
+  width: 100%;
+  margin: 2rem 4rem;
+  padding: 2rem 4rem;
+  border: 1px solid red;
+}

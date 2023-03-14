@@ -8,6 +8,7 @@ import {
   // WhyFanuun,
   Process,
   Opp,
+  Slide,
 } from "../../containers";
 
 import { Navbar, Brand, CTA } from "../../components";
@@ -22,6 +23,7 @@ const Home = () => (
     <Blog />
     <Provide />
     {/* <WhyFanuun /> */}
+    <Slide />
     <Opp />
     <CTA htag="Are You Interested in " red="Immigration?" />
     <Brand />

@@ -8,6 +8,7 @@ import USvisa from "./pages/US/US";
 import UKvisa from "./pages/UK/UK";
 import Contact from "./pages/Contact/Contact";
 import Canada from "./pages/Canada/Canada";
+import Formation from "./pages/Formation/Formation"
 // import Attest from "./pages/Services-subpage/Attestation/Attest";
 // import Document from "./pages/Services-subpage/Document-Page/Document";
 
@@ -34,12 +35,13 @@ function App() {
         <Route path="/uk" element={<UKvisa />} />
         <Route path="/us" element={<USvisa />} />
         <Route path="/canada" element={<Canada />} />
-
+        <Route path="/formation" element={<Formation />} />
         <Route path="/attest" element={<Attest />} />
         <Route path="/document" element={<Document />} />
         <Route path="/sealed" element={<Sealed />} />
         <Route path="/screening" element={<Screening />} />
         <Route path="/translation" element={<Translation />} />
+
 
         <Route path="/test" element={<Test />} />
       </Routes>

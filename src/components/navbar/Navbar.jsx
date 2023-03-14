@@ -49,19 +49,11 @@ const Navbar = () => {
                     <Link to="/translation">Translation Services </Link>
                   </div>
                 </Link>
+                <Link to="/formation">Company Formation Services</Link>
               </div>
             </div>
           </p>
-          {/* <p>
-            <div class="dropdown">
-              Immigration <BiChevronDown />
-              <div class="dropdown-content">
-                <Link to="/us">US</Link>
-                <Link to="/uk">UK</Link>
-                <Link to="/canada">Canada</Link>
-              </div>
-            </div>
-          </p> */}
+
           <p>
             <Link to="/career">Career</Link>
           </p>
@@ -102,7 +94,14 @@ const Navbar = () => {
                 <div class="dropdown">
                   Services <BiChevronDown />
                   <div class="dropdown-content">
-                    <Link to="/solutions">Immigration Services </Link>
+                    <Link className="ser2">
+                      Immigration Services <BiChevronDown />
+                      <div className="dropdown-submenu">
+                        <Link to="/us">US</Link>
+                        <Link to="/uk">UK</Link>
+                        <Link to="/canada">Canada</Link>
+                      </div>
+                    </Link>
                     <Link className="ser2">
                       Value added Services <BiChevronDown />
                       <div className="dropdown-submenu">
@@ -113,22 +112,15 @@ const Navbar = () => {
                         <Link to="/translation">Translation Services </Link>
                       </div>
                     </Link>
+                    <Link to="/formation">Company Formation Services</Link>
                   </div>
                 </div>
-                {/* <Link to="/solutions">Services</Link> */}
               </p>
+
               <p>
                 <Link to="/career">Career</Link>
               </p>
-              <p>
-                <Link to="/uk">UK Visa</Link>
-              </p>
-              <p>
-                <Link to="/us">US Visa</Link>
-              </p>
-              <p>
-                <Link to="/canada">Canada</Link>
-              </p>
+
               <p>
                 <Link to="/contact">Contact</Link>
               </p>

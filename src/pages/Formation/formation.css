@@ -1,0 +1,220 @@
+.form__possibilitytop {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5rem;
+  background-color: #f9f9f9f9;
+  border-radius: 20px;
+}
+.form__left-text {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+.form__left-text h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  margin: 1rem 0;
+}
+.form__right-text {
+  background-color: #312b73;
+  border-top-left-radius: 80px 80px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* max-width: 50rem; */
+  min-height: 300px;
+  padding: 4rem;
+}
+.form-content p {
+  color: var(--color-text);
+  font-family: var(--font-family2);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+.form-content h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  margin: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+/* section4 */
+.form-img-cont {
+  /* padding: 4rem;
+  justify-content: baseline; */
+}
+.sub-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form__section-logo-container {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  align-items: baseline;
+}
+.form__section-help {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.form-container-a {
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid red;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.form-container-a p {
+  color: black;
+  font-family: var(--font-family2);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  margin-top: 1rem;
+}
+.form-container-a h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 45px;
+  margin: 1rem 6px;
+  color: #312b73;
+}
+/* fcontact us section  */
+.fcontact__possibilitytop {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+  border-radius: 20px;
+}
+.fcontact__left-text {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  padding-left: 2rem;
+}
+.fcontact__left-text h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+
+  font-size: 36px;
+  line-height: 45px;
+  margin: 1rem 0;
+  color: var(--color-head);
+}
+.fcontact__right-text {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.fcontact__right-text p {
+  color: rgb(0, 0, 0);
+  font-family: var(--font-family2);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.fcontact__right-text button {
+  background: #060056;
+  border-radius: 10px;
+  color: white;
+  font-style: normal;
+  margin-top: 1rem;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem 3rem;
+  border: none;
+  outline: none;
+  font-family: var(--font-family2);
+  cursor: pointer;
+  min-width: 150px;
+}
+.form__input-fcontact {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-size: 1rem;
+
+  padding: 1.5rem 1rem;
+  padding-right: 15rem;
+  border-radius: 10px;
+  background-color: rgb(242, 238, 238);
+  border: none;
+  display: block;
+  margin-top: 2rem;
+  transition: all 0.3s;
+}
+input {
+  width: 100%;
+}
+.fcontact__section-form textarea {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1400px) {
+  .form__possibilitytop {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .form__section-logo-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .fcontact__right-text {
+    justify-content: center;
+  }
+  .fcontact__right-text {
+    flex-direction: column;
+  }
+  .fcontact__left-text {
+    margin: 2rem;
+  }
+  .fcontact__left-text h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .form__left-text h1 {
+    font-size: 30px;
+  }
+  .form-container-a h1 {
+    font-size: 30px;
+  }
+  .form-content p {
+    font-size: 16px;
+  }
+  .form-content h1 {
+    font-size: 18px;
+  }
+  .form__section-logo-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
