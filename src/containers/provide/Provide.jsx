@@ -7,13 +7,16 @@ import image from "../../assets/lowlogo.svg";
 // import shape2 from "../../assets/shape2.png";
 // import shape3 from "../../assets/shape3.png";
 // import shape4 from "../../assets/shape4.png";
-import high from "../../lotties/120404-business-target-achievement.json";
+
 import survey from "../../lotties/41070-notepad-with-a-list-of-tick-boxes-and-5-star-feedback.json";
 import app from "../../lotties/nodata.json";
 import dataa from "../../lotties/95561-data-analyst.json";
+
 import Lottie from "react-lottie";
+import high from "../../lotties/120404-business-target-achievement.json";
+
 const Provide = () => {
-  const highop = {
+  const lottiegif = {
     loop: true,
     autoplay: true,
     animationData: high,
@@ -76,7 +79,7 @@ const Provide = () => {
         <div className="fanuun__provide-image">
           <Fade right>
             <Lottie
-              options={highop}
+              options={lottiegif}
               height={350}
               isClickToPauseDisabled={true}
             />

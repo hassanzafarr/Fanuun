@@ -14,6 +14,7 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [phone, setPhone] = useState("");
   const MySwal = withReactContent(Swal);
   const captchaRef = useRef(null);
 
@@ -21,6 +22,7 @@ const Contact = () => {
     setName("");
     setEmail("");
     setMessage("");
+    setPhone("");
   }
   function onChange(value) {
     console.log("Captcha value:", value);
@@ -34,6 +36,7 @@ const Contact = () => {
       var data = JSON.stringify({
         name: name,
         email: email,
+        phone: phone,
         message: message,
       });
       var config = {
@@ -127,6 +130,14 @@ const Contact = () => {
                   id="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                ></input>
+                <input
+                  type="text"
+                  class="form__input-contact"
+                  placeholder="Mobile No"
+                  id="phone"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
                 ></input>
                 <textarea
                   type="text"

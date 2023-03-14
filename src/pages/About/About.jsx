@@ -79,7 +79,7 @@ const About = () => (
       <div className="about__possibilitytwo " id="possibility">
         <div className="about__possibility-content">
           <Fade bottom>
-            <h1>Why Fanuun</h1>
+            <h1>Why FANUUN</h1>
             <p>
               We are here for you every step of the journey, and our decades of
               experience will guarantee that you receive the best advice

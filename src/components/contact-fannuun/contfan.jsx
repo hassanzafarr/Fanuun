@@ -5,7 +5,7 @@ export default function Contfan() {
     <div className="cont__features-container__feature">
       <div />
       <div className="cont__features-container__feature-title">
-        <h1>Contact Fanuun today!</h1>
+        <h1>Contact FANUUN today!</h1>
       </div>
       <div className="cont__features-container_feature-text">
         <p>Phone: 0016478734235</p>

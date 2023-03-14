@@ -10,13 +10,15 @@ function Opp() {
   return (
     <div className="fanuun__main-container section__padding">
       <div className="fanuun__blog-heading ">
-        <h1>Immigration Opportunities</h1>
+        <Fade bottom>
+          <h1>Immigration Opportunities</h1>
+        </Fade>
       </div>
       <Fade bottom>
         <div className="opp__container section__padding">
           <div className="card__container">
             <div className="card__img-container">
-              <img src={canada} />
+              <img src={canada} alt="canada" />
             </div>
             <div className="card__content-container">
               <h1>Canada</h1>
@@ -31,7 +33,7 @@ function Opp() {
 
           <div className="card__container">
             <div className="card__img-container">
-              <img src={us} />
+              <img src={us} alt="us" />
             </div>
             <div className="card__content-container">
               <h1>US</h1>
@@ -46,7 +48,7 @@ function Opp() {
 
           <div className="card__container">
             <div className="card__img-container">
-              <img src={uk} />
+              <img src={uk} alt="uk" />
             </div>
             <div className="card__content-container">
               <h1>UK</h1>

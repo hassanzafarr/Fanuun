@@ -1,7 +1,7 @@
-import facebook from "../../assets/facebook.png";
-import instagram from "../../assets/insta.png";
-import linkedin from "../../assets/link.png";
-import twitter from "../../assets/twitter.png";
-import whatsapp from "../../assets/whatsapp.png";
+import facebook from "../../assets/ffacebook.svg";
+import instagram from "../../assets/instagram.svg";
+import linkedin from "../../assets/link.svg";
+import twitter from "../../assets/telegram.svg";
+import footerback from "../../assets/build.svg";
 
-export { facebook, instagram, linkedin, twitter, whatsapp };
+export { facebook, instagram, linkedin, twitter, footerback };

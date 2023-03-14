@@ -52,40 +52,43 @@ const Canada = () => (
             backgroundSize: "cover",
           }}
         >
-          <div className="canada__section-logo-container">
-            <div className="canada-container-a">
-              <div className="img-cont">
-                <img src={biz} alt="prof" />
+          <Fade bottom>
+            <div className="canada__section-logo-container">
+              <div className="canada-container-a">
+                <div className="img-cont">
+                  <img src={biz} alt="prof" />
+                </div>
+                <p>
+                  Have a business that qualifies specified criteria by the
+                  Canadian government.
+                </p>
               </div>
-              <p>
-                Have a business that qualifies specified criteria by the
-                Canadian government.
-              </p>
-            </div>
-            <div className="canada-container-a">
-              <div className="img-cont">
-                <img src={min} alt="prof" />
+              <div className="canada-container-a">
+                <div className="img-cont">
+                  <img src={min} alt="prof" />
+                </div>
+                <p>
+                  Secure a minimum level of investment from a designated venture
+                  capital fund, angel investor group, or business incubator.
+                </p>
               </div>
-              <p>
-                Secure a minimum level of investment from a designated venture
-                capital fund, angel investor group, or business incubator.
-              </p>
-            </div>
-            <div className="canada-container-a">
-              <div className="img-cont">
-                <img src={lang} alt="prof" />
+              <div className="canada-container-a">
+                <div className="img-cont">
+                  <img src={lang} alt="prof" />
+                </div>
+                <p>Meet the language requirements.</p>
               </div>
-              <p>Meet the language requirements.</p>
-            </div>
-            <div className="canada-container-a">
-              <div className="img-cont">
-                <img src={money} alt="prof" />
+              <div className="canada-container-a">
+                <div className="img-cont">
+                  <img src={money} alt="prof" />
+                </div>
+                <p>
+                  Bring along enough money to settle yourself and your
+                  dependents.
+                </p>
               </div>
-              <p>
-                Bring along enough money to settle yourself and your dependents.
-              </p>
             </div>
-          </div>
+          </Fade>
         </div>
 
         <div className="canada-container section__padding ">

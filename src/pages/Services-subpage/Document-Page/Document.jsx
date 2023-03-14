@@ -9,6 +9,7 @@ import docimg from "../../../assets/docimg.svg";
 import edugirl from "../../../assets/edugirl.svg";
 import { Info } from "./../../../components/info/Info";
 import CTA from "./../../../components/cta/CTA";
+import Fade from "react-reveal/Fade";
 const Document = () => {
   const data = [
     "Birth Certificate (NADRA)",
@@ -35,44 +36,54 @@ const Document = () => {
         <div className="banner-container section__padding">
           <Banner text="Document Services" img={document} />
         </div>
-        <div className="screen__section-ability-content section__padding">
-          <h1 style={{ color: "#060056" }}>
-            FANUUN provides fast and reliable attestation services to its
-            clients from numeroattest agencies/institutions as per the
-            requirements of the Canadian, attest, and British Embassies.
-          </h1>
-          <p>
-            The following documents are covered in the attestation services:
-          </p>
-        </div>
+        <Fade bottom>
+          <div className="screen__section-ability-content section__padding">
+            <h1 style={{ color: "#060056" }}>
+              FANUUN provides fast and reliable attestation services to its
+              clients from numeroattest agencies/institutions as per the
+              requirements of the Canadian, attest, and British Embassies.
+            </h1>
+            <p>
+              The following documents are covered in the attestation services:
+            </p>
+          </div>
+        </Fade>
         <div className="doc__container-feature section__padding">
-          <div className="info__cont">
-            <Info
-              title="FANUUN facilitates its cattesttomers with document
+          <Fade left>
+            <div className="info__cont">
+              <Info
+                title="FANUUN facilitates its cattesttomers with document
 attestation services from varioattest ministries and state
 institutions, such as:"
-              text={data}
-              isList={true}
-            />
-          </div>
-          <div className="img-cont2">
-            <img src={docimg} alt="document" />
-          </div>
+                text={data}
+                isList={true}
+              />
+            </div>
+          </Fade>
+          <Fade right>
+            <div className="img-cont2">
+              <img src={docimg} alt="document" />
+            </div>
+          </Fade>
         </div>
 
         <div className="doc__container-feature section__padding">
-          <div className="info__cont">
-            <Info
-              title="FANUUN facilitates its cattesttomers with document
+          <Fade left>
+            <div className="info__cont">
+              <Info
+                title="FANUUN facilitates its cattesttomers with document
 attestation services from varioattest ministries and state
 institutions, such as:"
-              text={data2}
-              isList={true}
-            />
-          </div>
-          <div className="img-cont2">
-            <img src={edugirl} alt="document" />
-          </div>
+                text={data2}
+                isList={true}
+              />
+            </div>
+          </Fade>
+          <Fade right>
+            <div className="img-cont2">
+              <img src={edugirl} alt="document" />
+            </div>
+          </Fade>
         </div>
       </div>
       <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />

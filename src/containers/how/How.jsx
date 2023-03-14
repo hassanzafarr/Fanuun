@@ -22,7 +22,7 @@ const Blog = () => (
   >
     <div className="immi__blog-heading">
       <Fade left>
-        <h1 className="gradient__text">How Fanuun Works</h1>
+        <h1 className="gradient__text">How FANUUN Works</h1>
         <p>
           Our comprehensive visa consultation service can meet all of your
           immigration needs. We'll guide you through the entire moving process

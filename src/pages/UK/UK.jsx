@@ -39,7 +39,7 @@ const UK = () => (
 
       <div className="uk__section-ability  ">
         <div className="uk__section-ability-content section__padding">
-          <Fade top>
+          <Fade left>
             <h1 style={{ color: "#060056" }}>
               Eligibility for uk Start-Up Visa
             </h1>
@@ -47,6 +47,7 @@ const UK = () => (
           </Fade>
         </div>
       </div>
+
       <div
         className="uk__section-help section__padding "
         style={{
@@ -55,44 +56,47 @@ const UK = () => (
           backgroundSize: "cover",
         }}
       >
-        <div className="uk__section-logo-container">
-          <div className="uk-container-a">
-            <div className="uk-img-cont">
-              <img src={freedom} alt="prof" />
+        {" "}
+        <Fade bottom>
+          <div className="uk__section-logo-container">
+            <div className="uk-container-a">
+              <div className="uk-img-cont">
+                <img src={freedom} alt="prof" />
+              </div>
+              <p>Freedom to switch jobs and grow your career</p>
             </div>
-            <p>Freedom to switch jobs and grow your career</p>
-          </div>
-          <div className="uk-container-a">
-            <div className="uk-img-cont">
-              <img src={global} alt="prof" />
+            <div className="uk-container-a">
+              <div className="uk-img-cont">
+                <img src={global} alt="prof" />
+              </div>
+              <p>Global travel for research purpose allowed</p>
             </div>
-            <p>Global travel for research purpose allowed</p>
-          </div>
-          <div className="uk-container-a">
-            <div className="uk-img-cont">
-              <img src={home} alt="prof" />
+            <div className="uk-container-a">
+              <div className="uk-img-cont">
+                <img src={home} alt="prof" />
+              </div>
+              <p>Make a home in the UK</p>
             </div>
-            <p>Make a home in the UK</p>
-          </div>
-          <div className="uk-container-a">
-            <div className="uk-img-cont">
-              <img src={fast} alt="prof" />
+            <div className="uk-container-a">
+              <div className="uk-img-cont">
+                <img src={fast} alt="prof" />
+              </div>
+              <p>Fast endorsement process</p>
             </div>
-            <p>Fast endorsement process</p>
-          </div>
-          <div className="uk-container-a">
-            <div className="uk-img-cont">
-              <img src={lower} alt="prof" />
+            <div className="uk-container-a">
+              <div className="uk-img-cont">
+                <img src={lower} alt="prof" />
+              </div>
+              <p>Lower visa fees</p>
             </div>
-            <p>Lower visa fees</p>
-          </div>
-          <div className="uk-container-a">
-            <div className="uk-img-cont">
-              <img src={flexible} alt="prof" />
+            <div className="uk-container-a">
+              <div className="uk-img-cont">
+                <img src={flexible} alt="prof" />
+              </div>
+              <p>Flexibility to choose visa length</p>
             </div>
-            <p>Flexibility to choose visa length</p>
           </div>
-        </div>
+        </Fade>
       </div>
       <CTA htag="Need Immigration & Visa consultation " red=" For UK" />
 
@@ -104,18 +108,22 @@ const UK = () => (
         </div>
         <div className="uk__section-help section__padding ">
           <div className="uk__section-logo-container-two">
-            <div className="uk-container-a">
-              <div className="uk-img-cont">
-                <img src={startup} alt="prof" />
+            <Fade bottom>
+              <div className="uk-container-a">
+                <div className="uk-img-cont">
+                  <img src={startup} alt="prof" />
+                </div>
+                <p>The Start-up Visa</p>
               </div>
-              <p>The Start-up Visa</p>
-            </div>
-            <div className="uk-container-a">
-              <div className="uk-img-cont">
-                <img src={innovate} alt="prof" />
+            </Fade>
+            <Fade bottom>
+              <div className="uk-container-a">
+                <div className="uk-img-cont">
+                  <img src={innovate} alt="prof" />
+                </div>
+                <p>The Innovator Visa</p>
               </div>
-              <p>The Innovator Visa</p>
-            </div>
+            </Fade>
           </div>
         </div>
       </div>
@@ -130,7 +138,7 @@ const UK = () => (
       >
         <div className="uk__section-introo-content ">
           <Fade bottom>
-            <h1 className="gradient__text">How Can Fanuun Help?</h1>
+            <h1 className="gradient__text">How Can FANUUN Help?</h1>
             <p>
               These visas are intended for experienced business people who have
               a genuine and credible business idea and wish to establish a new

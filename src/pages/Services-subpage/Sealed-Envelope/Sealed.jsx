@@ -10,6 +10,7 @@ import techboard from "../../../assets/techboard.svg";
 import hec from "../../../assets/hec.svg";
 import back from "../../../assets/backimage.svg";
 import CTA from "./../../../components/cta/CTA";
+import Fade from "react-reveal/Fade";
 
 const Sealed = () => {
   return (
@@ -19,16 +20,18 @@ const Sealed = () => {
         <div className="banner-container section__padding">
           <Banner text="Sealed Envelope Services" img={image} />
         </div>
-        <div className="screen__section-ability-content section__padding">
-          <h1 style={{ color: "#060056" }}>
-            FANUUN provides fast and reliable attestation services to its
-            clients from numeroattest agencies/institutions as per the
-            requirements of the Canadian, attest, and British Embassies.
-          </h1>
-          <p>
-            The following documents are covered in the attestation services:
-          </p>
-        </div>
+        <Fade left>
+          <div className="screen__section-ability-content section__padding">
+            <h1 style={{ color: "#060056" }}>
+              FANUUN provides fast and reliable attestation services to its
+              clients from numeroattest agencies/institutions as per the
+              requirements of the Canadian, attest, and British Embassies.
+            </h1>
+            <p>
+              The following documents are covered in the attestation services:
+            </p>
+          </div>
+        </Fade>
       </div>
       <div
         className="sealed__section-help section__padding "
@@ -38,34 +41,37 @@ const Sealed = () => {
           backgroundSize: "cover",
         }}
       >
-        <div className="sealed__section-logo-container">
-          <div className="sealed-container-a">
-            <div className="sel-img-cont">
-              <img src={hec} alt="prof" />
+        <Fade bottom>
+          <div className="sealed__section-logo-container">
+            <div className="sealed-container-a">
+              <div className="sel-img-cont">
+                <img src={hec} alt="prof" />
+              </div>
+              <p>HEC Attestation</p>
             </div>
-            <p>HEC Attestation</p>
-          </div>
-          <div className="sealed-container-a">
-            <div className="sel-img-cont">
-              <img src={attestsec} alt="prof" />
+            <div className="sealed-container-a">
+              <div className="sel-img-cont">
+                <img src={attestsec} alt="prof" />
+              </div>
+              <p>Attestation from Secondary (Matric) and Intermediate Boards</p>
             </div>
-            <p>Attestation from Secondary (Matric) and Intermediate Boards</p>
-          </div>
-          <div className="sealed-container-a">
-            <div className="sel-img-cont">
-              <img src={techboard} alt="prof" />
+            <div className="sealed-container-a">
+              <div className="sel-img-cont">
+                <img src={techboard} alt="prof" />
+              </div>
+              <p>Attestation from Technical Boards</p>
             </div>
-            <p>Attestation from Technical Boards</p>
-          </div>
-          <div className="sealed-container-a">
-            <div className="sel-img-cont">
-              <img src={veriuni} alt="prof" />
+            <div className="sealed-container-a">
+              <div className="sel-img-cont">
+                <img src={veriuni} alt="prof" />
+              </div>
+              <p>
+                Verification from University Sealed Envelope as needed for the
+                ECA
+              </p>
             </div>
-            <p>
-              Verification from University Sealed Envelope as needed for the ECA
-            </p>
           </div>
-        </div>
+        </Fade>
       </div>
       <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />
       <Footer />

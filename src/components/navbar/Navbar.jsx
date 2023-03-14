@@ -29,7 +29,16 @@ const Navbar = () => {
             <div class="dropdown">
               Services <BiChevronDown />
               <div class="dropdown-content">
-                <Link to="/solutions">Immigration Services </Link>
+                <Link className="ser2">
+                  Immigration Services
+                  <BiChevronDown />
+                  <div className="dropdown-submenu">
+                    {/* <Link to="/solutions">Immigration Services</Link> */}
+                    <Link to="/us">US</Link>
+                    <Link to="/uk">UK</Link>
+                    <Link to="/canada">Canada</Link>
+                  </div>
+                </Link>
                 <Link className="ser2">
                   Value added Services <BiChevronDown />
                   <div className="dropdown-submenu">
@@ -43,7 +52,7 @@ const Navbar = () => {
               </div>
             </div>
           </p>
-          <p>
+          {/* <p>
             <div class="dropdown">
               Immigration <BiChevronDown />
               <div class="dropdown-content">
@@ -52,7 +61,7 @@ const Navbar = () => {
                 <Link to="/canada">Canada</Link>
               </div>
             </div>
-          </p>
+          </p> */}
           <p>
             <Link to="/career">Career</Link>
           </p>

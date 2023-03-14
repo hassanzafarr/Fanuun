@@ -56,7 +56,7 @@ const US = () => (
               Interest Waiver is a procedure to bypass the cumbersome labor
               certification process which ordinarily is a prerequisite in
               obtaining permanent residence through the EB2 employment based
-              green card category. Fanuun experienced immigration attorneys will
+              green card category. FANUUN experienced immigration attorneys will
               prepare and file all the required documents for foreign
               professionals with advanced degrees, persons of exceptional
               ability, and a U.S. sponsor applying for Permanent Residence

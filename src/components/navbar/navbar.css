@@ -12,9 +12,7 @@
   justify-content: flex-start;
   align-items: center;
 }
-.immi__navbar-links_logo {
-  margin-right: 2rem;
-}
+
 .immi__navbar-links_logo img {
   width: 150.45px;
   height: 50.02px;

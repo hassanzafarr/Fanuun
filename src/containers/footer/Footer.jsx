@@ -1,10 +1,12 @@
 import React from "react";
-import image from "../../assets/Group28.png";
-import fanlogo from "../../assets/Group13.png";
+
+import fanlogo from "../../assets/Group14.png";
 import "./footer.css";
 import { Link } from "react-router-dom";
-import { facebook, instagram, linkedin, twitter, whatsapp } from "./import";
-
+import { facebook, instagram, linkedin, twitter, footerback } from "./import";
+import { WhatsAppWidget } from "react-whatsapp-widget";
+import "react-whatsapp-widget/dist/index.css";
+import { ReactComponent as CompanyIcon } from "../../assets/logowhite.svg";
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -17,7 +19,7 @@ const Footer = () => (
   <div
     className="immi__footer section__padding"
     style={{
-      backgroundImage: `url(${image})`,
+      backgroundImage: `url(${footerback})`,
       backgroundRepeat: "no-repeat",
       backgroundSize: "contain",
     }}
@@ -25,13 +27,13 @@ const Footer = () => (
     <div className="immi__footer-links">
       <div className="immi__footer-links_logo">
         <img src={fanlogo} />
-        <p>
-          Facilitating the adaptation, integration, and pursuit of possibilities
-          of immigrants.
-        </p>
+        <p>The Art Of Immigration</p>
       </div>
 
       <div className="immi__footer-links_div">
+        <b>
+          <p>Quick Links</p>
+        </b>
         <Link to="/">
           <p>Home</p>
         </Link>
@@ -46,6 +48,9 @@ const Footer = () => (
         </Link>
       </div>
       <div className="immi__footer-links_div">
+        <b>
+          <p>Quick Links</p>
+        </b>
         <Link to="/uk">
           <p>UK</p>
         </Link>
@@ -61,15 +66,17 @@ const Footer = () => (
       </div>
       <div className="immi__footer-links_div">
         <b>
-          <p>Get in touch</p>
+          <Link to="/contact">
+            <p>Contact Us</p>
+          </Link>
         </b>
-        <p>Karachi</p>
+        {/* <p>Karachi</p>
         <p>Dubai</p>
         <p>Vancouver</p>
         <b>
           <p>Email</p>
         </b>
-        <p>info@fanuun.com</p>
+        <p>info@fanuun.com</p> */}
         {/* <p>Whatsapp us</p> */}
         {/* <p>+1(647)873-4235</p> */}
       </div>
@@ -98,17 +105,18 @@ const Footer = () => (
             <img src={twitter} alt="twitter" />
           </a>
         </div>
-        <div>
-          <a
-            href="https://wa.me/16478734235"
-            class="whatsapp_float"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={whatsapp} alt="whatsapp" />
-          </a>
-        </div>
       </div>
+    </div>
+    <div className="immi__footer-copyright">
+      <p>© 2023 FANUUN Karachi – Dubai – Vancouver. All rights reserved.</p>
+    </div>
+    <div>
+      <WhatsAppWidget
+        phoneNumber="16478734235"
+        message="Hello! how can we help you"
+        CompanyIcon={CompanyIcon}
+        companyName="FANUUN"
+      />
     </div>
   </div>
 );
