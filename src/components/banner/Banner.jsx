@@ -14,7 +14,7 @@ const Banner = ({ text, img }) => (
         </div>
         <div className="banner__right-image">
           <Fade right>
-            <img src={img} />
+            <img src={img} alt="alt" />
           </Fade>
         </div>
       </div>

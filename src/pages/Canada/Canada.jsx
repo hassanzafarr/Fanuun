@@ -2,15 +2,15 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import "./canada.css";
 import shape5 from "../../assets/Group 49.png";
-import line from "../../assets/line.png";
-import { Brand, Navbar } from "../../components";
+
+import { Navbar } from "../../components";
 import { Footer } from "../../containers";
 import biz from "../../assets/Group 218.svg";
 import min from "../../assets/minimum.svg";
 import lang from "../../assets/language.svg";
 import money from "../../assets/money.svg";
 import back from "../../assets/backimage.svg";
-import right from "../../assets/rightwavy.svg";
+
 import { WhyFanuun } from "./../../containers";
 import { CTA } from "./../../components";
 
@@ -92,15 +92,7 @@ const Canada = () => (
         </div>
 
         <div className="canada-container section__padding ">
-          <div
-            className="canada__section-helpp "
-            style={{
-              backgroundImage: `url(${right}) `,
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "contain",
-              backgroundPosition: "right bottom",
-            }}
-          >
+          <div className="canada__section-helpp ">
             <div className="canada__section-introo-content">
               <Fade bottom>
                 <h1 className="gradient__text">How Can Fanuun Help?</h1>

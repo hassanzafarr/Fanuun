@@ -6,9 +6,7 @@
 .us__possibility-image {
   flex: 1;
   display: flex;
-  /* justify-content: flex-start;
-  align-items: flex-start; */
-  /* max-width: 35rem; */
+
   margin-right: 6rem;
 }
 .us__possibility-image img {
@@ -77,6 +75,13 @@
   padding: 2rem;
   border-radius: 10px;
   margin-bottom: 5rem;
+
+  background-position: bottom -150px left 0px;
+  background-image: url("../../assets/rightwavy.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  z-index: 2px;
 }
 
 .us__section-ability-content h1 {
@@ -100,11 +105,7 @@
 /* New work */
 .us__section-help {
   background: rgb(60, 54, 141);
-  /* background: linear-gradient(
-    299deg,
-    rgba(209, 208, 224, 1) 0%,
-    rgba(6, 0, 86, 1) 100%
-  ); */
+
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-top-right-radius: 80px 80px;
@@ -116,6 +117,13 @@
   color: white;
   display: flex;
   flex-direction: column;
+
+  background-position: bottom -130px left 0px;
+  background-image: url("../../assets/wavyy.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  z-index: 2px;
 }
 .container-a {
   width: 100%;
@@ -216,7 +224,7 @@
 }
 .us__right-image img {
   height: 100%;
-  max-width: 70%;
+  width: 100%;
 }
 
 @media screen and (max-width: 1350px) {
@@ -232,6 +240,7 @@
   }
   .us__left-text {
     margin: 2rem;
+    padding: 0rem;
   }
 }
 @media screen and (max-width: 1050px) {
@@ -258,6 +267,12 @@
   }
   .us__section-advance-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .us__section-help {
+    background-position: bottom -10px left 0px;
+  }
+  .us__section-ability {
+    background-position: bottom -10px left 0px;
   }
 }
 @media screen and (max-width: 700px) {

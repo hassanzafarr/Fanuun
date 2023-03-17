@@ -1,6 +1,5 @@
 import React from "react";
 import "./homeinfo.css";
-import wavy from "../../assets/wavy.png";
 
 export const HInfo = ({ title, text, isList }) => {
   return (
@@ -21,9 +20,6 @@ export const HInfo = ({ title, text, isList }) => {
           )}
         </div>
       </div>
-      {/* <div className="hinfo__logo-container">
-        <p>Hello</p>
-      </div> */}
     </div>
   );
 };

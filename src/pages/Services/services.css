@@ -32,6 +32,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.services__possibility-content img {
+  position: relative;
+  left: 0;
+  top: 100;
+}
 
 .services__possibility-content h1 {
   font-family: var(--font-family);
@@ -56,6 +61,16 @@
   width: 100%;
   height: 100%;
 }
+
+/* Flaggy */
+.service-main img {
+  height: 200px;
+}
+.service-main-left img {
+  height: 200px;
+  float: right;
+}
+
 /* 2 grid compo */
 
 .ser-sub-cont {

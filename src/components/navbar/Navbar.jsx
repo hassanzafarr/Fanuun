@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className="immi__navbar">
       <div className="immi__navbar-links">
         <div className="immi__navbar-links_logo">
-          <img src={logo} />
+          <img src={logo} alt="logo" />
         </div>
         <div className="immi__navbar-links_container">
           <p>
@@ -29,7 +29,7 @@ const Navbar = () => {
             <div class="dropdown">
               Services <BiChevronDown />
               <div class="dropdown-content">
-                <Link className="ser2">
+                <Link to="/solutions" className="ser2">
                   Immigration Services
                   <BiChevronDown />
                   <div className="dropdown-submenu">
@@ -37,7 +37,6 @@ const Navbar = () => {
                     <Link to="/us">US</Link>
                     <Link to="/uk">UK</Link>
                     <Link to="/canada">Canada</Link>
-                    <Link to="/solutions">Immigration se</Link>
                   </div>
                 </Link>
                 <Link className="ser2">

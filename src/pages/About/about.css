@@ -18,10 +18,12 @@
 .about__possibility-image {
   flex: 1 1;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  max-width: 30rem;
   margin-right: 2rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  max-width: 35rem;
+  padding: 3rem;
 }
 .about__possibility-image img {
   width: 100%;
@@ -46,9 +48,8 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  /* max-width: 50rem; */
 
-  padding: 4rem;
+  padding: 3rem;
 }
 .about__right-text p {
   color: white;
@@ -75,7 +76,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-right: 5rem;
 }
 .about__left-text h1 {
   font-family: var(--font-family);
@@ -137,6 +137,7 @@
   .about__possibility-image {
     margin: 1rem 0;
   }
+
   .about__possibility-content-heading {
     display: flex;
     flex-direction: column;
@@ -147,6 +148,8 @@
 
   .about__possibility-content {
     margin-top: 2rem;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 700px) {

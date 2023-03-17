@@ -2,13 +2,13 @@ import React from "react";
 import "./Translation.css";
 import { Navbar } from "../../../components";
 import { Footer } from "../../../containers";
-import Contfan from "../../../components/contact-fannuun/contfan";
+
 import Banner from "./../../../components/banner/Banner";
 import trans from "../../../assets/translation.png";
-import tmis from "../../../assets/t-misc.svg";
-import tprof from "../../../assets/t-professional.svg";
-import ted from "../../../assets/t-educational.svg";
-import tper from "../../../assets/t-personal.svg";
+// import tmis from "../../../assets/t-misc.svg";
+// import tprof from "../../../assets/t-professional.svg";
+// import ted from "../../../assets/t-educational.svg";
+// import tper from "../../../assets/t-personal.svg";
 import { Info } from "./../../../components/info/Info";
 import right from "../../../assets/rightwavy.svg";
 import CTA from "./../../../components/cta/CTA";

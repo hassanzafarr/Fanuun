@@ -1,3 +1,10 @@
+.text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .form__possibilitytop {
   display: flex;
   flex-direction: row;
@@ -106,8 +113,9 @@
 .fcontact__possibilitytop {
   display: flex;
   flex-direction: column;
-  margin-bottom: 5rem;
+
   border-radius: 20px;
+  background-color: #f9f9f9;
 }
 .fcontact__left-text {
   flex: 1;
@@ -165,11 +173,12 @@
   padding: 1.5rem 1rem;
   padding-right: 15rem;
   border-radius: 10px;
-  background-color: rgb(242, 238, 238);
+  background-color: rgb(255, 255, 255);
   border: none;
   display: block;
   margin-top: 2rem;
   transition: all 0.3s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 input {
   width: 100%;
@@ -177,13 +186,87 @@ input {
 .fcontact__section-form textarea {
   margin-bottom: 2rem;
 }
+/* Card Caintainer */
+.card__img-container-form {
+  position: absolute;
+  top: -65px;
+}
+.card__content-container-form h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  /* margin: 1rem 0; */
+  margin-top: 2rem;
+  color: var(--color-head);
+}
+.card__content-container-form p {
+  color: rgb(0, 0, 0);
+  font-family: var(--font-family2);
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 1rem;
+}
+.opp__containerr {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  width: 100%;
+  justify-content: center;
+}
+.card__containerr {
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+  max-width: 340px;
 
+  min-height: auto;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2.5rem;
+  background: #f9f9f9;
+  border-radius: 20px;
+  border: 1px solid #060056;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 1rem;
+}
+.card__containerr button {
+  background: #f9f9f9;
+  border-radius: 40px;
+  color: #060056;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem 1rem;
+  border-style: solid;
+  border-width: thin;
+  font-weight: 500;
+  font-family: var(--font-family2);
+  cursor: pointer;
+  min-width: 200px;
+  margin-top: 2rem;
+}
+/* multiimages */
+.form-screen-img-cont {
+  padding: 2rem;
+}
+.form-screen-img-cont img {
+  width: 100%;
+  height: 70px;
+}
 @media screen and (max-width: 1400px) {
   .form__possibilitytop {
     flex-direction: column;
   }
 }
-
+@media screen and (max-width: 1200px) {
+  .card__containerr {
+    margin-top: 5rem;
+    max-width: 300px;
+  }
+}
 @media screen and (max-width: 1100px) {
   .form__section-logo-container {
     grid-template-columns: repeat(1, 1fr);
@@ -197,8 +280,24 @@ input {
   .fcontact__left-text {
     margin: 2rem;
   }
+  .opp__containerr {
+    flex-direction: column;
+  }
+  .card__containerr {
+    margin-top: 5rem;
+    max-width: 100%;
+  }
   .fcontact__left-text h1 {
     font-size: 30px;
+  }
+  .opp__containerr {
+    flex-direction: column;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 700px) {

@@ -3,10 +3,6 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import "./provide.css";
 import image from "../../assets/lowlogo.svg";
-// import shape1 from "../../assets/shape1.png";
-// import shape2 from "../../assets/shape2.png";
-// import shape3 from "../../assets/shape3.png";
-// import shape4 from "../../assets/shape4.png";
 
 import survey from "../../lotties/41070-notepad-with-a-list-of-tick-boxes-and-5-star-feedback.json";
 import app from "../../lotties/nodata.json";

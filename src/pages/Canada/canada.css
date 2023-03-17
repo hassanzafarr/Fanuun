@@ -76,6 +76,13 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+
+  background-position: bottom -130px right 0px;
+  background-image: url("../../assets/rightwavy.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  z-index: 2px;
 }
 .canada__section-introo-content h1 {
   font-family: var(--font-family);
@@ -172,7 +179,10 @@
   .canada__possibility-image {
     margin: 1rem 0;
   }
-
+  .canada__section-helpp {
+    background-position: bottom -10px right 0px;
+    padding: 2rem 2rem;
+  }
   .canada__possibility-content {
     margin-top: 2rem;
   }

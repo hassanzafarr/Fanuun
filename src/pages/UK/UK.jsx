@@ -127,15 +127,7 @@ const UK = () => (
           </div>
         </div>
       </div>
-      <div
-        className="uk__section-helpp section__margin"
-        style={{
-          backgroundImage: `url(${right}) `,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "contain",
-          backgroundPosition: "right bottom",
-        }}
-      >
+      <div className="uk__section-helpp section__margin">
         <div className="uk__section-introo-content ">
           <Fade bottom>
             <h1 className="gradient__text">How Can FANUUN Help?</h1>

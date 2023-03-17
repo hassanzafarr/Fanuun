@@ -26,7 +26,7 @@ const Footer = () => (
   >
     <div className="immi__footer-links">
       <div className="immi__footer-links_logo">
-        <img src={fanlogo} />
+        <img src={fanlogo} alt="fanlogo" />
         <p>The Art Of Immigration</p>
       </div>
 
@@ -70,15 +70,6 @@ const Footer = () => (
             <p>Contact Us</p>
           </Link>
         </b>
-        {/* <p>Karachi</p>
-        <p>Dubai</p>
-        <p>Vancouver</p>
-        <b>
-          <p>Email</p>
-        </b>
-        <p>info@fanuun.com</p> */}
-        {/* <p>Whatsapp us</p> */}
-        {/* <p>+1(647)873-4235</p> */}
       </div>
     </div>
 

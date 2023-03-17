@@ -7,11 +7,6 @@
 .fanuun__possibility-content {
   flex: 1;
   display: flex;
-  margin-top: 1rem;
-  /* min-width: 43rem; */
-  margin-right: 2rem;
-  /* max-width: 50rem;
-  margin-right: 6rem; */
 }
 
 .fanuun__possibility-content h1 {

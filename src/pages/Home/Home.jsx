@@ -23,7 +23,7 @@ const Home = () => (
     <Blog />
     <Provide />
     {/* <WhyFanuun /> */}
-    <Slide />
+    {/* <Slide /> */}
     <Opp />
     <CTA htag="Are You Interested in " red="Immigration?" />
     <Brand />

@@ -6,7 +6,7 @@ import shape1 from "../../assets/about1.png";
 import shape2 from "../../assets/about2.png";
 import Expect from "./Expect.jsx";
 import Stream from "./Stream";
-import { Brand, CTA, Navbar } from "../../components";
+import { CTA, Navbar } from "../../components";
 import { Footer } from "../../containers";
 
 const About = () => (
@@ -17,7 +17,7 @@ const About = () => (
       //   style={{
       //     backgroundImage: `url(${image})`,
       //     backgroundRepeat: "no-repeat",
-      //     backgroundSize: "contain",
+      //     backgroundSize: "contain",s
       //   }}
     >
       <div className="about__possibilitytop " id="possibility">
@@ -110,7 +110,7 @@ const About = () => (
     </div>
     <Expect />
     <Stream />
-    <CTA />
+    <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />
     {/* <Brand /> */}
     <Footer />
   </div>

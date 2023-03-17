@@ -2,7 +2,6 @@ import React from "react";
 import image from "../../assets/banner-image.png";
 import "./header.css";
 import Fade from "react-reveal/Fade";
-import backgroudVideo from "../../assets/vidbanner.mp4";
 
 const Header = () => (
   <div className="immi__header " id="home">
@@ -11,11 +10,9 @@ const Header = () => (
       style={{
         backgroundImage: `url(${image})`,
         backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
+        backgroundSize: "cover",
       }}
     >
-      {/* <video id="video" src={backgroudVideo} autoPlay loop muted /> */}
-
       <Fade bottom>
         <h1 className="gradient__text section__padding">
           The <span className="future">art</span> of <br />

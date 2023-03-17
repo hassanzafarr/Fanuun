@@ -5,13 +5,13 @@ import { Footer } from "../../../containers";
 import attest from "../../../assets/attestation.png";
 import Banner from "./../../../components/banner/Banner";
 import { Info } from "./../../../components/info/Info";
-import back from "../../../assets/backimage.svg";
+
 import birth from "../../../assets/birth.svg";
 import marriage from "../../../assets/marriage.svg";
 import familyreg from "../../../assets/familyreg.svg";
 import death from "../../../assets/death.svg";
 import Fade from "react-reveal/Fade";
-import Contfan from "../../../components/contact-fannuun/contfan";
+
 import inter from "../../../assets/inter.svg";
 import qual from "../../../assets/qual.svg";
 import cred from "../../../assets/cred.svg";

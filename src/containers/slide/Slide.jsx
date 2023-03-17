@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from "@trendyol-js/react-carousel";
-// import { Item } from "./yourItem";
+
 import "./slide.css";
 import { GrNext, GrPrevious } from "react-icons/gr";
 

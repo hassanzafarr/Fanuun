@@ -14,6 +14,34 @@ import Swal from "sweetalert2";
 import CTA from "../../components/cta/CTA";
 import withReactContent from "sweetalert2-react-content";
 import ReCAPTCHA from "react-google-recaptcha";
+
+import line from "../../assets/line.png";
+// testing
+import invest from "../../assets/e-invest.png";
+
+import just from "../../assets/e-just.png";
+import comm from "../../assets/e-comm.png";
+import meras from "../../assets/e-meras.png";
+import sword from "../../assets/e-sword.png";
+import minister from "../../assets/e-minister.png";
+import org from "../../assets/e-org.png";
+import social from "../../assets/e-social.png";
+import saudi from "../../assets/e-saudi.png";
+import mun from "../../assets/e-mun.png";
+import bashir from "../../assets/e-bashir.png";
+import moi from "../../assets/e-moi.png";
+import auth from "../../assets/e-auth.png";
+import mod from "../../assets/e-mod.png";
+import test from "../../assets/e-test.png";
+//6 images circle
+import trans from "../../assets/in-trans.png";
+import acc from "../../assets/in-acc.png";
+import ent from "../../assets/in-ent.png";
+import human from "../../assets/in-human.png";
+import post from "../../assets/in-post.png";
+import pro from "../../assets/in-pro.png";
+import vision from "../../assets/vison.png";
+
 function Formation() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -124,6 +152,11 @@ function Formation() {
             </p>
           </Fade>
         </div>
+        <Fade right>
+          <div className="img-contt section__padding">
+            <img src={vision} alt="vision" />
+          </div>
+        </Fade>
       </div>
 
       <div className="form-content section__padding">
@@ -204,89 +237,284 @@ function Formation() {
           </div>
         </Fade>
       </div>
-      {/* Section fcontact */}
-      <div className="fcontact-container">
-        <div
-          className="fcontact__possibilitytop section__padding"
-          id="possibility"
-        >
-          <div className="fcontact__left-text">
-            <Fade left>
-              <h1>
-                Schedule a consultation with FANNUN today to learn more about
-                our services and how we can help you start your business in
-                Saudi Arabia!
-              </h1>
-            </Fade>
-          </div>
-          <div className="fcontact__right-text">
-            <Fade right>
-              <div class="fcontact__section-form">
-                <input
-                  type="text"
-                  class="form__input-fcontact"
-                  placeholder="First Name"
-                  id="name"
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                ></input>
-                <input
-                  type="text"
-                  class="form__input-fcontact"
-                  placeholder="Email"
-                  id="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                ></input>
 
-                <textarea
-                  type="text"
-                  class="form__input-fcontact"
-                  placeholder="Message"
-                  id="message"
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
-                ></textarea>
-              </div>
-              <div class="fcontact__section-form">
-                <input
-                  type="text"
-                  class="form__input-fcontact"
-                  placeholder="Last Name"
-                  id="name"
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                ></input>
-                <input
-                  type="text"
-                  class="form__input-fcontact"
-                  placeholder="Mobile No"
-                  id="phone"
-                  value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
-                ></input>
-                <input
-                  type="text"
-                  class="form__input-fcontact"
-                  placeholder="Services interested in"
-                  id="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                ></input>
-                <br />
-                <ReCAPTCHA
-                  sitekey={process.env.REACT_APP_SITE_KEY}
-                  onChange={onChange}
-                  ref={captchaRef}
-                />
-                <button type="button" onClick={onSubmit}>
-                  Submit
-                </button>
-              </div>
-            </Fade>
+      {/* Section Three Card */}
+
+      <Fade bottom>
+        <div className="opp__container section__padding">
+          <div className="card__containerr">
+            <div className="card__img-container-form">
+              <img src={trans} alt="canada" />
+            </div>
+            <div className="card__content-container-form">
+              <h1>Entity Setup</h1>
+              <p>
+                If you are planning to establish in Saudi Arabia, first of all
+                thank-god you are here, secondly, we shall take charge in
+                supporting you to get all the necessary licensing you require.
+              </p>
+            </div>
+          </div>
+
+          <div className="card__containerr">
+            <div className="card__img-container-form">
+              <img src={acc} alt="us" />
+            </div>
+            <div className="card__content-container-form">
+              <h1>PRO Services</h1>
+              <p>
+                ABSCO provides full business process outsourcing (BPO) to assist
+                with your business activities and functions. This includes
+                payroll, human resources, accounting, customer relations, IT,
+                and more.
+              </p>
+            </div>
+          </div>
+
+          <div className="card__containerr">
+            <div className="card__img-container-form">
+              <img src={ent} alt="uk" />
+            </div>
+            <div className="card__content-container-form">
+              <h1>Translations & Attestations</h1>
+              <p>
+                At ABSCO, we provide professional Arabic translation services
+                and can translate Arabic dialects into many other languages,
+                including English, German and French.
+              </p>
+            </div>
           </div>
         </div>
+      </Fade>
+      <Fade bottom>
+        <div className="opp__containerr section__padding">
+          <div className="card__containerr">
+            <div className="card__img-container-form">
+              <img src={human} alt="canada" />
+            </div>
+            <div className="card__content-container-form">
+              <h1>Post Incorporation</h1>
+              <p>
+                Laws and licensing change very quickly within the corporate
+                immigration realm. Our team ensure they remain up to date with
+                legislation knowledge so they can assist you better.
+              </p>
+            </div>
+          </div>
+
+          <div className="card__containerr">
+            <div className="card__img-container-form">
+              <img src={post} alt="us" />
+            </div>
+            <div className="card__content-container-form">
+              <h1>Accounting & Audit</h1>
+              <p>
+                Our experienced professionals can provide a range of financial
+                services to ensure your business accounts are fully compliant
+                with Saudi government regulations.
+              </p>
+            </div>
+          </div>
+
+          <div className="card__containerr">
+            <div className="card__img-container-form">
+              <img src={pro} alt="uk" />
+            </div>
+            <div className="card__content-container-form">
+              <h1>Human Resource Outsourcing</h1>
+              <p>
+                ABSCO also offers employee outsourcing solutions, no matter your
+                employment need, Long-term or short-term we are here to help.
+              </p>
+            </div>
+          </div>
+        </div>
+      </Fade>
+
+      {/* Pro services */}
+      <Fade left>
+        <div className="screen__section-ability-content section__padding">
+          <h1 style={{ color: "#060056", textAlign: "center" }}>
+            Our PRO Services Related Ministries
+          </h1>
+        </div>
+      </Fade>
+      <div
+        className="screen__section-help section__padding "
+        // style={{
+        //   backgroundImage: `url(${})`,
+        //   backgroundRepeat: "no-repeat",
+        //   backgroundSize: "cover",
+        // }}
+      >
+        <Fade up>
+          <div className="screen__section-logo-container">
+            <div className="screen-container-a">
+              <div className="form-screen-img-cont">
+                <img src={invest} alt="prof" />
+              </div>
+            </div>
+            <div className="screen-container-a">
+              <div className="form-screen-img-cont">
+                <img src={just} alt="prof" />
+              </div>
+            </div>
+            <div className="screen-container-a">
+              <div className="form-screen-img-cont">
+                <img src={comm} alt="prof" />
+              </div>
+            </div>
+            <div className="screen-container-a">
+              <div className="form-screen-img-cont">
+                <img src={meras} alt="prof" />
+              </div>
+            </div>
+            <div className="screen-container-a">
+              <div className="form-screen-img-cont">
+                <img src={sword} alt="prof" />
+              </div>
+            </div>
+            <div className="screen-container-a">
+              <div className="form-screen-img-cont">
+                <img src={minister} alt="prof" />
+              </div>
+            </div>
+            <div className="screen-container-a">
+              <div className="form-screen-img-cont">
+                <img src={org} alt="prof" />
+              </div>
+            </div>
+            <div className="screen-container-a">
+              <div className="form-screen-img-cont">
+                <img src={social} alt="prof" />
+              </div>
+            </div>
+            <div className="screen-container-a">
+              <div className="form-screen-img-cont">
+                <img src={saudi} alt="prof" />
+              </div>
+            </div>
+            <div className="screen-container-a">
+              <div className="form-screen-img-cont">
+                <img src={mun} alt="prof" />
+              </div>
+            </div>
+            <div className="screen-container-a item11">
+              <div className="form-screen-img-cont">
+                <img src={bashir} alt="prof" />
+              </div>
+            </div>
+            <div className="screen-container-a item12">
+              <div className="form-screen-img-cont">
+                <img src={moi} alt="prof" />
+              </div>
+            </div>
+            <div className="screen-container-a item12">
+              <div className="form-screen-img-cont">
+                <img src={auth} alt="prof" />
+              </div>
+            </div>
+            <div className="screen-container-a item12">
+              <div className="form-screen-img-cont">
+                <img src={mod} alt="prof" />
+              </div>
+            </div>
+            <div className="screen-container-a item12">
+              <div className="form-screen-img-cont">
+                <img src={test} alt="prof" />
+              </div>
+            </div>
+          </div>
+        </Fade>
       </div>
+      {/* Section fcontact */}
+
+      <div
+        className="fcontact__possibilitytop section__padding "
+        style={{
+          backgroundImage: `url(${line})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+        id="possibility"
+      >
+        <div className="fcontact__left-text">
+          <Fade left>
+            <h1 style={{ textAlign: "center", fontSize: "30px" }}>
+              Schedule a consultation with FANNUN today to learn more about our
+              services and how we can help you start your business in Saudi
+              Arabia!
+            </h1>
+          </Fade>
+        </div>
+        <div className="fcontact__right-text">
+          <Fade right>
+            <div class="fcontact__section-form">
+              <input
+                type="text"
+                class="form__input-fcontact"
+                placeholder="First Name"
+                id="name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              ></input>
+              <input
+                type="text"
+                class="form__input-fcontact"
+                placeholder="Email"
+                id="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              ></input>
+
+              <textarea
+                type="text"
+                class="form__input-fcontact"
+                placeholder="Message"
+                id="message"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+              ></textarea>
+            </div>
+            <div class="fcontact__section-form">
+              <input
+                type="text"
+                class="form__input-fcontact"
+                placeholder="Last Name"
+                id="name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              ></input>
+              <input
+                type="text"
+                class="form__input-fcontact"
+                placeholder="Mobile No"
+                id="phone"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+              ></input>
+              <input
+                type="text"
+                class="form__input-fcontact"
+                placeholder="Services interested in"
+                id="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              ></input>
+              <br />
+              <ReCAPTCHA
+                sitekey={process.env.REACT_APP_SITE_KEY}
+                onChange={onChange}
+                ref={captchaRef}
+              />
+              <button type="button" onClick={onSubmit}>
+                Submit
+              </button>
+            </div>
+          </Fade>
+        </div>
+      </div>
+
       <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />
       <Footer />
     </div>

@@ -120,12 +120,19 @@
   border: 20px;
   flex: 1;
   display: flex;
-  padding: 2rem 5rem;
+  padding: 2rem 4rem;
   margin-top: 2rem;
   color: white;
   display: flex;
   flex-direction: column;
   text-align: center;
+
+  background-position: bottom -130px right 0px;
+  background-image: url("../../assets/rightwavy.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  z-index: 2px;
 }
 .uk__section-introo-content {
   text-align: left;
@@ -187,6 +194,10 @@
 
   .uk__possibility-content {
     margin-top: 2rem;
+  }
+  .uk__section-helpp {
+    background-position: bottom -10px right 0px;
+    padding: 2rem 2rem;
   }
 }
 @media screen and (max-width: 700px) {

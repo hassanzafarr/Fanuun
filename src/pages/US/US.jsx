@@ -19,14 +19,7 @@ import right from "../../assets/rightwavy.svg";
 import bulb from "../../assets/Image 13.png";
 
 const US = () => (
-  <div
-    className="us__main-container "
-    style={{
-      backgroundImage: `url(${line})`,
-      backgroundRepeat: "no-repeat",
-      backgroundSize: "contain",
-    }}
-  >
+  <div className="us__main-container ">
     <Navbar />
     <div className="us__possiblity-main section__padding">
       <div className="us__possibility " id="possibility">
@@ -67,15 +60,7 @@ const US = () => (
         </div>
       </div>
 
-      <div
-        className="us__section-help"
-        style={{
-          backgroundImage: `url(${wavy}) `,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "contain",
-          // backgroundPositionY: "150px",
-        }}
-      >
+      <div className="us__section-help">
         <div className="us__section-intro-content">
           <Fade bottom>
             <h1 className="gradient__text">How can we help</h1>
@@ -87,33 +72,24 @@ const US = () => (
         </div>
         <div className="us__section-logo-container">
           <div className="container-a">
-            <img src={prof} />
+            <img src={prof} alt="prof" />
             <p>Professional</p>
           </div>
           <div className="container-a">
-            <img src={person} />
+            <img src={person} alt="person" />
             <p>Persons of exceptional ability</p>
           </div>
           <div className="container-a">
-            <img src={home} />
+            <img src={home} alt="home" />
             <p>Permanent Residence</p>
           </div>
           <div className="container-a">
-            <img src={visa} />
+            <img src={visa} alt="visa" />
             <p>On-demand Visa Option</p>
           </div>
         </div>
       </div>
-      <div
-        className="us__section-ability"
-        style={{
-          backgroundImage: `url(${right})`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "contain",
-          backgroundPosition: "bottom",
-          backgroundPositionX: "280px",
-        }}
-      >
+      <div className="us__section-ability">
         <div className="us__section-ability-content">
           <Fade bottom>
             <h1 style={{ color: "#060056" }}>

@@ -2,7 +2,7 @@ import React from "react";
 
 import "./career.css";
 import Fade from "react-reveal/Fade";
-import { Brand, Navbar } from "../../components";
+import { Navbar } from "../../components";
 import { Footer } from "../../containers";
 import Position from "./Positions";
 

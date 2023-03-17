@@ -3,11 +3,14 @@ import React from "react";
 import shape1 from "../../assets/man.png";
 import image from "../../assets/line.png";
 import Fade from "react-reveal/Fade";
+import banking from "../../assets/banking.png";
+import career from "../../assets/career.png";
+import acomm from "../../assets/acom.png";
 
 import "./reloc.css";
 const Reloc = () => (
   <div
-    className="services__blog "
+    className="services__blog section__padding "
     id="blog"
     // style={{
     //   backgroundImage: `url(${image})`,
@@ -39,7 +42,7 @@ const Reloc = () => (
             </p>
           </div>
           <div className="reloc__possibility-image">
-            <img src={shape1} alt="dummy" />
+            <img src={banking} alt="dummy" />
           </div>
         </Fade>
       </div>
@@ -58,7 +61,7 @@ const Reloc = () => (
             </p>
           </div>
           <div className="reloc__possibility-image">
-            <img src={shape1} alt="dummy" />
+            <img src={career} alt="dummy" />
           </div>
         </Fade>
       </div>
@@ -74,7 +77,7 @@ const Reloc = () => (
             </p>
           </div>
           <div className="reloc__possibility-image">
-            <img src={shape1} alt="dummy" />
+            <img src={acomm} alt="dummy" />
           </div>
         </Fade>
       </div>

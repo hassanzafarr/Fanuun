@@ -23,7 +23,6 @@ const Process = () => (
 
       <div className="immi__possibility-image">
         <Fade right>
-          {/* <img src={shape5} alt="possibility" /> */}
           <img src={gif} alt="possibility" />
         </Fade>
       </div>

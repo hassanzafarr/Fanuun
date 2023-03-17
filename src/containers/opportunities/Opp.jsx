@@ -1,6 +1,6 @@
 import React from "react";
 import "./opp.css";
-import image from "../../assets/google.png";
+
 import us from "../../assets/united-states.png";
 import uk from "../../assets/united-kingdom.png";
 import canada from "../../assets/canadaa.png";

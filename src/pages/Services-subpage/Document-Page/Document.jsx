@@ -2,7 +2,7 @@ import React from "react";
 import "./Document.css";
 import { Navbar } from "../../../components";
 import { Footer } from "../../../containers";
-import Contfan from "../../../components/contact-fannuun/contfan";
+
 import Banner from "./../../../components/banner/Banner";
 import document from "../../../assets/document.png";
 import docimg from "../../../assets/docimg.svg";

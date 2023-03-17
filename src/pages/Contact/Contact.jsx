@@ -9,8 +9,19 @@ import Fade from "react-reveal/Fade";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 import ReCAPTCHA from "react-google-recaptcha";
+import { useEffect } from "react";
 
 const Contact = () => {
+  useEffect(() => {
+    getData();
+  }, []);
+
+  const getData = () => {
+    return axios
+      .get("http://172.18.3.198:3005/api/fetch/cities-list")
+      .then((res) => console.log(res.data))
+      .catch((err) => console.log(err));
+  };
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -155,6 +166,9 @@ const Contact = () => {
                 />
                 <button type="button" onClick={onSubmit}>
                   Submit
+                </button>
+                <button type="button" onClick={getData}>
+                  test
                 </button>
               </div>
             </Fade>
