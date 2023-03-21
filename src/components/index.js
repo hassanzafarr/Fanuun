@@ -6,3 +6,4 @@ export { default as Feature } from "./feature/Feature";
 export { default as Banner } from "./banner/Banner";
 export { default as Info } from "./info/Info";
 export { default as Contfan } from "./contact-fannuun/contfan";
+export { default as Box } from "./box/box"

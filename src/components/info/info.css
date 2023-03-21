@@ -42,10 +42,10 @@
   margin: 1rem;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
   .info__features-container__feature-title h1 {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .info__features-container_feature-text p {
     font-size: 16px;

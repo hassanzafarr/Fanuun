@@ -1,7 +1,12 @@
-.immi__possibility {
+.immi__possiblity-main {
+  position: relative;
+  margin-bottom: 10rem;
+  margin-top: 10rem;
+}
+.immi__possibilityy {
   display: flex;
   flex-direction: row;
-  margin-bottom: 5rem;
+  justify-content: center;
 }
 .immi__possibility-content {
   flex: 1;
@@ -9,10 +14,40 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  margin-right: 5rem;
+  margin-right: 2rem;
 }
+/* .caro-cont {
+  margin-left: 20rem;
+} */
 .box {
-  color: blueviolet;
-  height: 100px;
-  background-color: aquamarine;
+  margin-bottom: 2rem;
+  height: 95%;
+}
+.one-click {
+  position: absolute;
+  min-height: 30rem;
+  background-color: #f9f9f9;
+  top: -14rem;
+  padding: 2rem;
+  border-radius: 20px;
+}
+.one-click h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  margin: 1rem 0;
+  margin-bottom: 2rem;
+  color: var(--color-head);
+}
+.fan_img img {
+  position: absolute;
+  left: 0;
+  max-width: 34rem;
+  top: -5rem;
+}
+@media screen and (max-width: 700px) {
+  .one-click h1 {
+    font-size: 25px;
+  }
 }

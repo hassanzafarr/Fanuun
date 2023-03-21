@@ -45,7 +45,7 @@ const Translation = () => {
       <Navbar />
       <div className="section__container ">
         <div className="banner-cont section__margin">
-          <Banner text="Sealed Envelope Services" img={trans} />
+          <Banner text="Translation Services" img={trans} />
         </div>
         <Fade left>
           <div className="screen__section-ability-content section__padding">

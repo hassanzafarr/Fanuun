@@ -1,7 +1,7 @@
 .screen__section-ability-content h1 {
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 34px;
+  font-size: 28px;
   line-height: 45px;
   margin: 1rem 0;
   margin-bottom: 2rem;
@@ -76,10 +76,15 @@
 @media screen and (max-width: 700px) {
   .screen__section-ability-content p {
     font-size: 16px;
+    margin: 0;
+    margin-top: 2rem;
   }
   .screen__section-ability-content h1 {
-    font-size: 30px;
+    font-size: 20px;
+    margin: 0;
+    line-height: 30px;
   }
+
   .screen__section-logo-container {
     grid-template-columns: repeat(1, 1fr);
   }

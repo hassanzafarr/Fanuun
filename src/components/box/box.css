@@ -1,0 +1,40 @@
+.box {
+  margin-right: 1rem;
+  color: black;
+  height: 20rem;
+  background: #ffffff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+  flex: 1;
+  display: flex;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  justify-content: baseline;
+  padding: 2px;
+}
+
+.content-container h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 45px;
+  margin: 1rem 0;
+}
+.content-container p {
+  font-family: var(--font-family2);
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 700px) {
+  .content-container p {
+    font-size: 16px;
+  }
+  .content-container h1 {
+    font-size: 20px;
+  }
+}

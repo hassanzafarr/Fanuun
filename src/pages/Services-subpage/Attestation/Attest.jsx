@@ -197,7 +197,7 @@ institutions, such as:"
 
         {/* Section 6 */}
         <div
-          className="us__section-help section__margin "
+          className="attest2__section-help section__margin "
           style={{
             backgroundImage: `url(${wavy}) `,
             backgroundRepeat: "no-repeat",
@@ -205,7 +205,7 @@ institutions, such as:"
             // backgroundPositionY: "150px",
           }}
         >
-          <div className="us__section-intro-content ">
+          <div className="us__section-intro-content  ">
             <Fade bottom>
               <h1 className="gradient__text">
                 Online Profiling for Canadian Immigration

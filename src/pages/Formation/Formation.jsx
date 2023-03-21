@@ -111,9 +111,8 @@ function Formation() {
         <div className="form__left-text">
           <Fade left>
             <h1>
-              <span class="future">Designing</span> Strategies <br />
-              For Addressing <br /> <span class="future">Immigration </span>
-              Problems
+              Company <span class="future"> Incorporation Services</span> in{" "}
+              <span class="future">Saudia Arabia </span>
             </h1>
           </Fade>
         </div>
@@ -135,7 +134,7 @@ function Formation() {
           backgroundPosition: "top",
         }}
       >
-        <div className="form-content section__padding">
+        <div className="form-content section__padding-fa ">
           <Fade left>
             <p>
               FANNUN’s team of experienced consultants provides comprehensive
@@ -153,7 +152,7 @@ function Formation() {
           </Fade>
         </div>
         <Fade right>
-          <div className="img-contt section__padding">
+          <div className="img-contt section__padding-fa-2 ">
             <img src={vision} alt="vision" />
           </div>
         </Fade>
@@ -188,7 +187,7 @@ function Formation() {
             </div>
             <div className="form-container-a">
               <div className="sub-cont">
-                <h1>Advisory Services</h1>
+                <h1>Registration Assistance</h1>
 
                 <div className="form-img-cont">
                   <img src={inreg} alt="prof" />
@@ -205,7 +204,7 @@ function Formation() {
 
             <div className="form-container-a">
               <div className="sub-cont">
-                <h1>Advisory Services</h1>
+                <h1>Company License Procurement</h1>
 
                 <div className="form-img-cont">
                   <img src={incom} alt="prof" />
@@ -221,7 +220,7 @@ function Formation() {
             </div>
             <div className="form-container-a">
               <div className="sub-cont">
-                <h1>Advisory Services</h1>
+                <h1>Conducting Entity Health Checks</h1>
 
                 <div className="form-img-cont">
                   <img src={incond} alt="prof" />

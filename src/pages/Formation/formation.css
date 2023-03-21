@@ -18,7 +18,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-right: 5rem;
+  padding: 2rem;
 }
 .form__left-text h1 {
   font-family: var(--font-family);
@@ -44,7 +44,7 @@
 .form-content p {
   color: var(--color-text);
   font-family: var(--font-family2);
-  font-weight: 400;
+  font-weight: 200;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 2rem;
@@ -59,9 +59,14 @@
 }
 
 /* section4 */
-.form-img-cont {
-  /* padding: 4rem;
-  justify-content: baseline; */
+.section__padding-fa {
+  padding: 2rem 4rem 2rem 8rem;
+}
+.section__padding-fa-2 {
+  padding: 2rem 8rem 4rem 4rem;
+}
+.img-contt img {
+  max-width: 20rem;
 }
 .sub-cont {
   display: flex;
@@ -95,7 +100,7 @@
 .form-container-a p {
   color: black;
   font-family: var(--font-family2);
-  font-weight: 400;
+  font-weight: 200;
   font-size: 18px;
   line-height: 30px;
   text-align: left;
@@ -146,7 +151,7 @@
 .fcontact__right-text p {
   color: rgb(0, 0, 0);
   font-family: var(--font-family2);
-  font-weight: 400;
+  font-weight: 200;
   font-size: 16px;
   line-height: 30px;
 }
@@ -299,6 +304,12 @@ input {
     align-items: center;
     justify-content: center;
   }
+  .section__padding-fa-2 {
+    padding: 2rem 2rem;
+  }
+  .section__padding-fa {
+    padding: 2rem 8rem;
+  }
 }
 @media screen and (max-width: 700px) {
   .form__left-text h1 {
@@ -306,6 +317,18 @@ input {
   }
   .form-container-a h1 {
     font-size: 30px;
+  }
+  .form__input-fcontact {
+    padding-right: 10rem;
+  }
+  .form-container-a p {
+    font-size: 16px;
+  }
+  .section__padding-fa-2 {
+    padding: 2rem 2rem;
+  }
+  .section__padding-fa {
+    padding: 2rem 2rem;
   }
   .form-content p {
     font-size: 16px;

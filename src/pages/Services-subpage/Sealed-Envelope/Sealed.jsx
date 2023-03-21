@@ -23,12 +23,15 @@ const Sealed = () => {
         <Fade left>
           <div className="screen__section-ability-content section__padding">
             <h1 style={{ color: "#060056" }}>
-              FANUUN provides fast and reliable attestation services to its
-              clients from numeroattest agencies/institutions as per the
-              requirements of the Canadian, attest, and British Embassies.
+              FANUUN offers fast and reliable attestation and sealed envelope
+              services for its clients. The services are offered for numerous
+              agencies such as World Education Services (WES) and the Canadian
+              Educational Credential Assessment (ECA) agencies such as IQAS,
+              CES, ICES, CES, MCC & PEBC.
             </h1>
             <p>
-              The following documents are covered in the attestation services:
+              The following documents are covered in the sealed document
+              services:
             </p>
           </div>
         </Fade>

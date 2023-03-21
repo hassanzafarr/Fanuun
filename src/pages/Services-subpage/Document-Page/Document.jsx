@@ -39,9 +39,9 @@ const Document = () => {
         <Fade bottom>
           <div className="screen__section-ability-content section__padding">
             <h1 style={{ color: "#060056" }}>
-              FANUUN provides fast and reliable attestation services to its
-              clients from numeroattest agencies/institutions as per the
-              requirements of the Canadian, attest, and British Embassies.
+              FANUUN facilitates its clients in the swift, easy, and reliable
+              issuance of numerous legal and personal documents from various
+              agencies/institutes. These include:
             </h1>
             <p>
               The following documents are covered in the attestation services:
