@@ -167,9 +167,6 @@ const Contact = () => {
                 <button type="button" onClick={onSubmit}>
                   Submit
                 </button>
-                <button type="button" onClick={getData}>
-                  test
-                </button>
               </div>
             </Fade>
           </div>

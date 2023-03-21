@@ -34,7 +34,11 @@ const Document = () => {
       <Navbar />
       <div className="section__container">
         <div className="banner-container section__padding">
-          <Banner text="Document Services" img={document} />
+          <Banner
+            text="Document Issuance  "
+            textred="Services"
+            img={document}
+          />
         </div>
         <Fade bottom>
           <div className="screen__section-ability-content section__padding">
@@ -51,13 +55,7 @@ const Document = () => {
         <div className="doc__container-feature section__padding">
           <Fade left>
             <div className="info__cont">
-              <Info
-                title="FANUUN facilitates its cattesttomers with document
-attestation services from varioattest ministries and state
-institutions, such as:"
-                text={data}
-                isList={true}
-              />
+              <Info title="Personal" text={data} isList={true} />
             </div>
           </Fade>
           <Fade right>
@@ -70,13 +68,7 @@ institutions, such as:"
         <div className="doc__container-feature section__padding">
           <Fade left>
             <div className="info__cont">
-              <Info
-                title="FANUUN facilitates its cattesttomers with document
-attestation services from varioattest ministries and state
-institutions, such as:"
-                text={data2}
-                isList={true}
-              />
+              <Info title="Educational" text={data2} isList={true} />
             </div>
           </Fade>
           <Fade right>
@@ -85,6 +77,23 @@ institutions, such as:"
             </div>
           </Fade>
         </div>
+      </div>
+      <div className="screen__section-ability-content ">
+        <h1 style={{ color: "#060056", textAlign: "center", fontSize: "25px" }}>
+          <div className="screen__section-ability-content section__padding">
+            <h1
+              style={{
+                color: "#060056",
+                textAlign: "center",
+                fontSize: "25px",
+              }}
+            >
+              FANUUN’s swift services enable our clients to receive their
+              documents in the shortest amount of time, and in a reliable,
+              trustworthy manner.
+            </h1>
+          </div>
+        </h1>
       </div>
       <CTA htag="Contact " red="FANUUN" htag2="to schedule a consultation" />
       <Footer />

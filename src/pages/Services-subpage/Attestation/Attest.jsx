@@ -3,6 +3,8 @@ import "./Attest.css";
 import { Navbar } from "../../../components";
 import { Footer } from "../../../containers";
 import attest from "../../../assets/attestation.png";
+import edugirl from "../../../assets/edugirl.svg";
+import write from "../../../assets/write.svg";
 import Banner from "./../../../components/banner/Banner";
 import { Info } from "./../../../components/info/Info";
 
@@ -36,15 +38,15 @@ const Attest = () => {
     "The Ministry of Foreign Affairs of Pakistan (MOFA) – Karachi, Lahore, Islamabad for varioattest important immigration documents",
     "Ministry of Federal Education and Professional Training",
     "Islamabad Capital Territory Administration (ICTA)",
-    "Varioattest Embassies",
+    "Various Embassies",
   ];
 
   return (
     <div className="attest__main-container">
       <Navbar />
-      <div className="section__container  ">
+      <div className="section__container">
         <div className="banner-container section__padding ">
-          <Banner text="Attestaion Services" img={attest} />
+          <Banner text="Attestaion " textred="Services" img={attest} />
         </div>
         {/* First Section */}
         <Fade bottom>
@@ -60,13 +62,18 @@ const Attest = () => {
           </div>
         </Fade>
         {/* Section 2 */}
-        <Fade right>
-          <div className="info__container section__margin">
+        <div className="info__container section__margin">
+          <Fade right>
             <div className="info__container-feature ">
               <Info title="Educational" text={data} isList={true} />
             </div>
-          </div>
-        </Fade>
+          </Fade>
+          <Fade right>
+            <div className="img-cont2">
+              <img src={edugirl} alt="document" />
+            </div>
+          </Fade>
+        </div>
         {/* Section 3 */}
         <Fade left>
           <div className="screen__section-ability-content section__padding  ">
@@ -80,34 +87,25 @@ const Attest = () => {
                 <div className="attest-img-cont">
                   <img src={marriage} alt="prof" />
                 </div>
-                <p>
-                  Have a battestiness that qualifies specified criteria by the
-                  Canadian government.
-                </p>
+                <p>Marriage & Un-Marriage Registration Certificate (NADRA)</p>
               </div>
               <div className="attest-container-a">
                 <div className="attest-img-cont">
                   <img src={birth} alt="prof" />
                 </div>
-                <p>
-                  Secure a minimum level of investment from a designated venture
-                  capital fund, angel investor group, or battestiness incubator.
-                </p>
+                <p>Birth Certificate (NADRA)</p>
               </div>
               <div className="attest-container-a">
                 <div className="attest-img-cont">
                   <img src={familyreg} alt="prof" />
                 </div>
-                <p>Meet the language requirements.</p>
+                <p>Family Registration Certificate (FRC).</p>
               </div>
               <div className="attest-container-a">
                 <div className="attest-img-cont">
                   <img src={death} alt="prof" />
                 </div>
-                <p>
-                  Bring along enough money to settle yourself and your
-                  dependents.
-                </p>
+                <p>Death Certificate (NADRA)</p>
               </div>
             </div>
           </Fade>
@@ -130,6 +128,11 @@ institutions, such as:"
                 text={data2}
                 isList={true}
               />
+            </div>
+          </Fade>
+          <Fade right>
+            <div className="img-cont2">
+              <img src={write} alt="document" />
             </div>
           </Fade>
         </div>

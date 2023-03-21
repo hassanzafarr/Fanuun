@@ -1,3 +1,7 @@
+/* .section__padding1 {
+  max-width: 1400px;
+  padding: 2rem 8rem;
+} */
 .screen__section-ability-content h1 {
   font-family: var(--font-family);
   font-weight: 600;

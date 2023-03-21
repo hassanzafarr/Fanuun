@@ -18,7 +18,7 @@ const Sealed = () => {
       <Navbar />
       <div className="section__container ">
         <div className="banner-container section__padding">
-          <Banner text="Sealed Envelope Services" img={image} />
+          <Banner text="Sealed Envelope " textred="Services" img={image} />
         </div>
         <Fade left>
           <div className="screen__section-ability-content section__padding">
@@ -29,10 +29,7 @@ const Sealed = () => {
               Educational Credential Assessment (ECA) agencies such as IQAS,
               CES, ICES, CES, MCC & PEBC.
             </h1>
-            <p>
-              The following documents are covered in the sealed document
-              services:
-            </p>
+            <p>FANUUN provides assistance to its clients in/for:</p>
           </div>
         </Fade>
       </div>

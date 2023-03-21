@@ -7,15 +7,6 @@
 }
 .doc__container-feature {
   display: flex;
-  flex-direction: column;
-  margin-left: 1rem;
-}
-.doc__container-feature {
-  margin: 0;
-  margin-bottom: 2rem;
-}
-.doc__container-feature {
-  display: flex;
   flex-direction: row;
   margin-left: 1rem;
 }
@@ -23,6 +14,7 @@
   margin: 0;
   margin-bottom: 2rem;
 }
+
 .img-cont2 {
   display: flex;
   justify-content: center;
