@@ -13,7 +13,7 @@
 
 .position__cta-content h3 {
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 30px;
   line-height: 45px;
   font-family: var(--font-family);
@@ -25,8 +25,12 @@
   margin-top: 2rem;
   flex-direction: column;
 }
+.position__container {
+  display: flex;
+  align-items: center;
+}
 .position__cta-btn input {
-  background: #060056;
+  /* background: #060056;
   border-radius: 40px;
   color: white;
   font-style: normal;
@@ -38,7 +42,11 @@
   outline: none;
   font-family: var(--font-family2);
   cursor: pointer;
-  min-width: 150px;
+  min-width: 150px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 .position__cta-btn button {
   background: #060056;

@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 import "./expect.css";
 const Expect = () => (
   <div
-    className="about__expect section__padding"
+    className="about__expect "
     id="blog"
     style={{
       backgroundImage: `url(${image})`,

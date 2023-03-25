@@ -14,12 +14,15 @@ a {
   color: unset;
   text-decoration: none;
 }
+.sec__padding {
+  padding: 2rem 0rem;
+}
 .section__padding {
-  padding: 2rem 8rem;
+  padding: 2rem 11rem;
 }
 
 .section__margin {
-  margin: 2rem 8rem;
+  margin: 2rem 11rem;
 }
 
 .scale-up-center {

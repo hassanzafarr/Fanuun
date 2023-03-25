@@ -41,7 +41,7 @@
   display: flex;
   /* justify-content: flex-end;
   align-items: flex-end; */
-  padding: 2rem 5rem;
+  padding: 2rem 3rem;
   margin-top: 2rem;
 
   max-width: 30rem;
@@ -58,7 +58,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 @media screen and (max-width: 1050px) {
   .fanuun__possibility {

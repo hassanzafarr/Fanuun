@@ -40,7 +40,7 @@
 
 .services__possibility-content h1 {
   font-family: var(--font-family);
-  font-weight: 800;
+  font-weight: 600;
   font-size: 34px;
   line-height: 45px;
   margin: 1rem 0;
@@ -50,7 +50,7 @@
 .services__possibility-content p {
   color: var(--color-text);
   font-family: var(--font-family2);
-  font-weight: 400;
+  font-weight: 200;
   font-size: 18px;
   line-height: 30px;
 
@@ -63,14 +63,20 @@
 }
 
 /* Flaggy */
+.service-main {
+  padding: 6rem 0rem;
+}
 .service-main img {
   height: 200px;
 }
-.service-main-left img {
+.service-main-right img {
   height: 200px;
-  float: right;
 }
-
+.imgcon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
 /* 2 grid compo */
 
 .ser-sub-cont {
@@ -105,7 +111,7 @@
 .ser-container-a p {
   color: black;
   font-family: var(--font-family2);
-  font-weight: 400;
+  font-weight: 200;
   font-size: 18px;
   line-height: 30px;
   text-align: left;

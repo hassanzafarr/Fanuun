@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 import "./stream.css";
 const Stream = () => (
   <div
-    className="about__blog section__padding"
+    className="about__blog "
     id="blog"
     style={{
       backgroundImage: `url(${image})`,

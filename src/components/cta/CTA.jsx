@@ -1,6 +1,7 @@
 import React from "react";
 import "./cta.css";
 import image from "../../assets/group29.png";
+import { Link } from "react-router-dom";
 
 const CTA = ({ htag, htag2, red, ptext }) => (
   <div
@@ -22,7 +23,9 @@ const CTA = ({ htag, htag2, red, ptext }) => (
       <p>{ptext}</p>
     </div>
     <div className="gpt3__cta-btn">
-      <button type="button">Contact Us</button>
+      <Link to="/contact">
+        <button type="button">Contact Us</button>
+      </Link>
     </div>
   </div>
 );

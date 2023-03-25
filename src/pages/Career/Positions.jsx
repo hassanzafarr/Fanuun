@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./position.css";
-import image from "../../assets/line.png";
+
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 import axios from "axios";
@@ -35,14 +35,7 @@ const Position = () => {
   }
 
   return (
-    <div
-      className="position__container section__padding"
-      style={{
-        backgroundImage: `url(${image})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-      }}
-    >
+    <div className="position__container section__padding">
       <div className="position__cta">
         <div className="position__cta-content">
           <div className="position__heading">

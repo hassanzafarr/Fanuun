@@ -1,3 +1,7 @@
+.section__padding1 {
+  max-width: 1400px;
+  padding: 2rem 8rem;
+}
 .doc__container {
   display: flex;
   flex-direction: column;
@@ -20,6 +24,13 @@
   justify-content: center;
   align-items: center;
 }
+.last-line h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  margin: 1rem 0;
+}
 
 @media screen and (max-width: 1100px) {
   /* Customizing feature component as per needs */
@@ -33,5 +44,13 @@
   /* Customizing feature component as per needs */
   .doc__container-feature {
     margin-top: 0.5rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .last-line h1 {
+    font-size: 20px;
+  }
+  .section__padding1 {
+    padding: 2rem 2rem;
   }
 }

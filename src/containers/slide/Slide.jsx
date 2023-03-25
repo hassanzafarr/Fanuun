@@ -9,10 +9,7 @@ import slide3 from "../../assets/slide3.svg";
 import lead from "../../assets/lead.svg";
 
 const Slide = () => (
-  <div className="immi__possiblity-main section__padding">
-    {/* <div className="left-img">
-      <img src={lead} alt="lead" />
-    </div> */}
+  <div className="immi__possiblity-mainn section__padding">
     <div className="immi__possibilityy  " id="possibility">
       <div className="one-click ">
         <h1>Explore our Service with just one click</h1>
@@ -25,10 +22,9 @@ const Slide = () => (
         show={3}
         slide={1}
         transition={0.5}
-        rightArrow={<GrNext />}
-        leftArrow={<GrPrevious />}
+        rightArrow={<GrNext size={30} />}
+        leftArrow={<GrPrevious size={30} />}
         swiping={true}
-        // responsive={true}
       >
         <Box
           imghere={slide1}

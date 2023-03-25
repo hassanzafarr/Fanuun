@@ -29,7 +29,7 @@ const Navbar = () => {
             <div class="dropdown">
               Services <BiChevronDown />
               <div class="dropdown-content">
-                <Link to="/solutions" className="ser2">
+                <Link className="ser2">
                   Immigration Services
                   <BiChevronDown />
                   <div className="dropdown-submenu">
@@ -37,6 +37,8 @@ const Navbar = () => {
                     <Link to="/us">US</Link>
                     <Link to="/uk">UK</Link>
                     <Link to="/canada">Canada</Link>
+                    <Link to="/uae">UAE</Link>
+                    <Link to="/portugal">Portugal</Link>
                   </div>
                 </Link>
                 <Link className="ser2">
@@ -53,7 +55,9 @@ const Navbar = () => {
               </div>
             </div>
           </p>
-
+          <p>
+            <Link to="/solutions">Immigration</Link>
+          </p>
           <p>
             <Link to="/career">Career</Link>
           </p>
@@ -63,9 +67,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className="immi__navbar-sign">
-        <button type="button" onClick={routeToTest}>
+        {/* <button type="button" onClick={routeToTest}>
           Take a test
-        </button>
+        </button> */}
       </div>
       <div className="immi__navbar-menu">
         {toggleMenu ? (
@@ -100,6 +104,8 @@ const Navbar = () => {
                         <Link to="/us">US</Link>
                         <Link to="/uk">UK</Link>
                         <Link to="/canada">Canada</Link>
+                        <Link to="/uae">UAE</Link>
+                        <Link to="/portugal">Portugal</Link>
                       </div>
                     </Link>
                     <Link className="ser2">
@@ -120,15 +126,17 @@ const Navbar = () => {
               <p>
                 <Link to="/career">Career</Link>
               </p>
-
+              <p>
+                <Link to="/solutions">Immigration</Link>
+              </p>
               <p>
                 <Link to="/contact">Contact</Link>
               </p>
             </div>
             <div className="immi__navbar-menu_container-links-sign">
-              <button type="button" onClick={routeToTest}>
+              {/* <button type="button" onClick={routeToTest}>
                 Take a test
-              </button>
+              </button> */}
             </div>
           </div>
         )}

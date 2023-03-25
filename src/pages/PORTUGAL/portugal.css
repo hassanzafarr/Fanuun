@@ -1,0 +1,628 @@
+.portugal__possiblity-main {
+  width: 100%;
+  /* background-color: #000000; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.portugal__possibility {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8rem;
+  width: 100%;
+}
+
+.portugal__possibility-image {
+  width: 45%;
+  display: flex;
+  /* margin-right: 6rem; */
+}
+
+.portugal__possibility-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.portugal__possibility-content {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.portugal__possibility-content h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  margin: 1rem 0;
+}
+
+.portugal__possibility-content p {
+  color: var(--color-text);
+  font-family: var(--font-family2);
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 30px;
+
+  margin-bottom: 2rem;
+}
+
+.portugal__section-ability {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.portugal__section-ability-content {
+  width: 80%;
+}
+
+.portugal__section-ability-content h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  margin: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.portugal__section-ability-content p {
+  color: var(--color-text);
+  font-family: var(--font-family2);
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+
+.portugal-container-a {
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.portugal-img-cont-portugal {
+  width: 90%;
+  height: 130px;
+  border-radius: 28px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portugal-img-cont-portugal img {
+  width: 50%;
+}
+
+.portugal-img-cont1Portugal {
+  width: 90%;
+  height: 130px;
+  border-radius: 28px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portugal-img-cont1Portugal img {
+  width: 40%;
+}
+
+.portugal-img-cont2Portugal {
+  width: 90%;
+  height: 130px;
+  border-radius: 28px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portugal-img-cont2Portugal img {
+  width: 35%;
+}
+
+.portugal__section-logo-container {
+  flex: 1;
+  width: 80%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.portugal__section-logo-container-two {
+  flex: 1;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 2rem;
+  align-items: baseline;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.portugal__section-help {
+  display: flex;
+  width: 100%;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.portugal-container-a p {
+  color: black;
+  font-family: var(--font-family2);
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 15px;
+  width: 90%;
+}
+
+.portugal__section-helpp {
+  background: #f9f9f9;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 20px;
+  flex: 1;
+  display: flex;
+  padding: 2rem 5rem;
+  margin-top: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.portugal__section-introo-content {
+  text-align: left;
+  max-width: 850px;
+}
+
+.portugal__section-introo-content h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  margin: 1rem 0;
+  margin-bottom: 2rem;
+  color: var(--color-head);
+}
+
+.portugal__section-introo-content p {
+  color: black;
+  font-family: var(--font-family2);
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+
+.portugal__section-introo-content button {
+  background: #f9f9f9;
+  border-radius: 40px;
+  color: #060056;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem 1rem;
+  border-style: solid;
+  border-width: thin;
+  font-weight: 500;
+  font-family: var(--font-family2);
+  cursor: pointer;
+  min-width: 200px;
+  margin-top: 2rem;
+}
+
+.jobSeekerDivPortugal {
+  width: 100%;
+  /* background-color: #d5ffae; */
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.jobSeekerSubDiv {
+  width: 80%;
+  background-color: #f8f8f8;
+  border-radius: 30px;
+  height: 350px;
+  border-top-left-radius: 180px;
+  background-image: url("../../assets/bgPortugalJob.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  /* background-position: 'bottom'; */
+}
+
+.jobSeekerLeftSectionPortugal {
+  width: 60%;
+  /* background-color: antiquewhite; */
+  /* height: 100%; */
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.jobSeekerRightSectionPortugal {
+  width: 40%;
+  /* background-color: #e02a2a; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobHeadingPortugal {
+  font-family: var(--font-family);
+  font-size: 30px;
+  color: #000;
+  font-weight: 600;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+
+.paraSeekerDiv {
+  margin-top: 30px;
+}
+
+.paraSeeker {
+  font-family: var(--font-family2);
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 200;
+  color: #000000;
+}
+
+.seekerImgPortugal {
+  width: 80%;
+}
+
+.generalProcessDivPortugal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headindDivGenerl {
+  width: 80%;
+}
+
+.generalProcessSubDivPortugal {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  border-bottom: 1px solid #999999;
+  padding-bottom: 10px;
+}
+
+.leftSectionGeneralPortugal {
+  width: 70%;
+  /* background-color: aqua; */
+  /* height: 200px; */
+}
+
+.rightSectionGeneralPortugal {
+  width: 30%;
+  /* background-color: rgb(217, 255, 0); */
+  /* height: 200px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightSectionImgPortugal {
+  width: 30%;
+  height: 70%;
+}
+
+.subHeadingGeneral {
+  font-family: var(--font-family);
+  color: #12218e;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.subParaGeneralPortugal {
+  font-family: var(--font-family2);
+  margin-top: 10px;
+  color: #000;
+  font-size: 16px;
+  width: 80%;
+  text-align: justify;
+  line-height: 23px;
+}
+
+.portugal_section_helpp_main_div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.portugal__section-helpp {
+  /* background: #f9f9f9; */
+  background-image: url(../../assets/Group_491.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  border-radius: 28px;
+  box-shadow: 0px 0px 8px 0px lightgray;
+  border: 20px;
+  flex: 1;
+  display: flex;
+  padding: 2rem 5rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.portugal__section-introo-content {
+  text-align: left;
+  max-width: 850px;
+}
+
+.portugal__section-introo-content h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  margin: 1rem 0;
+  margin-bottom: 2rem;
+  color: var(--color-head);
+}
+
+.portugal__section-introo-content p {
+  color: black;
+  font-family: var(--font-family2);
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+.portugal__section-introo-content button {
+  background: #f9f9f9;
+  border-radius: 40px;
+  color: #060056;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem 1rem;
+  border-style: solid;
+  border-width: thin;
+  font-weight: 500;
+  font-family: var(--font-family2);
+  cursor: pointer;
+  min-width: 200px;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .portugal__section-logo-container {
+    width: 80%;
+  }
+
+  .jobSeekerSubDiv {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .generalProcessSubDivPortugal {
+    width: 95%;
+  }
+  .rightSectionImgPortugal {
+    width: 40%;
+  }
+  .portugal__section-ability-content {
+    width: 90%;
+  }
+
+  .portugal__section-logo-container {
+    width: 80%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .portugal-container-a {
+    width: 32%;
+  }
+
+  .jobHeadingPortugal {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+
+  .jobSeekerSubDiv {
+    height: 400px;
+    width: 94%;
+  }
+
+  .generalProcessDivPortugal {
+    margin-top: 3%;
+  }
+
+  .portugal-img-cont-portugal {
+    width: 65%;
+    border-radius: 15px;
+  }
+
+  .portugal-img-cont1Portugal {
+    width: 65%;
+    border-radius: 15px;
+  }
+
+  .portugal-img-cont2Portugal {
+    width: 65%;
+    border-radius: 15px;
+  }
+
+  .portugal__possibility {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .portugal-img-cont-portugal {
+    width: 70%;
+  }
+
+  .portugal-img-cont1Portugal {
+    width: 70%;
+  }
+
+  .portugal-img-cont2Portugal {
+    width: 70%;
+  }
+
+  .portugal__section-logo-container {
+    width: 90%;
+  }
+
+  .jobSeekerSubDiv {
+    flex-direction: column;
+    border-radius: 20px;
+    height: 550px;
+  }
+  .jobSeekerLeftSectionPortugal {
+    width: 90%;
+  }
+  .jobSeekerRightSectionPortugal {
+    width: 90%;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  .seekerImgPortugal {
+    width: 50%;
+  }
+  .generalProcessDivPortugal {
+    margin-top: 5%;
+  }
+  .jobSeekerDivPortugal {
+    height: auto;
+  }
+  .generalProcessSubDivPortugal {
+    width: 90%;
+  }
+  .leftSectionGeneralPortugal {
+    width: 80%;
+  }
+  .rightSectionGeneralPortugal {
+    width: 20%;
+  }
+  .rightSectionImgPortugal {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .generalProcessSubDivPortugal {
+    width: 80%;
+    flex-direction: column;
+  }
+
+  .leftSectionGeneralPortugal {
+    width: 100%;
+  }
+
+  .subParaGeneralPortugal {
+    width: 90%;
+  }
+
+  .rightSectionImgPortugal {
+    width: 30%;
+    height: 90px;
+  }
+
+  .rightSectionGeneralPortugal {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .portugal__possibility-content h1 {
+    text-align: center;
+  }
+
+  .portugal__possibility {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+
+  .portugal__possibility-content {
+    width: 80%;
+  }
+
+  .portugal__possibility-image {
+    width: 80%;
+    margin-top: 3%;
+  }
+
+  .portugal-container-a {
+    width: 46%;
+    margin-top: 20px;
+  }
+
+  .portugal__section-logo-container {
+    width: 70%;
+    /* background-color: aqua; */
+  }
+
+  .portugal__section-ability-content {
+    width: 75%;
+  }
+
+  .portugal__section-ability-content p {
+    font-size: 16px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .portugal__section-logo-container {
+    width: 90%;
+    /* background-color: aqua; */
+  }
+
+  .portugal__section-ability-content {
+    width: 85%;
+  }
+
+  .portugal-container-a {
+    width: 50%;
+  }
+
+  .portugal-img-cont-portugal {
+    width: 80%;
+  }
+  .portugal-img-cont1Portugal {
+    width: 80%;
+  }
+
+  .portugal-img-cont2Portugal {
+    width: 80%;
+  }
+}

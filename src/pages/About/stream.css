@@ -1,6 +1,7 @@
 .about__blog {
   display: flex;
   flex-direction: column;
+  padding-top: 5rem;
 }
 
 .about__blog-heading {
@@ -21,7 +22,7 @@
 .about__blog-heading p {
   font-size: 18px;
   font-family: var(--font-family2);
-  font-weight: 400;
+  font-weight: 200;
   margin-top: 2rem;
   line-height: 27px;
 }

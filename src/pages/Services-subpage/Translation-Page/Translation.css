@@ -1,3 +1,7 @@
+.section__padding1 {
+  max-width: 1400px;
+  padding: 2rem 8rem;
+}
 .tran__section-advance-container {
   flex: 1;
   display: grid;
@@ -18,7 +22,7 @@
 .tran__container-b p {
   color: black;
   font-family: var(--font-family2);
-  font-weight: 400;
+  font-weight: 200;
   font-size: 18px;
   line-height: 30px;
   text-align: center;
@@ -53,5 +57,8 @@
 @media screen and (max-width: 700px) {
   .tran__section-advance-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .section__padding1 {
+    padding: 2rem 2rem;
   }
 }

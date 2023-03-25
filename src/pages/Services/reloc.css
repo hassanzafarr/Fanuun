@@ -21,7 +21,7 @@
 .services__blog-heading p {
   font-size: 18px;
   font-family: var(--font-family2);
-  font-weight: 400;
+  font-weight: 200;
   line-height: 30px;
   margin-top: 2rem;
 }
@@ -48,7 +48,7 @@
 .service__reloc-content p {
   color: var(--color-text);
   font-family: var(--font-family2);
-  font-weight: 400;
+  font-weight: 200;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 2rem;

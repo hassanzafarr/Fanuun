@@ -24,7 +24,7 @@ export const WhyFanuun = () => {
 
   const data4 = ["RA (Retainer Agreement) for PR"];
   return (
-    <div className="fanuun__possiblity-main section__padding">
+    <div className="fanuun__possiblity-main ">
       <div className="fanuun__possibility " id="possibility">
         <div className="fanuun__possibility-content">
           <Fade left>

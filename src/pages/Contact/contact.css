@@ -11,8 +11,6 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-
-  padding-left: 2rem;
 }
 .contact__left-text h1 {
   font-family: var(--font-family);
@@ -188,9 +186,7 @@ input {
   .contact__possibilitytop {
     flex-direction: column;
   }
-  .contact__left-text {
-    margin: 2rem;
-  }
+
   .contact__left-text h1 {
     font-size: 30px;
   }

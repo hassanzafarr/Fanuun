@@ -18,12 +18,12 @@
 .about__possibility-image {
   flex: 1 1;
   display: flex;
-  margin-right: 2rem;
+  margin-right: 1rem;
   width: 100%;
   justify-content: center;
   align-items: center;
   max-width: 35rem;
-  padding: 3rem;
+  padding: 2.5rem;
 }
 .about__possibility-image img {
   width: 100%;
@@ -87,7 +87,7 @@
 .about__left-text p {
   color: var(--color-text);
   font-family: var(--font-family2);
-  font-weight: 400;
+  font-weight: 200;
   font-size: 18px;
   line-height: 30px;
 
@@ -96,7 +96,7 @@
 .about__rightContainer p {
   color: var(--color-text);
   font-family: var(--font-family2);
-  font-weight: 400;
+  font-weight: 200;
   font-size: 18px;
   line-height: 30px;
 }
@@ -113,7 +113,7 @@
 .about__possibility-content p {
   color: var(--color-text);
   font-family: var(--font-family2);
-  font-weight: 400;
+  font-weight: 200;
   font-size: 18px;
   line-height: 27px;
 

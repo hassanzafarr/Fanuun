@@ -60,9 +60,6 @@ const Footer = () => (
         <Link to="/canada">
           <p>Canada</p>
         </Link>
-        <Link to="/contact">
-          <p>Contact Us</p>
-        </Link>
       </div>
       <div className="immi__footer-links_div">
         <b>

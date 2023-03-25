@@ -1,6 +1,7 @@
 .about__expect {
   display: flex;
   flex-direction: column;
+  padding-top: 10rem;
 }
 
 .about__expect-heading {
@@ -18,7 +19,7 @@
 .about__expect-heading p {
   font-size: 18px;
   font-family: var(--font-family2);
-  font-weight: 400;
+  font-weight: 200;
   margin-top: 2rem;
   line-height: 27px;
 }
