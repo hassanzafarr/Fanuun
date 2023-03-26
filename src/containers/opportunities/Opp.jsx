@@ -1,14 +1,15 @@
 import React from "react";
 import "./opp.css";
-
+import image from "../../assets/google.png";
 import us from "../../assets/united-states.png";
 import uk from "../../assets/united-kingdom.png";
 import canada from "../../assets/canadaa.png";
 import Fade from "react-reveal/Fade";
+import { NavLink } from "react-router-dom";
 
 function Opp() {
   return (
-    <div className="fanuun__main-container section__padding">
+    <div className="fanuun__main-container">
       <div className="fanuun__blog-heading ">
         <Fade bottom>
           <h1>Immigration Opportunities</h1>
@@ -28,7 +29,7 @@ function Opp() {
                 world and is doing well in surveys on quality of life
               </p>
             </div>
-            <button>Read More</button>
+            <NavLink className='navLinkReadMore' to='/canada'>Read More</NavLink>
           </div>
 
           <div className="card__container">
@@ -43,7 +44,7 @@ function Opp() {
                 may choose to immigrate to US.
               </p>
             </div>
-            <button>Read More</button>
+            <NavLink className='navLinkReadMore' to='/us'>Read More</NavLink>
           </div>
 
           <div className="card__container">
@@ -58,7 +59,7 @@ function Opp() {
                 Economic market & Work opportunities are two main reasons.
               </p>
             </div>
-            <button>Read More</button>
+            <NavLink className='navLinkReadMore' to='/uk'>Read More</NavLink>
           </div>
         </div>
       </Fade>

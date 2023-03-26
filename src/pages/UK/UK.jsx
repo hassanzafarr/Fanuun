@@ -15,8 +15,6 @@ import flexible from "../../assets/flexible.svg";
 import startup from "../../assets/Startup.svg";
 import innovate from "../../assets/Innovator.svg";
 import { Link } from "react-router-dom";
-import right from "../../assets/Group_491.png";
-import { CTA } from "./../../components";
 
 const UK = () => (
   <div className="uk__main-container">
@@ -46,13 +44,7 @@ const UK = () => (
               <p>
                 The Global Talent visa allows you to work in the UK on a
                 flexible basis with fewer restrictions and costs <br /> than
-                &nbsp;
-                <span
-                  className="future"
-                  style={{ textDecoration: "underline", cursor: "pointer" }}
-                >
-                  other immigration categories.{" "}
-                </span>{" "}
+                other immigration categories.
               </p>
             </Fade>
           </div>

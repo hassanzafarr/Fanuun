@@ -161,7 +161,7 @@ const UAE = () => (
             </ul>
           </div>
           <div className="jobSeekerRightSection">
-            <img src={passport} className="seekerImg" />
+            <img src={passport} className="seekerImg" alt="passport" />
           </div>
         </div>
       </div>

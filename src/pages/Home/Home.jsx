@@ -26,7 +26,7 @@ const Home = () => (
     <Slide />
     <Opp />
     <CTA htag="Are You Interested in " red="Immigration?" />
-    <Brand />
+
     <Footer />
   </div>
 );

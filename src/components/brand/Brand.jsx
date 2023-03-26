@@ -1,7 +1,7 @@
 import React from "react";
 import "./brand.css";
 import { uk, us, canada } from "./import.js";
-
+import fanfooter from "../../assets/sidefooter.svg";
 export const Brand = () => {
   return (
     <div className="immi__brand-main ">
@@ -10,13 +10,13 @@ export const Brand = () => {
       </div> */}
       <div className="immi__brand">
         <div>
-          <img src={uk} alt="uk" />
+          <img src={uk} />
         </div>
         <div>
-          <img src={us} alt="us" />
+          <img src={us} />
         </div>
         <div>
-          <img src={canada} alt="canada" />
+          <img src={canada} />
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 .immi__possiblity-mainn {
   position: relative;
   margin-bottom: 10rem;
-  margin-top: 10rem;
+  margin-top: 20rem;
 }
 .immi__possibilityy {
   display: flex;
@@ -28,7 +28,7 @@
   min-height: 30rem;
   background-color: #f9f9f9;
   top: -14rem;
-  padding: 2rem;
+  padding: 2rem 4rem;
   border-radius: 20px;
 }
 .one-click h1 {

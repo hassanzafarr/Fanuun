@@ -1,643 +1,639 @@
 .uae__possiblity-main {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
 }
 
 .uae__possibility {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 8rem;
-    width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8rem;
+  width: 80%;
 }
 
 .uae__possibility-image {
-    width: 45%;
-    display: flex;
-    display: flex;
-    justify-content: center;
+  width: 45%;
+  display: flex;
+  display: flex;
+  justify-content: center;
 }
 
 .uae__possibility-image img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .uae__possibility-content {
-    width: 55%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .uae__possibility-content h1 {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 45px;
-    margin: 1rem 0;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  margin: 1rem 0;
 }
 
 .uae__possibility-content p {
-    color: var(--color-text);
-    font-family: var(--font-family2);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    margin-bottom: 2rem;
+  color: var(--color-text);
+  font-family: var(--font-family2);
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 2rem;
 }
 
 .uae__section-ability {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
 
 .uae__section-ability-content {
-    width: 75%;
+  width: 75%;
 }
 
 .uae__section-ability-content h1 {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 45px;
-    margin: 1rem 0;
-    margin-bottom: 2rem;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  margin: 1rem 0;
+  margin-bottom: 2rem;
 }
 
 .uae__section-ability-content p {
-    color: var(--color-text);
-    font-family: var(--font-family2);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    margin-bottom: 2rem;
+  color: var(--color-text);
+  font-family: var(--font-family2);
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 2rem;
 }
 
 .uae-container-a {
-    width: 22%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .uae-img-cont {
-    width: 90%;
-    height: 230px;
-    border-radius: 10px;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    background-color: #f8f8f8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  width: 90%;
+  height: 230px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .uae-img-cont img {
-    width: 50%;
+  width: 50%;
 }
 
 .uae-img-cont1 {
-    width: 90%;
-    height: 230px;
-    border-radius: 10px;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    background-color: #f8f8f8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  width: 90%;
+  height: 230px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .uae-img-cont1 img {
-    width: 40%;
+  width: 40%;
 }
 
 .uae-img-cont2 {
-    width: 90%;
-    height: 230px;
-    border-radius: 10px;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    background-color: #f8f8f8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  width: 90%;
+  height: 230px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .uae-img-cont2 img {
-    width: 35%;
+  width: 35%;
 }
 
 .uae__section-logo-container {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3%;
-
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
 }
 
 .uae__section-logo-container-sub {
-    display: flex;
-    width: 80%;
-    justify-content: space-around;
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
 }
 
 .uae__section-logo-container-two {
-    flex: 1;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 2rem;
-    align-items: baseline;
-    grid-template-columns: repeat(2, 1fr);
+  flex: 1;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 2rem;
+  align-items: baseline;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .uae__section-help {
-    display: flex;
-    width: 100%;
-    /* background-color: rgb(174, 90, 90); */
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 3rem;
+  display: flex;
+  width: 100%;
+  /* background-color: rgb(174, 90, 90); */
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 
 .uae-container-a p {
-    color: black;
-    font-family: var(--font-family2);
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    text-align: center;
-    margin-top: 15px;
-    width: 90%;
+  color: black;
+  font-family: var(--font-family2);
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 15px;
+  width: 90%;
 }
 
 .uae__section-helpp {
-    background: #f9f9f9;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border: 20px;
-    width: 80%;
-    display: flex;
-    padding: 2rem 5rem;
-    margin-top: 2rem;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  background: #f9f9f9;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 20px;
+  width: 80%;
+  display: flex;
+  padding: 2rem 5rem;
+  margin-top: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .uae__section-introo-content {
-    text-align: left;
-    max-width: 850px;
+  text-align: left;
+  max-width: 850px;
 }
 
 .uae__section-introo-content h1 {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 45px;
-    margin: 1rem 0;
-    margin-bottom: 2rem;
-    color: var(--color-head);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  margin: 1rem 0;
+  margin-bottom: 2rem;
+  color: var(--color-head);
 }
 
 .uae__section-introo-content p {
-    color: black;
-    font-family: var(--font-family2);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    margin-bottom: 2rem;
+  color: black;
+  font-family: var(--font-family2);
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 2rem;
 }
 
 .uae__section-introo-content button {
-    background: #f9f9f9;
-    border-radius: 40px;
-    color: #060056;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 30px;
-    padding: 0.5rem 1rem;
-    border-style: solid;
-    border-width: thin;
-    font-weight: 500;
-    font-family: var(--font-family2);
-    cursor: pointer;
-    min-width: 200px;
-    margin-top: 2rem;
+  background: #f9f9f9;
+  border-radius: 40px;
+  color: #060056;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem 1rem;
+  border-style: solid;
+  border-width: thin;
+  font-weight: 500;
+  font-family: var(--font-family2);
+  cursor: pointer;
+  min-width: 200px;
+  margin-top: 2rem;
 }
 
 .jobSeekerDivUae {
-    width: 100%;
-    margin-top: 4%;
-    /* height: 400px; */
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  margin-top: 4%;
+  /* height: 400px; */
+  display: flex;
+  justify-content: center;
 }
 
 .jobSeekerSubDivUae {
-    width: 70%;
-    border-radius: 30px;
-    height: 350px;
-    border-top-left-radius: 180px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
+  width: 70%;
+  border-radius: 30px;
+  height: 350px;
+  border-top-left-radius: 180px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
 }
 
 .jobSeekerLeftSectionUae {
-    width: 60%;
-    padding-left: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 60%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .jobSeekerRightSection {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .jobHeading {
-    font-family: var(--font-family);
-    font-size: 30px;
-    color: #000;
-    margin-top: 10px;
-    letter-spacing: 2px;
+  font-family: var(--font-family);
+  font-size: 30px;
+  color: #000;
+  margin-top: 10px;
+  letter-spacing: 2px;
 }
 
 .paraSeekerDiv {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .paraSeekerUae {
-    font-family: var(--font-family2);
-    font-size: 16px;
-    line-height: 29px;
-    color: #000000;
+  font-family: var(--font-family2);
+  font-size: 16px;
+  line-height: 29px;
+  color: #000000;
 }
 
 .seekerImg {
-    width: 80%;
+  width: 80%;
 }
 
 .generalProcessDiv {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-
 .headindDivGenerl {
-    width: 80%;
+  width: 80%;
 }
 
 .generalProcessSubDiv {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 40px;
-    border-bottom: 1px solid #999999;
-    padding-bottom: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  border-bottom: 1px solid #999999;
+  padding-bottom: 10px;
 }
 
 .leftSectionGeneral {
-    width: 70%;
+  width: 70%;
 }
 
 .rightSectionGeneral {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .rightSectionImg {
-    width: 30%;
-    height: 70%;
+  width: 30%;
+  height: 70%;
 }
 
 .subHeadingGeneral {
-    font-family: var(--font-family);
-    color: #12218e;
-    font-size: 22px;
+  font-family: var(--font-family);
+  color: #12218e;
+  font-size: 22px;
 }
 
 .subParaGeneral {
-    font-family: var(--font-family2);
-    margin-top: 10px;
-    color: #000;
-    font-size: 16px;
-    width: 80%;
-    text-align: justify;
-    line-height: 23px;
+  font-family: var(--font-family2);
+  margin-top: 10px;
+  color: #000;
+  font-size: 16px;
+  width: 80%;
+  text-align: justify;
+  line-height: 23px;
 }
 
 .uae_section_helpp_main_div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
 }
 
 .uae__section-helpp {
-    background-image: url(../../assets/Group_491.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom right;
-    border-radius: 28px;
-    box-shadow: 0px 0px 8px 0px lightgray;
-    border: 20px;
-    flex: 1;
-    display: flex;
-    padding: 2rem 5rem;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  background-image: url(../../assets/Group_491.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  border-radius: 28px;
+  box-shadow: 0px 0px 8px 0px lightgray;
+  border: 20px;
+  flex: 1;
+  display: flex;
+  padding: 2rem 5rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-
 .uae__section-introo-content {
-    text-align: left;
-    max-width: 850px;
+  text-align: left;
+  max-width: 850px;
 }
 
 .uae__section-introo-content h1 {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 45px;
-    margin: 1rem 0;
-    margin-bottom: 2rem;
-    color: var(--color-head);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  margin: 1rem 0;
+  margin-bottom: 2rem;
+  color: var(--color-head);
 }
 
 .uae__section-introo-content p {
-    color: black;
-    font-family: var(--font-family2);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    margin-bottom: 2rem;
-    text-align: justify;
+  color: black;
+  font-family: var(--font-family2);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 2rem;
+  text-align: justify;
 }
 
 .uae__section-introo-content button {
-    background: #f9f9f9;
-    border-radius: 40px;
-    color: #060056;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 30px;
-    padding: 0.5rem 1rem;
-    border-style: solid;
-    border-width: thin;
-    font-weight: 500;
-    font-family: var(--font-family2);
-    cursor: pointer;
-    min-width: 200px;
-    margin-top: 2rem;
+  background: #f9f9f9;
+  border-radius: 40px;
+  color: #060056;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem 1rem;
+  border-style: solid;
+  border-width: thin;
+  font-weight: 500;
+  font-family: var(--font-family2);
+  cursor: pointer;
+  min-width: 200px;
+  margin-top: 2rem;
 }
 
 #uae__section-logo-container-sub-1 {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 1270px) {
-    .uae__section-logo-container {
-        flex-direction: column;
-    }
+  .uae__section-logo-container {
+    flex-direction: column;
+  }
 
-    .uae__section-logo-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .uae__section-logo-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .uae__section-logo-container-two {
-        flex-direction: column;
-    }
+  .uae__section-logo-container-two {
+    flex-direction: column;
+  }
 
-    .uae__section-introo-content p {
-        width: 100%;
-        text-align: justify;
-    }
+  .uae__section-introo-content p {
+    width: 100%;
+    text-align: justify;
+  }
 }
 
 @media screen and (max-width: 1150px) {
-    .uae__section-logo-container-sub {
-        width: 100%;
-    }
+  .uae__section-logo-container-sub {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .jobSeekerSubDivUae {
-        width: 80%;
-    }
+  .jobSeekerSubDivUae {
+    width: 80%;
+  }
 
-    .uae__section-logo-container {
-        width: 85%;
-    }
+  .uae__section-logo-container {
+    width: 85%;
+  }
 }
 
 @media screen and (max-width: 950px) {
-    .uae__section-logo-container {
-        width: 90%;
-    }
-    .jobSeekerSubDivUae {
-        width: 90%;
-    }
-    .seekerImg {
-        width: 90%;
-    }
+  .uae__section-logo-container {
+    width: 90%;
+  }
+  .jobSeekerSubDivUae {
+    width: 90%;
+  }
+  .seekerImg {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .uae-img-cont {
-        width: 100%;
-    }
+  .uae-img-cont {
+    width: 100%;
+  }
 
-    .uae-img-cont1 {
-        width: 100%;
-    }
+  .uae-img-cont1 {
+    width: 100%;
+  }
 
-    .uae-img-cont2 {
-        width: 100%;
-    }
+  .uae-img-cont2 {
+    width: 100%;
+  }
 
-    .jobSeekerSubDivUae {
-        width: 90%;
-    }
+  .jobSeekerSubDivUae {
+    width: 90%;
+  }
 
-    .uae__section-helpp {
-        width: 90%;
-        padding: 2rem 3rem;
-    }
+  .uae__section-helpp {
+    width: 90%;
+    padding: 2rem 3rem;
+  }
 }
 
 @media screen and (max-width: 750px) {
-    .uae__possibility {
-        width: 90%;
-    }
-    .jobSeekerLeftSectionUae {
-        padding-left: 0;
-        width: 60%;
-    }
-    .jobSeekerDivUae {
-        margin-top: 0;
-    }
-    .jobSeekerRightSection {
-        width: 35%;
-        margin-left: 5%;
-    }
-    .seekerImg {
-        width: 100%;
-    }
-    .jobHeading {
-        font-size: 25px;
-    }
-    .paraSeekerUae {
-        font-size: 15px;
-        text-align: justify;
-    }
+  .uae__possibility {
+    width: 90%;
+  }
+  .jobSeekerLeftSectionUae {
+    padding-left: 0;
+    width: 60%;
+  }
+  .jobSeekerDivUae {
+    margin-top: 0;
+  }
+  .jobSeekerRightSection {
+    width: 35%;
+    margin-left: 5%;
+  }
+  .seekerImg {
+    width: 100%;
+  }
+  .jobHeading {
+    font-size: 25px;
+  }
+  .paraSeekerUae {
+    font-size: 15px;
+    text-align: justify;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    .uae__possibility-image img {
-        width: 100%;
-        height: 100%;
-    }
+  .uae__possibility-image img {
+    width: 100%;
+    height: 100%;
+  }
 
-    .uae__section-ability-content p {
-        font-size: 16px;
-    }
+  .uae__section-ability-content p {
+    font-size: 16px;
+  }
 
-    .uae__section-ability-content h1 {
-        font-size: 30px;
-    }
+  .uae__section-ability-content h1 {
+    font-size: 30px;
+  }
 
-    .uae__section-introo-content p {
-        font-size: 16px;
-    }
+  .uae__section-introo-content p {
+    font-size: 16px;
+  }
 
-    .uae__section-introo-content h1 {
-        width: 100%;
-        font-size: 30px;
-    }
+  .uae__section-introo-content h1 {
+    width: 100%;
+    font-size: 30px;
+  }
 
-    .uae__section-logo-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .uae__section-logo-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .uae__section-logo-container-two {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .uae__section-logo-container-two {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .uae__possibility-content p {
-        font-size: 16px;
-    }
+  .uae__possibility-content p {
+    font-size: 16px;
+  }
 
-    .uae__section-introo-content p {
-        font-size: 16px;
-    }
+  .uae__section-introo-content p {
+    font-size: 16px;
+  }
 
-    .uae__section-introo-content h1 {
-        font-size: 30px;
-    }
+  .uae__section-introo-content h1 {
+    font-size: 30px;
+  }
 }
 
-
 @media screen and (max-width: 600px) {
-    .uae__possibility {
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 4rem;
-    }
+  .uae__possibility {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
 
-    .uae__possibility-content {
-        width: 80%;
-    }
+  .uae__possibility-content {
+    width: 80%;
+  }
 
-    .uae__possibility-image {
-        width: 80%;
-        margin-top: 3%;
-    }
+  .uae__possibility-image {
+    width: 80%;
+    margin-top: 3%;
+  }
 
-    .uae-container-a {
-        width: 27%;
-    }
+  .uae-container-a {
+    width: 27%;
+  }
 
-    .uae__possibility-content h1 {
-        text-align: center;
-    }
-    .jobSeekerSubDivUae {
-        flex-direction: column;
-        height: auto;
-        align-items: center;
-    }
-    .jobSeekerLeftSectionUae {
-        width: 90%;
-    }
-    .jobSeekerRightSection {
-        width: 60%;
-        margin-top: 5%;
-    }
-    .uae__section-helpp {
-        padding: 1rem 2rem;
-    }
-    .uae__section-introo-content h1 {
-        font-size: 25px;
-        margin: 0;
-    }
+  .uae__possibility-content h1 {
+    text-align: center;
+  }
+  .jobSeekerSubDivUae {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  .jobSeekerLeftSectionUae {
+    width: 90%;
+  }
+  .jobSeekerRightSection {
+    width: 60%;
+    margin-top: 5%;
+  }
+  .uae__section-helpp {
+    padding: 1rem 2rem;
+  }
+  .uae__section-introo-content h1 {
+    font-size: 25px;
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    #uae-container-a-3 {
-        display: none;
-    }
-    #uae-container-a-6 {
-        display: none;
-    }
-    #uae__section-logo-container-sub-1 {
-        display: flex;
-        margin-top: 40px;
-    }
-    .uae-container-a {
-        width: 40%;
-    }
+  #uae-container-a-3 {
+    display: none;
+  }
+  #uae-container-a-6 {
+    display: none;
+  }
+  #uae__section-logo-container-sub-1 {
+    display: flex;
+    margin-top: 40px;
+  }
+  .uae-container-a {
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 450px) {
-    .uae__possibility-image {
-        width: 95%;
-    }
+  .uae__possibility-image {
+    width: 95%;
+  }
 
-    .uae__possibility-content {
-        width: 94%;
-    }
-    .uae-img-cont {
-        height: 180px;
-    }
-    .uae-img-cont1 {
-        height: 180px;
-    }
-    .uae-img-cont2 {
-        height: 180px;
-    }
-    .uae-container-a p {
-        font-size: 14px;
-    }
+  .uae__possibility-content {
+    width: 94%;
+  }
+  .uae-img-cont {
+    height: 180px;
+  }
+  .uae-img-cont1 {
+    height: 180px;
+  }
+  .uae-img-cont2 {
+    height: 180px;
+  }
+  .uae-container-a p {
+    font-size: 14px;
+  }
 }

@@ -12,7 +12,7 @@ const Slide = () => (
   <div className="immi__possiblity-mainn section__padding">
     <div className="immi__possibilityy  " id="possibility">
       <div className="one-click ">
-        <h1>Explore our Service with just one click</h1>
+        <h1>Company Formation Services in KSA and UAE</h1>
       </div>
       <div className="fan_img">
         <img src={lead} alt="lead" />
@@ -25,6 +25,7 @@ const Slide = () => (
         rightArrow={<GrNext size={30} />}
         leftArrow={<GrPrevious size={30} />}
         swiping={true}
+        responsive={true}
       >
         <Box
           imghere={slide1}

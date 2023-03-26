@@ -26,6 +26,9 @@ const Navbar = () => {
             <Link to="/about">About us</Link>
           </p>
           <p>
+            <Link to="/solutions">Immigration</Link>
+          </p>
+          <p>
             <div class="dropdown">
               Services <BiChevronDown />
               <div class="dropdown-content">
@@ -55,9 +58,7 @@ const Navbar = () => {
               </div>
             </div>
           </p>
-          <p>
-            <Link to="/solutions">Immigration</Link>
-          </p>
+
           <p>
             <Link to="/career">Career</Link>
           </p>
@@ -95,6 +96,9 @@ const Navbar = () => {
                 <Link to="/about">About us</Link>
               </p>
               <p>
+                <Link to="/solutions">Immigration</Link>
+              </p>
+              <p>
                 <div class="dropdown">
                   Services <BiChevronDown />
                   <div class="dropdown-content">
@@ -126,9 +130,7 @@ const Navbar = () => {
               <p>
                 <Link to="/career">Career</Link>
               </p>
-              <p>
-                <Link to="/solutions">Immigration</Link>
-              </p>
+
               <p>
                 <Link to="/contact">Contact</Link>
               </p>

@@ -2,8 +2,10 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import "./process.css";
 import gif from "../../assets/Animation.gif";
+
 const Process = () => (
-  <div className="immi__possiblity-main section__padding">
+  <div className="immi__possiblity-main">
+    
     <div className="immi__possibility " id="possibility">
       <div className="immi__possibility-content">
         <Fade left>
@@ -23,6 +25,7 @@ const Process = () => (
 
       <div className="immi__possibility-image">
         <Fade right>
+          {/* <img src={shape5} alt="possibility" /> */}
           <img src={gif} alt="possibility" />
         </Fade>
       </div>

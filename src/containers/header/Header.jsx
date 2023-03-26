@@ -48,15 +48,15 @@ const Header = () => {
               <div className="slide_main_content_div">
                 <div className="slider_left_div">
                   <h1>
-                    The <span className="future"> art </span> of <br />
-                    immigration
+                    The <span className="future"> Art </span> Of <br />
+                    Immigration
                   </h1>
                   <p>
                     Facilitating the adaptation, integration, and pursuit of
                     <br /> possiblities of immigrants
                   </p>
-                  <Link to="/contact">
-                    <button> Calculate Your Chances </button>
+                  <Link to="/solutions">
+                    <button> Immigration Opportunities </button>
                   </Link>
                 </div>
 
