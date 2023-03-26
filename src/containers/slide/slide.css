@@ -50,4 +50,12 @@
   .one-click h1 {
     font-size: 25px;
   }
+  .fan_img img {
+    max-width: 26rem;
+
+    top: 1rem;
+  }
+  .immi__possiblity-mainn {
+    margin-bottom: 1rem;
+  }
 }

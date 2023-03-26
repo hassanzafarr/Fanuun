@@ -168,6 +168,15 @@
     width: 100%;
     height: 100%;
   }
+  .service-main img {
+    height: 130px;
+  }
+  .service-main-right img {
+    height: 130px;
+  }
+  .services__possibility-image {
+    padding: 0rem;
+  }
 
   .services__possibility-content p {
     font-size: 16px;

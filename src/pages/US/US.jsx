@@ -7,7 +7,8 @@ import { Footer } from "../../containers";
 import prof from "../../assets/prof.svg";
 import person from "../../assets/person.svg";
 import home from "../../assets/home.svg";
-import visa from "../../assets/visa.svg";
+import visa from "../../assets/visafinal.png";
+
 import Fade from "react-reveal/Fade";
 import economy from "../../assets/economy.svg";
 import environment from "../../assets/environment.svg";

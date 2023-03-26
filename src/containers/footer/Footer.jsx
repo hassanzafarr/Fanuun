@@ -20,7 +20,10 @@ const Footer = () => (
     <div className="immi__footer-links">
       <div className="immi__footer-links_logo">
         <img src={fanlogo} />
-        <p> The <span style={{ color: "#FF1B03" }}> Art </span> Of Immigration</p>
+        <p>
+          {" "}
+          The <span style={{ color: "#FF1B03" }}> Art </span> Of Immigration
+        </p>
       </div>
       <div className="immi__footer-links_div">
         <b>
@@ -41,7 +44,7 @@ const Footer = () => (
       </div>
       <div className="immi__footer-links_div">
         <b>
-          <p className="headingMainFooter">Quick Links</p>
+          <p className="headingMainFooter">Other Links </p>
         </b>
         <Link to="/uk" className="paraFooter">
           UK
@@ -99,9 +102,10 @@ const Footer = () => (
       </div>
     </div>
 
-
     <div className="immi__footer-copyright">
-      <p style={{ textAlign: 'center' }}>© 2023 FANUUN Karachi – Dubai – Vancouver. All rights reserved.</p>
+      <p style={{ textAlign: "center" }}>
+        © 2023 FANUUN Consultants FZ LLC. All rights reserved.
+      </p>
     </div>
     <div>
       <WhatsAppWidget

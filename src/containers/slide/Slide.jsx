@@ -25,7 +25,6 @@ const Slide = () => (
         rightArrow={<GrNext size={30} />}
         leftArrow={<GrPrevious size={30} />}
         swiping={true}
-        responsive={true}
       >
         <Box
           imghere={slide1}

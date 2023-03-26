@@ -37,4 +37,8 @@
   .content-container h1 {
     font-size: 20px;
   }
+  .box {
+    margin-right: 0rem;
+    max-width: 293px;
+  }
 }

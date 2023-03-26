@@ -93,6 +93,9 @@
   .services__left-text {
     margin: 2rem;
   }
+  .reloc__possibility-image {
+    padding: 0rem;
+  }
   .service__reloc-content h1 {
     font-size: 30px;
   }
