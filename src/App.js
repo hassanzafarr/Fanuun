@@ -1,5 +1,8 @@
 import "./App.css";
 
+
+
+
 import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import Services from "./pages/Services/Services";
@@ -11,8 +14,7 @@ import Canada from "./pages/Canada/Canada";
 import Formation from "./pages/Formation/Formation"
 import UAE from "./pages/UAE/uae"
 import Portugal from "./pages/PORTUGAL/portugal"
-// import Attest from "./pages/Services-subpage/Attestation/Attest";
-// import Document from "./pages/Services-subpage/Document-Page/Document";
+
 
 import {
   Attest,
